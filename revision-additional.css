@@ -1,0 +1,19 @@
+/* 추가 네 항목: existing logo geometry, image assets and composition coordinates are unchanged. */
+#schedule-content .calendar td.family-day .calendar-day{color:#277c40}
+#schedule-content .calendar-other.family{color:#161616}
+#schedule-content .schedule-intro{padding-top:0;margin-bottom:24px;color:#333}
+@media(min-width:761px){#schedule-content .schedule-intro{font-size:13px;line-height:1.65}}
+/* Dropdown and tabs stay inside the original brand row, above its original separator. */
+.season-control{left:86px}
+.edition-tabs{position:absolute;left:238px;bottom:-4px;width:max-content;max-width:min(900px,calc(100vw - 370px));height:24px;min-height:24px;padding:0;gap:4px}
+.edition-tab{padding:5px 8px;line-height:14px}
+/* Scale the entire MNQ group, including its intended overlaps; reserve its actual scaled height. */
+.mnq-fit-frame{position:relative;width:100%;overflow:visible}
+#guide[data-category="mnq"] .mnq-fit-frame>.mnq-layout{position:absolute;top:0;left:50%;margin:0;transform:translateX(-50%) scale(var(--mnq-scale,.9));transform-origin:top center}
+/* Equal image height within each row: width_i is proportional to the original aspect ratio. */
+.photo-gallery.auto-photo-gallery{--photo-row-gap:18px}
+.auto-photo-gallery .gallery-row{grid-template-columns:var(--row-template);gap:var(--photo-row-gap);width:min(100%,calc(var(--row-aspect) * 420px + var(--row-gap-count) * var(--photo-row-gap)));margin-inline:auto;align-items:start}
+.auto-photo-gallery .single-photo-row{width:min(100%,480px,calc(var(--row-aspect) * 420px))}
+@media(max-width:900px){.edition-tabs{max-width:calc(100vw - 300px)}.photo-gallery.auto-photo-gallery{--photo-row-gap:13px}}
+@media(max-width:600px){.edition-tabs{padding:0;max-width:calc(100vw - 270px)}.auto-photo-gallery .gallery-row{grid-template-columns:1fr;width:100%;gap:22px}.auto-photo-gallery .single-photo-row{width:100%}}
+@media(max-width:360px){.season-control{left:76px}.edition-tabs{left:222px;max-width:calc(100vw - 254px)}}

@@ -1,0 +1,74 @@
+/* 2차 통합 수정: 요청된 컴포넌트에만 적용합니다. */
+#schedule-content{--share-ink:#b84b0d;--share-fill:#fff0e2;--upload-ink:#7541a6;--upload-fill:#f2eafa}
+.schedule-board{width:100%;margin-inline:auto}.calendar-month+.calendar-month{margin-top:36px}
+#schedule-content .calendar td{background:#fff;box-shadow:none;height:94px}
+#schedule-content .calendar-day{color:#161616}
+#schedule-content .calendar td:first-child .calendar-day{color:#bf202e}
+#schedule-content .calendar td:last-child .calendar-day{color:#1751b3}
+#schedule-content .calendar td.holiday .calendar-day{color:#bf202e}
+#schedule-content .calendar-holiday,#schedule-content .calendar-other{display:block;color:#161616;font-size:11px;line-height:1.5;margin-bottom:4px}
+#schedule-content .calendar-other.family{color:#277c40}
+#schedule-content .share{color:var(--share-ink)}#schedule-content .upload{color:var(--upload-ink)}
+#schedule-content .calendar td.share-day{background:var(--share-fill)}
+#schedule-content .calendar td.upload-day{background:var(--upload-fill)}
+#schedule-content .calendar td.share-day.upload-day{background:linear-gradient(135deg,var(--share-fill) 50%,var(--upload-fill) 50%)}
+#schedule-content .calendar td.current-share{box-shadow:inset 0 0 0 2px var(--share-ink)}
+#schedule-content .calendar td.current-upload{box-shadow:inset 0 0 0 2px var(--upload-ink)}
+#schedule-content .calendar-event{font-size:12px;word-break:normal;overflow-wrap:anywhere}
+.event-symbol{display:inline-block;font-size:11px;margin-right:1px}.calendar-legend{line-height:1.6}
+@media(min-width:1000px){.schedule-board{width:72.5%}}
+#key-item-products{padding-top:18px;padding-bottom:22px}
+#key-item-products .key-item-groups{gap:18px;align-items:stretch}
+#key-item-products .key-item-group{border:1px dashed #d7d7d3;padding:16px 12px;border-radius:0}
+#key-item-products .key-item-group .subsection-title{margin:0 0 14px;min-height:20px}
+#key-item-products .key-item-group .photo-card+.photo-card{margin-top:6px}
+#key-item-products .product-code{margin-top:3px;line-height:1.4}
+@media(min-width:761px){
+ #guide[data-category="key-item"]>.category-content>.key-item-comment{padding-top:16px;font-size:13px;line-height:1.65}
+ #key-item-products .photo-button{height:clamp(54px,calc((100dvh - var(--header-height) - 330px)/3),125px);aspect-ratio:auto;max-height:none}
+}
+#panorama-content .panorama-gallery{align-items:center;gap:20px}
+#panorama-content .photo-button{aspect-ratio:var(--photo-ratio);max-height:none}
+/* Constant visual badge size and a separate 44px touch area. No image pixels are changed. */
+.photo-media>.marker-layer{position:absolute;inset:0;width:100%;height:100%;z-index:3;pointer-events:none;overflow:visible}
+.photo-media .comment-marker{position:absolute;display:flex;align-items:center;justify-content:center;transform:translate(-50%,-50%);width:44px;height:44px;padding:0;border:0;border-radius:50%;background:transparent;cursor:pointer;pointer-events:auto;touch-action:manipulation}
+.comment-marker .marker-badge{display:block;width:21px;height:21px;line-height:21px;border:0;border-radius:50%;background:rgba(186,22,36,.74);color:white;font-family:Instrument,Pretendard,sans-serif;font-size:12px;font-weight:500;text-align:center;box-shadow:none}
+.comment-marker:focus-visible{outline:2px solid #ba1624;outline-offset:0}
+.vp-collection{display:block;padding-top:20px;width:100%;max-width:1120px;margin-inline:auto}
+.vp-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0;padding:0 0 26px;margin:0 0 26px;border-bottom:1px solid #d6d6d2}
+.vp-pair:last-child{border-bottom:0;margin-bottom:0}
+.vp-collection .vp-table{padding:0 26px;border-bottom:0;min-width:0}
+.vp-table+.vp-table{border-left:1px solid #d6d6d2}
+.vp-pair:not(.has-titles) .table-heading{display:none}
+.vp-pair.has-titles .table-heading{min-height:32px;margin-bottom:8px;align-items:flex-start}
+.vp-table .table-label{font-size:15px;line-height:1.5}
+.vp-table .product-scene{width:min(100%,calc(clamp(220px,calc(100dvh - var(--header-height) - 300px),370px) * var(--scene-ratio)));margin-inline:auto;overflow:hidden}
+.vp-table .scene-code{display:none}
+.table-products{margin-top:16px}
+.used-products-title{margin:0 0 10px;font-size:13px;font-weight:500}
+.used-products{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 12px}
+.used-product{display:flex;gap:8px;align-items:center;min-width:0}
+.used-product-image{width:34px;height:34px;flex:0 0 34px;padding:0;border:0;background:#fff;cursor:zoom-in}
+.used-product-image img{display:block;width:100%;height:100%;object-fit:contain}
+.used-product-copy{display:flex;flex-direction:column;gap:3px;font-size:12px;line-height:1.4;min-width:0;overflow-wrap:anywhere}
+.used-product-code{font-family:Instrument,Pretendard,sans-serif}.unconfirmed-code,.no-product-info{font-size:11px;color:#777;line-height:1.6}.no-product-info{margin:0}
+@media(max-width:999px){#schedule-content .calendar td{padding:10px 6px}.vp-collection .vp-table{padding-inline:18px}}
+@media(max-width:760px){
+ #key-item-products .key-item-group{padding:18px 14px}
+ #key-item-products .key-item-group .photo-button{height:auto;aspect-ratio:2.5}
+ #key-item-products .key-item-group .photo-card+.photo-card{margin-top:16px}
+ .vp-pair{grid-template-columns:1fr;border-bottom:0;gap:0;padding:0;margin:0}
+ .vp-collection .vp-table{padding:0 0 26px;margin:0 0 26px;border-bottom:1px solid #d6d6d2}
+ .vp-table+.vp-table{border-left:0}
+ .vp-pair.has-titles .table-heading:empty{display:none}
+ .vp-table .product-scene{width:min(100%,440px);max-width:100%}
+ .used-products{gap:10px 18px}.used-product-image{width:40px;height:40px;flex-basis:40px}
+}
+@media(max-width:600px){
+ #schedule-content .calendar td{height:94px;padding:8px 3px}
+ #schedule-content .calendar-event{font-size:10px;line-height:1.55}
+ #schedule-content .calendar-holiday,#schedule-content .calendar-other{font-size:10px}
+ #schedule-content .calendar-legend{font-size:11px}.event-symbol{font-size:10px}
+ #panorama-content .panorama-gallery{grid-template-columns:repeat(2,minmax(0,1fr))!important;align-items:start;gap:24px 12px}
+ #panorama-content .photo-card:nth-child(2){grid-column:1 / -1;grid-row:1}
+}

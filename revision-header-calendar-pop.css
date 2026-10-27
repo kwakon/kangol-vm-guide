@@ -1,0 +1,86 @@
+/* Header selections below the unchanged logo/VM GUIDE block. Preserve the old row's geometry. */
+.brand-row{border-bottom-color:transparent}
+.header-selections{display:flex;align-items:center;gap:12px;min-width:0;margin-top:-12px;padding:0 0 22px;border-bottom:1px solid var(--line)}
+.header-selections .season-control{position:static;left:auto;bottom:auto;flex:0 0 136px;width:136px;height:24px}
+.header-selections .edition-tabs{position:static;left:auto;bottom:auto;flex:0 1 auto;min-width:0;width:max-content;max-width:none;height:24px;min-height:24px;padding:0;gap:4px}
+/* Independent month tables in a reusable two-column grid. */
+#schedule-content .schedule-board{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px;width:100%;max-width:1200px;align-items:start;margin-inline:auto}
+#schedule-content .calendar-month{min-width:0;margin:0}
+#schedule-content .schedule-notes{grid-column:1 / -1;margin-top:0}
+@media(min-width:901px){
+ #schedule-content .calendar-heading{margin-bottom:14px}
+ #schedule-content .month-title{font-size:22px}
+ #schedule-content .calendar th{font-size:12px;padding:10px 4px}
+ #schedule-content .calendar td{height:76px;padding:8px 5px}
+ #schedule-content .calendar-day{font-size:14px;margin-bottom:6px}
+ #schedule-content .calendar-event{font-size:11.5px;line-height:1.45}
+}
+#promotion-content .promotion-layout{grid-template-columns:minmax(0,410px) minmax(0,1fr);max-width:1000px;gap:clamp(28px,5vw,72px);align-items:center}
+#promotion-content .promotion-layout>.photo-card{width:100%;max-width:410px;margin:0 auto;min-width:0}
+#promotion-content .photo-button{aspect-ratio:var(--photo-ratio);max-height:none}
+#promotion-content .promotion-copy{min-width:0;align-self:center}
+@media(max-width:900px){#schedule-content .schedule-board{grid-template-columns:minmax(0,1fr);max-width:680px}}
+@media(max-width:760px){#promotion-content .promotion-layout{grid-template-columns:minmax(0,1fr);gap:24px}#promotion-content .promotion-layout>.photo-card{max-width:410px}}
+
+/* Requested final compact header adjustments only. */
+.header-selections{gap:9px}
+.header-selections .season-control{flex-basis:106px;width:106px}
+.header-selections .season-control select{width:106px;padding:2px 24px 2px 8px;background-position:right 16px center}
+.category-nav .category-links{padding-top:13px;padding-bottom:13px}
+
+/* SCHEDULE only: 2026-10-27 red/blue compact calendar revision. */
+#schedule-content{--share-ink:#b62236;--share-fill:#fff0f3;--upload-ink:#2464ad;--upload-fill:#edf6ff;padding-top:8px;padding-bottom:8px}
+#schedule-content .schedule-board{row-gap:10px;column-gap:24px}
+#schedule-content .calendar td{position:relative}
+#schedule-content .calendar .event-symbol{position:absolute;top:4px;right:5px;display:block;font-size:10px;line-height:12px;margin:0;width:12px;text-align:center;pointer-events:none}
+#schedule-content .calendar .current-share>.event-symbol{color:var(--share-ink)}
+#schedule-content .calendar .current-upload>.event-symbol{color:var(--upload-ink)}
+#schedule-content .calendar td.current-share.current-upload>.event-symbol.upload-symbol{right:19px}
+#schedule-content .calendar-day{padding-right:17px}
+#schedule-content .schedule-notes{font-size:12px;line-height:1.5;margin-top:0;white-space:normal}
+#schedule-content .schedule-notes p{margin:0}
+@media(min-width:901px){
+ body:has(#guide[data-category="schedule"]) .guide-tools{padding-top:8px;padding-bottom:0}
+ #schedule-content .calendar-heading{margin-bottom:8px}
+ #schedule-content .calendar th{padding:6px 4px;font-size:11.5px;line-height:1.2}
+ #schedule-content .calendar td{height:clamp(46px,calc((100dvh - var(--header-height) - 300px) / var(--calendar-week-count,5)),60px);padding:2px 5px}
+ #schedule-content .calendar-day{margin-bottom:1px}
+ #schedule-content .calendar-event{font-size:10.5px;line-height:1.15}
+ #schedule-content .calendar-holiday,#schedule-content .calendar-other{font-size:10.5px;line-height:1.15;margin-bottom:0}
+}
+@media(max-width:900px){#schedule-content .calendar-event{font-size:10.5px;line-height:1.45}}
+@media(max-width:600px){#schedule-content .calendar-event{font-size:9.5px}#schedule-content .calendar-holiday,#schedule-content .calendar-other{font-size:9.5px}}
+
+/* Supplied OCT.02 MNQ references: keep HTML SKUs readable after whole-scene fitting. */
+#guide[data-edition="2026-10-2"] .mnq-layout .scene-code{font-size:calc(11px / var(--mnq-scale,1));line-height:1.3}
+
+/* Exact supplied content and the fixed OCT.01 MNQ template. */
+#schedule-content .schedule-notes-verbatim{white-space:pre-wrap}
+.promotion-verbatim{white-space:pre-wrap;font-size:14px;line-height:1.8}
+.key-notes-original>.photo-card{max-width:927px;width:100%;margin:0 auto}
+.key-notes-original .photo-media{border:0;border-radius:0;background:transparent;max-height:none}
+.mnq-composite .photo-media{border:0;border-radius:0;background:white;overflow:visible;max-height:none}
+.composite-codes{position:absolute;inset:0;pointer-events:none}
+#guide[data-edition="2026-10-2"] .mnq-composite .composite-sku{position:absolute;transform:translateX(-50%);margin:0;padding:1px 3px;border-radius:2px;background:#ffffffed;white-space:nowrap;font-family:Instrument,Pretendard,sans-serif;font-size:clamp(10px,.9vw,12px);line-height:1.3;color:#222;text-align:center;font-weight:500}
+@media(max-width:760px){#guide[data-edition="2026-10-2"] .mnq-composite .composite-sku{font-size:12px}}
+@media(max-width:600px){#guide[data-edition="2026-10-2"] .mnq-composite .composite-sku{font-size:10px}}
+
+.key-notes-original .photo-media::after,.mnq-composite .photo-media::after{display:none}
+
+#guide[data-edition="2026-10-2"] .mnq-composite .composite-sku{margin:3px 0 0}
+
+/* OCT.02 only: replace flattened content while retaining the approved fixed viewports. */
+#guide[data-edition="2026-10-2"] .key-notes-html{position:relative;width:100%;max-width:927px;margin-inline:auto;overflow:visible}
+#guide[data-edition="2026-10-2"] .key-notes-html-canvas{position:relative;transform-origin:top left;font-family:Pretendard,sans-serif}
+#guide[data-edition="2026-10-2"] .key-notes-textbox{position:absolute;box-sizing:border-box;text-align:center;background:white}
+#guide[data-edition="2026-10-2"] .key-notes-line{margin:0;padding:0;white-space:pre-wrap;overflow-wrap:normal;font-family:Pretendard,sans-serif;font-weight:400}
+#guide[data-edition="2026-10-2"] .key-notes-line a{text-decoration:underline}
+#guide[data-edition="2026-10-2"] .mnq-native-panel{position:relative;width:100%;isolation:isolate;background:white;container-type:inline-size}
+#guide[data-edition="2026-10-2"] .mnq-native-product{position:absolute;min-width:0}
+#guide[data-edition="2026-10-2"] .mnq-native-panel .composite-codes{z-index:50}
+#guide[data-edition="2026-10-2"] .mnq-native-heading{position:absolute;margin:0;display:flex;align-items:center;background:transparent;color:#a6a6a6;font:400 2.600473cqw/1.2 Pretendard,sans-serif;padding-left:1.702128%;white-space:nowrap;box-sizing:border-box}
+#guide[data-edition="2026-10-2"] .mnq-native-divider{position:absolute;height:0;border-top:1px solid #d9d9d9}
+
+/* All OCT.02 mannequin bottoms: transparent source alpha must not sit on a white tile. */
+#guide[data-edition="2026-10-2"] .mnq-native-panel .mnq-bottom-product .photo-media,
+#guide[data-edition="2026-10-2"] .mnq-native-panel .mnq-bottom-product .photo-open{background:transparent}

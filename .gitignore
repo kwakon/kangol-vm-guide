@@ -1,0 +1,7 @@
+*.ppt
+*.pptx
+*.zip
+.work/
+tools/
+OUTPUT/
+__pycache__/

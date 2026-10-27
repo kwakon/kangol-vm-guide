@@ -1,0 +1,5123 @@
+{
+  "schemaVersion": 2,
+  "edition": {
+    "id": "2026-10-1",
+    "label": "10월 1차",
+    "season": "2026 AW",
+    "slideCount": 37,
+    "slideSize": {
+      "width": 13.333333333333334,
+      "height": 7.5
+    },
+    "revision": "2차 통합 수정",
+    "activeSlideCount": 23
+  },
+  "categories": [
+    {
+      "id": "key-notes",
+      "label": "KEY NOTES"
+    },
+    {
+      "id": "schedule",
+      "label": "SCHEDULE"
+    },
+    {
+      "id": "promotion",
+      "label": "PROMOTION"
+    },
+    {
+      "id": "key-item",
+      "label": "KEY ITEM"
+    },
+    {
+      "id": "panorama",
+      "label": "PANORAMA"
+    },
+    {
+      "id": "vp",
+      "label": "VP"
+    },
+    {
+      "id": "mnq",
+      "label": "MNQ"
+    },
+    {
+      "id": "unisex",
+      "label": "UNISEX"
+    },
+    {
+      "id": "woman",
+      "label": "WOMAN'S"
+    },
+    {
+      "id": "bag",
+      "label": "BAG"
+    },
+    {
+      "id": "acc",
+      "label": "ACC"
+    },
+    {
+      "id": "headwear",
+      "label": "HEADWEAR"
+    }
+  ],
+  "photos": {
+    "s09-pic-4": {
+      "id": "s09-pic-4",
+      "frame": {
+        "x": 8.552614,
+        "y": 2.085502,
+        "width": 2.793843,
+        "height": 3.944249,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 12,
+      "asset": "assets/media/image19.png",
+      "alt": "그림 3",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s10-pic-28": {
+      "id": "s10-pic-28",
+      "frame": {
+        "x": 5.507896,
+        "y": 4.519196,
+        "width": 2.243863,
+        "height": 1.272162,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 6,
+      "asset": "assets/media/image20.png",
+      "alt": "그림 27",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s10-pic-30": {
+      "id": "s10-pic-30",
+      "frame": {
+        "x": 4.754158,
+        "y": 2.348948,
+        "width": 3.663059,
+        "height": 1.189055,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 7,
+      "asset": "assets/media/image21.png",
+      "alt": "그림 29",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s10-pic-32": {
+      "id": "s10-pic-32",
+      "frame": {
+        "x": 4.693426,
+        "y": 3.407315,
+        "width": 3.784521,
+        "height": 1.17627,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 8,
+      "asset": "assets/media/image22.png",
+      "alt": "그림 31",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s10-pic-35": {
+      "id": "s10-pic-35",
+      "frame": {
+        "x": 1.331616,
+        "y": 2.348948,
+        "width": 2.237471,
+        "height": 1.195449,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 9,
+      "asset": "assets/media/image23.png",
+      "alt": "그림 34",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s10-pic-37": {
+      "id": "s10-pic-37",
+      "frame": {
+        "x": 1.267416,
+        "y": 4.864406,
+        "width": 2.46761,
+        "height": 0.926952,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 10,
+      "asset": "assets/media/image24.png",
+      "alt": "그림 36",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s10-pic-39": {
+      "id": "s10-pic-39",
+      "frame": {
+        "x": 1.283398,
+        "y": 3.629052,
+        "width": 2.435647,
+        "height": 1.150699,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 11,
+      "asset": "assets/media/image25.png",
+      "alt": "그림 38",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s10-pic-42": {
+      "id": "s10-pic-42",
+      "frame": {
+        "x": 9.506399,
+        "y": 2.889693,
+        "width": 2.499574,
+        "height": 0.978094,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 12,
+      "asset": "assets/media/image26.png",
+      "alt": "그림 41",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s10-pic-44": {
+      "id": "s10-pic-44",
+      "frame": {
+        "x": 9.484024,
+        "y": 3.91745,
+        "width": 2.544323,
+        "height": 1.29134,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 13,
+      "asset": "assets/media/image27.png",
+      "alt": "그림 43",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s11-pic-18": {
+      "id": "s11-pic-18",
+      "frame": {
+        "x": 9.053368,
+        "y": 2.16443,
+        "width": 3.812404,
+        "height": 4.271654,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 8,
+      "asset": "assets/media/image28.png",
+      "alt": "그림 17",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s11-pic-22": {
+      "id": "s11-pic-22",
+      "frame": {
+        "x": 0.374886,
+        "y": 2.16443,
+        "width": 3.953184,
+        "height": 4.271654,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 9,
+      "asset": "assets/media/image29.png",
+      "alt": "그림 21",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s11-pic-24": {
+      "id": "s11-pic-24",
+      "frame": {
+        "x": 4.767218,
+        "y": 2.16443,
+        "width": 3.870921,
+        "height": 4.271654,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 10,
+      "asset": "assets/media/image30.png",
+      "alt": "그림 23",
+      "crop": {
+        "l": 0.23482,
+        "t": 0.0,
+        "r": 0.05295,
+        "b": 0.0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s12-pic-11": {
+      "id": "s12-pic-11",
+      "frame": {
+        "x": 9.252419,
+        "y": 2.285433,
+        "width": 3.889592,
+        "height": 4.269683,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 7,
+      "asset": "assets/media/image31.png",
+      "alt": "그림 10",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s12-pic-18": {
+      "id": "s12-pic-18",
+      "frame": {
+        "x": 4.604786,
+        "y": 2.285433,
+        "width": 4.269681,
+        "height": 4.269681,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 9,
+      "asset": "assets/media/image32.png",
+      "alt": "그림 17",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s12-pic-12": {
+      "id": "s12-pic-12",
+      "frame": {
+        "x": 0.120488,
+        "y": 2.278794,
+        "width": 4.141771,
+        "height": 4.27632,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 15,
+      "asset": "assets/media/image34.png",
+      "alt": "그림 11",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s13-pic-12": {
+      "id": "s13-pic-12",
+      "frame": {
+        "x": 8.638377,
+        "y": 2.821305,
+        "width": 4.350017,
+        "height": 3.378248,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 1,
+      "asset": "assets/media/image35.png",
+      "alt": "그림 11",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s13-pic-14": {
+      "id": "s13-pic-14",
+      "frame": {
+        "x": 3.213391,
+        "y": 2.818341,
+        "width": 5.102999,
+        "height": 3.381215,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 2,
+      "asset": "assets/media/image36.png",
+      "alt": "그림 13",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s13-pic-10": {
+      "id": "s13-pic-10",
+      "frame": {
+        "x": 0.364283,
+        "y": 2.819758,
+        "width": 2.53591,
+        "height": 3.381212,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 10,
+      "asset": "assets/media/image37.png",
+      "alt": "그림 9",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s14-pic-43": {
+      "id": "s14-pic-43",
+      "frame": {
+        "x": 9.931896,
+        "y": 2.738983,
+        "width": 3.007376,
+        "height": 1.727282,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 1,
+      "asset": "assets/media/image38.png",
+      "alt": "그림 42",
+      "crop": {
+        "l": 0.05479,
+        "t": 0.18368,
+        "r": 0.06329,
+        "b": 0.14095
+      },
+      "opacity": 0.7,
+      "role": "photo",
+      "comments": [],
+      "naturalSize": {
+        "width": 3301,
+        "height": 2476
+      }
+    },
+    "s14-pic-46": {
+      "id": "s14-pic-46",
+      "frame": {
+        "x": 0.364656,
+        "y": 2.738983,
+        "width": 2.858839,
+        "height": 1.727281,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 2,
+      "asset": "assets/media/image39.png",
+      "alt": "그림 45",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 0.7,
+      "role": "photo",
+      "comments": [],
+      "naturalSize": {
+        "width": 907,
+        "height": 548
+      }
+    },
+    "s14-pic-36": {
+      "id": "s14-pic-36",
+      "frame": {
+        "x": 3.516013,
+        "y": 2.2513,
+        "width": 6.133197,
+        "height": 2.576778,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 3,
+      "asset": "assets/media/image40.png",
+      "alt": "그림 35",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 0.7,
+      "role": "photo",
+      "comments": [],
+      "naturalSize": {
+        "width": 1321,
+        "height": 555
+      }
+    },
+    "s15-pic-9": {
+      "id": "s15-pic-9",
+      "frame": {
+        "x": 1.683169,
+        "y": 1.421962,
+        "width": 5.003238,
+        "height": 5.073166,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 16,
+      "asset": "assets/media/image41.png",
+      "alt": "나무 블록, 디자인, 상자, 목재이(가) 표시된 사진\n\n자동 생성된 설명",
+      "crop": {
+        "l": 0.12742,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0943
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s15-pic-10": {
+      "id": "s15-pic-10",
+      "frame": {
+        "x": 4.187035,
+        "y": 2.6487,
+        "width": 0.883773,
+        "height": 1.701448,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 24,
+      "asset": "assets/media/image42.png",
+      "alt": "그림 9",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s15-pic-7": {
+      "id": "s15-pic-7",
+      "frame": {
+        "x": 3.617703,
+        "y": 2.588153,
+        "width": 1.056107,
+        "height": 1.789228,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 25,
+      "asset": "assets/media/image43.png",
+      "alt": "그림 6",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s15-pic-16": {
+      "id": "s15-pic-16",
+      "frame": {
+        "x": 2.800162,
+        "y": 3.792174,
+        "width": 1.116171,
+        "height": 0.821234,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 26,
+      "asset": "assets/media/image44.png",
+      "alt": "그림 15",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s15-pic-31": {
+      "id": "s15-pic-31",
+      "frame": {
+        "x": 4.621959,
+        "y": 1.87328,
+        "width": 0.832163,
+        "height": 0.77648,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 27,
+      "asset": "assets/media/image45.png",
+      "alt": "그림 30",
+      "crop": {
+        "l": 0.0,
+        "t": 0.53413,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s15-pic-28": {
+      "id": "s15-pic-28",
+      "frame": {
+        "x": 3.7921,
+        "y": 1.943624,
+        "width": 1.056107,
+        "height": 0.73505,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 28,
+      "asset": "assets/media/image46.png",
+      "alt": "그림 27",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s15-pic-4": {
+      "id": "s15-pic-4",
+      "frame": {
+        "x": 4.35632,
+        "y": 3.970226,
+        "width": 1.237348,
+        "height": 0.858888,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 29,
+      "asset": "assets/media/image47.png",
+      "alt": "그림 3",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s15-pic-8": {
+      "id": "s15-pic-8",
+      "frame": {
+        "x": 4.046077,
+        "y": 4.71374,
+        "width": 0.94838,
+        "height": 0.94838,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 30,
+      "asset": "assets/media/image48.png",
+      "alt": "그림 7",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s15-pic-14": {
+      "id": "s15-pic-14",
+      "frame": {
+        "x": 2.46898,
+        "y": 4.462278,
+        "width": 0.954677,
+        "height": 0.954677,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 31,
+      "asset": "assets/media/image49.png",
+      "alt": "그림 13",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s15-pic-30": {
+      "id": "s15-pic-30",
+      "frame": {
+        "x": 3.390595,
+        "y": 4.555943,
+        "width": 0.728488,
+        "height": 0.716426,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 32,
+      "asset": "assets/media/image50.png",
+      "alt": "그림 29",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s15-pic-2": {
+      "id": "s15-pic-2",
+      "frame": {
+        "x": 7.786996,
+        "y": 2.511447,
+        "width": 4.494501,
+        "height": 3.413458,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 37,
+      "asset": "assets/media/image51.png",
+      "alt": "그림 1",
+      "crop": {
+        "l": 0.20085,
+        "t": 0.22086,
+        "r": 0.18659,
+        "b": 0.12111
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s15-pic-6": {
+      "id": "s15-pic-6",
+      "frame": {
+        "x": 9.472587,
+        "y": 4.203406,
+        "width": 0.574218,
+        "height": 0.800962,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 39,
+      "asset": "assets/media/image52.png",
+      "alt": "그림 5",
+      "crop": {
+        "l": 0.27467,
+        "t": 0.0,
+        "r": 0.32586,
+        "b": 0.38186
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s15-pic-11": {
+      "id": "s15-pic-11",
+      "frame": {
+        "x": 9.472587,
+        "y": 4.133869,
+        "width": 0.574218,
+        "height": 0.800962,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 40,
+      "asset": "assets/media/image52.png",
+      "alt": "그림 10",
+      "crop": {
+        "l": 0.27467,
+        "t": 0.0,
+        "r": 0.32586,
+        "b": 0.38186
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s15-pic-26": {
+      "id": "s15-pic-26",
+      "frame": {
+        "x": 9.644645,
+        "y": 2.096235,
+        "width": 0.56235,
+        "height": 0.79564,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 41,
+      "asset": "assets/media/image53.png",
+      "alt": "그림 25",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s15-pic-37": {
+      "id": "s15-pic-37",
+      "frame": {
+        "x": 9.381744,
+        "y": 3.175278,
+        "width": 0.755906,
+        "height": 0.681995,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 42,
+      "asset": "assets/media/image54.png",
+      "alt": "그림 36",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s15-pic-39": {
+      "id": "s15-pic-39",
+      "frame": {
+        "x": 7.939642,
+        "y": 2.953775,
+        "width": 0.604012,
+        "height": 0.75229,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 43,
+      "asset": "assets/media/image55.png",
+      "alt": "그림 38",
+      "crop": {
+        "l": 0.0,
+        "t": 0.37931,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s15-pic-40": {
+      "id": "s15-pic-40",
+      "frame": {
+        "x": 11.053068,
+        "y": 3.175278,
+        "width": 0.762572,
+        "height": 0.920969,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 44,
+      "asset": "assets/media/image56.png",
+      "alt": "그림 39",
+      "crop": {
+        "l": 0.0,
+        "t": 0.37406,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s15-pic-43": {
+      "id": "s15-pic-43",
+      "frame": {
+        "x": 8.714327,
+        "y": 3.008182,
+        "width": 0.588972,
+        "height": 0.75229,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 45,
+      "asset": "assets/media/image57.png",
+      "alt": "그림 42",
+      "crop": {
+        "l": 0.0,
+        "t": 0.40062,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s15-pic-44": {
+      "id": "s15-pic-44",
+      "frame": {
+        "x": 10.193126,
+        "y": 3.132914,
+        "width": 0.709397,
+        "height": 0.87994,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 46,
+      "asset": "assets/media/image58.png",
+      "alt": "그림 43",
+      "crop": {
+        "l": 0.0,
+        "t": 0.34159,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s15-pic-46": {
+      "id": "s15-pic-46",
+      "frame": {
+        "x": 8.050247,
+        "y": 3.956919,
+        "width": 0.549695,
+        "height": 0.756617,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 47,
+      "asset": "assets/media/image59.png",
+      "alt": "그림 45",
+      "crop": {
+        "l": 0.29848,
+        "t": 0.0,
+        "r": 0.30776,
+        "b": 0.44003
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s15-pic-47": {
+      "id": "s15-pic-47",
+      "frame": {
+        "x": 8.034064,
+        "y": 3.896569,
+        "width": 0.549695,
+        "height": 0.756617,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 48,
+      "asset": "assets/media/image59.png",
+      "alt": "그림 46",
+      "crop": {
+        "l": 0.29848,
+        "t": 0.0,
+        "r": 0.30776,
+        "b": 0.44003
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s15-pic-49": {
+      "id": "s15-pic-49",
+      "frame": {
+        "x": 10.37301,
+        "y": 4.357104,
+        "width": 0.516273,
+        "height": 0.745389,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 49,
+      "asset": "assets/media/image60.png",
+      "alt": "그림 48",
+      "crop": {
+        "l": 0.33387,
+        "t": 0.0,
+        "r": 0.30213,
+        "b": 0.44087
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s15-pic-50": {
+      "id": "s15-pic-50",
+      "frame": {
+        "x": 10.347827,
+        "y": 4.301599,
+        "width": 0.516273,
+        "height": 0.745389,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 50,
+      "asset": "assets/media/image60.png",
+      "alt": "그림 49",
+      "crop": {
+        "l": 0.33387,
+        "t": 0.0,
+        "r": 0.30213,
+        "b": 0.44087
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s15-pic-56": {
+      "id": "s15-pic-56",
+      "frame": {
+        "x": 8.839385,
+        "y": 4.108926,
+        "width": 0.503774,
+        "height": 0.758371,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 51,
+      "asset": "assets/media/image61.png",
+      "alt": "그림 55",
+      "crop": {
+        "l": 0.3264,
+        "t": 0.0,
+        "r": 0.31729,
+        "b": 0.44615
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s15-pic-57": {
+      "id": "s15-pic-57",
+      "frame": {
+        "x": 8.804003,
+        "y": 4.041328,
+        "width": 0.503774,
+        "height": 0.758371,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 52,
+      "asset": "assets/media/image61.png",
+      "alt": "그림 56",
+      "crop": {
+        "l": 0.3264,
+        "t": 0.0,
+        "r": 0.31729,
+        "b": 0.44615
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s15-pic-62": {
+      "id": "s15-pic-62",
+      "frame": {
+        "x": 11.167813,
+        "y": 4.454312,
+        "width": 0.540538,
+        "height": 0.745388,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 53,
+      "asset": "assets/media/image62.png",
+      "alt": "그림 61",
+      "crop": {
+        "l": 0.32787,
+        "t": 0.0,
+        "r": 0.30037,
+        "b": 0.44835
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s15-pic-64": {
+      "id": "s15-pic-64",
+      "frame": {
+        "x": 11.134133,
+        "y": 4.398736,
+        "width": 0.540538,
+        "height": 0.745388,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 54,
+      "asset": "assets/media/image62.png",
+      "alt": "그림 63",
+      "crop": {
+        "l": 0.32787,
+        "t": 0.0,
+        "r": 0.30037,
+        "b": 0.44835
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s16-pic-59": {
+      "id": "s16-pic-59",
+      "frame": {
+        "x": 0.993104,
+        "y": 2.49235,
+        "width": 5.153288,
+        "height": 3.877608,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 18,
+      "asset": "assets/media/image63.png",
+      "alt": "테이블, 실내, 앉아있는, 목재의이(가) 표시된 사진\n\n자동 생성된 설명",
+      "crop": {
+        "l": 0.0,
+        "t": -0.13269,
+        "r": 0.0,
+        "b": 0.18547
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s16-pic-60": {
+      "id": "s16-pic-60",
+      "frame": {
+        "x": 3.911925,
+        "y": 2.339271,
+        "width": 0.82364,
+        "height": 1.165325,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 19,
+      "asset": "assets/media/image53.png",
+      "alt": "그림 59",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s16-pic-76": {
+      "id": "s16-pic-76",
+      "frame": {
+        "x": 2.309874,
+        "y": 1.645748,
+        "width": 0.849132,
+        "height": 1.70387,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 23,
+      "asset": "assets/media/image55.png",
+      "alt": "그림 75",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s16-pic-77": {
+      "id": "s16-pic-77",
+      "frame": {
+        "x": 2.49933,
+        "y": 1.66037,
+        "width": 0.883087,
+        "height": 1.703871,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 24,
+      "asset": "assets/media/image56.png",
+      "alt": "그림 76",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s16-pic-78": {
+      "id": "s16-pic-78",
+      "frame": {
+        "x": 2.735591,
+        "y": 1.667442,
+        "width": 0.799552,
+        "height": 1.70387,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 25,
+      "asset": "assets/media/image57.png",
+      "alt": "그림 77",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s16-pic-79": {
+      "id": "s16-pic-79",
+      "frame": {
+        "x": 2.886722,
+        "y": 1.737306,
+        "width": 0.904426,
+        "height": 1.703871,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 26,
+      "asset": "assets/media/image58.png",
+      "alt": "그림 78",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s16-pic-80": {
+      "id": "s16-pic-80",
+      "frame": {
+        "x": 3.438509,
+        "y": 3.242023,
+        "width": 1.624653,
+        "height": 1.360886,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 27,
+      "asset": "assets/media/image64.png",
+      "alt": "그림 79",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s16-pic-81": {
+      "id": "s16-pic-81",
+      "frame": {
+        "x": 1.632819,
+        "y": 2.811453,
+        "width": 2.159606,
+        "height": 1.606138,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 28,
+      "asset": "assets/media/image65.png",
+      "alt": "그림 80",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s16-pic-82": {
+      "id": "s16-pic-82",
+      "frame": {
+        "x": 3.481397,
+        "y": 3.198006,
+        "width": 1.624653,
+        "height": 1.360886,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 29,
+      "asset": "assets/media/image64.png",
+      "alt": "그림 81",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s16-pic-83": {
+      "id": "s16-pic-83",
+      "frame": {
+        "x": 1.654263,
+        "y": 2.754613,
+        "width": 2.159606,
+        "height": 1.606138,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 30,
+      "asset": "assets/media/image65.png",
+      "alt": "그림 82",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s16-pic-85": {
+      "id": "s16-pic-85",
+      "frame": {
+        "x": 1.894132,
+        "y": 4.005178,
+        "width": 0.808205,
+        "height": 0.98522,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 31,
+      "asset": "assets/media/image66.png",
+      "alt": "그림 84",
+      "crop": {
+        "l": 0.2807,
+        "t": 0.04453,
+        "r": 0.2863,
+        "b": 0.37827
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s16-pic-86": {
+      "id": "s16-pic-86",
+      "frame": {
+        "x": 1.894132,
+        "y": 3.908535,
+        "width": 0.808205,
+        "height": 0.98522,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 32,
+      "asset": "assets/media/image66.png",
+      "alt": "그림 85",
+      "crop": {
+        "l": 0.2807,
+        "t": 0.04453,
+        "r": 0.2863,
+        "b": 0.37827
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s16-pic-88": {
+      "id": "s16-pic-88",
+      "frame": {
+        "x": 2.684057,
+        "y": 4.207973,
+        "width": 0.786402,
+        "height": 1.067078,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 33,
+      "asset": "assets/media/image67.png",
+      "alt": "그림 87",
+      "crop": {
+        "l": 0.33204,
+        "t": 0.0,
+        "r": 0.31299,
+        "b": 0.40946
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s16-pic-89": {
+      "id": "s16-pic-89",
+      "frame": {
+        "x": 2.684057,
+        "y": 4.11133,
+        "width": 0.786402,
+        "height": 1.067078,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 34,
+      "asset": "assets/media/image67.png",
+      "alt": "그림 88",
+      "crop": {
+        "l": 0.33204,
+        "t": 0.0,
+        "r": 0.31299,
+        "b": 0.40946
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s16-pic-91": {
+      "id": "s16-pic-91",
+      "frame": {
+        "x": 3.47597,
+        "y": 4.410204,
+        "width": 0.798056,
+        "height": 1.113187,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 35,
+      "asset": "assets/media/image52.png",
+      "alt": "그림 90",
+      "crop": {
+        "l": 0.27467,
+        "t": 0.0,
+        "r": 0.32586,
+        "b": 0.38186
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s16-pic-92": {
+      "id": "s16-pic-92",
+      "frame": {
+        "x": 3.47597,
+        "y": 4.313561,
+        "width": 0.798056,
+        "height": 1.113187,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 36,
+      "asset": "assets/media/image52.png",
+      "alt": "그림 91",
+      "crop": {
+        "l": 0.27467,
+        "t": 0.0,
+        "r": 0.32586,
+        "b": 0.38186
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s16-pic-93": {
+      "id": "s16-pic-93",
+      "frame": {
+        "x": 4.600367,
+        "y": 3.342205,
+        "width": 0.984661,
+        "height": 0.888383,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 37,
+      "asset": "assets/media/image54.png",
+      "alt": "그림 92",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s16-pic-100": {
+      "id": "s16-pic-100",
+      "frame": {
+        "x": 7.387733,
+        "y": 3.047333,
+        "width": 4.772992,
+        "height": 3.135935,
+        "rotation": 0.0,
+        "flipH": true,
+        "flipV": false
+      },
+      "z": 42,
+      "asset": "assets/media/image68.jpeg",
+      "alt": "그림 99",
+      "crop": {
+        "l": 0.18681,
+        "t": 0.13973,
+        "r": 0.18714,
+        "b": 0.07723
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s17-pic-44": {
+      "id": "s17-pic-44",
+      "frame": {
+        "x": 10.404729,
+        "y": 4.28287,
+        "width": 1.422581,
+        "height": 1.440116,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 1,
+      "asset": "assets/media/image69.png",
+      "alt": "그림 43",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s17-pic-41": {
+      "id": "s17-pic-41",
+      "frame": {
+        "x": 9.432816,
+        "y": 4.29487,
+        "width": 1.530659,
+        "height": 1.537493,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 2,
+      "asset": "assets/media/image70.png",
+      "alt": "그림 40",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s17-pic-17": {
+      "id": "s17-pic-17",
+      "frame": {
+        "x": 4.024201,
+        "y": 1.530243,
+        "width": 2.547978,
+        "height": 5.625984,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 26,
+      "asset": "assets/media/image71.png",
+      "alt": "그림 16",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s17-pic-24": {
+      "id": "s17-pic-24",
+      "frame": {
+        "x": 1.415617,
+        "y": 1.525355,
+        "width": 2.540257,
+        "height": 5.610761,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 27,
+      "asset": "assets/media/image72.png",
+      "alt": "그림 23",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s17-pic-23": {
+      "id": "s17-pic-23",
+      "frame": {
+        "x": 8.367852,
+        "y": 1.009833,
+        "width": 1.612458,
+        "height": 1.370222,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 28,
+      "asset": "assets/media/image73.png",
+      "alt": "그림 22",
+      "crop": {
+        "l": 0.0,
+        "t": 0.21304,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": [],
+      "webCrop": {
+        "l": 0,
+        "t": 0.1,
+        "r": 0,
+        "b": 0
+      }
+    },
+    "s17-pic-28": {
+      "id": "s17-pic-28",
+      "frame": {
+        "x": 10.769429,
+        "y": 0.977277,
+        "width": 1.535318,
+        "height": 1.452327,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 29,
+      "asset": "assets/media/image74.png",
+      "alt": "그림 27",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s17-pic-26": {
+      "id": "s17-pic-26",
+      "frame": {
+        "x": 9.945734,
+        "y": 1.006002,
+        "width": 1.370222,
+        "height": 1.370222,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 31,
+      "asset": "assets/media/image75.png",
+      "alt": "그림 25",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s17-pic-30": {
+      "id": "s17-pic-30",
+      "frame": {
+        "x": 11.752589,
+        "y": 1.918755,
+        "width": 1.019726,
+        "height": 1.712719,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 32,
+      "asset": "assets/media/image76.png",
+      "alt": "그림 29",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s17-pic-35": {
+      "id": "s17-pic-35",
+      "frame": {
+        "x": 7.372124,
+        "y": 1.153343,
+        "width": 0.658149,
+        "height": 0.681742,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 33,
+      "asset": "assets/media/image77.png",
+      "alt": "그림 34",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s17-pic-39": {
+      "id": "s17-pic-39",
+      "frame": {
+        "x": 7.149642,
+        "y": 2.401471,
+        "width": 1.132583,
+        "height": 0.735881,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 34,
+      "asset": "assets/media/image78.png",
+      "alt": "그림 38",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s17-pic-46": {
+      "id": "s17-pic-46",
+      "frame": {
+        "x": 11.358842,
+        "y": 5.063617,
+        "width": 0.98243,
+        "height": 1.78283,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 35,
+      "asset": "assets/media/image79.png",
+      "alt": "그림 45",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s17-pic-48": {
+      "id": "s17-pic-48",
+      "frame": {
+        "x": 8.259878,
+        "y": 4.948864,
+        "width": 0.986691,
+        "height": 1.231451,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 36,
+      "asset": "assets/media/image80.png",
+      "alt": "그림 47",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s17-pic-50": {
+      "id": "s17-pic-50",
+      "frame": {
+        "x": 7.325733,
+        "y": 4.790253,
+        "width": 0.747897,
+        "height": 1.423839,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 37,
+      "asset": "assets/media/image81.png",
+      "alt": "그림 49",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s18-pic-33": {
+      "id": "s18-pic-33",
+      "frame": {
+        "x": 11.194346,
+        "y": 1.057086,
+        "width": 1.489776,
+        "height": 1.409247,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 1,
+      "asset": "assets/media/image74.png",
+      "alt": "그림 32",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s18-pic-25": {
+      "id": "s18-pic-25",
+      "frame": {
+        "x": 10.238708,
+        "y": 0.960189,
+        "width": 1.558661,
+        "height": 1.515431,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 2,
+      "asset": "assets/media/image82.png",
+      "alt": "그림 24",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s18-pic-12": {
+      "id": "s18-pic-12",
+      "frame": {
+        "x": 4.063281,
+        "y": 1.530243,
+        "width": 2.525821,
+        "height": 5.627204,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 22,
+      "asset": "assets/media/image83.png",
+      "alt": "그림 11",
+      "crop": {
+        "l": 0.03088,
+        "t": 0.02754,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s18-pic-16": {
+      "id": "s18-pic-16",
+      "frame": {
+        "x": 1.460649,
+        "y": 1.530243,
+        "width": 2.525383,
+        "height": 5.603588,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 23,
+      "asset": "assets/media/image84.png",
+      "alt": "그림 15",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s18-pic-36": {
+      "id": "s18-pic-36",
+      "frame": {
+        "x": 9.625804,
+        "y": 1.844497,
+        "width": 0.910257,
+        "height": 1.747065,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 25,
+      "asset": "assets/media/image85.png",
+      "alt": "그림 35",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s18-pic-23": {
+      "id": "s18-pic-23",
+      "frame": {
+        "x": 8.596883,
+        "y": 0.986824,
+        "width": 1.602806,
+        "height": 1.470073,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 26,
+      "asset": "assets/media/image86.png",
+      "alt": "그림 22",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s18-pic-41": {
+      "id": "s18-pic-41",
+      "frame": {
+        "x": 7.375782,
+        "y": 1.708761,
+        "width": 0.78468,
+        "height": 0.800167,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 27,
+      "asset": "assets/media/image87.png",
+      "alt": "그림 40",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s18-pic-47": {
+      "id": "s18-pic-47",
+      "frame": {
+        "x": 11.110214,
+        "y": 4.195697,
+        "width": 1.372785,
+        "height": 1.445736,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 28,
+      "asset": "assets/media/image88.png",
+      "alt": "그림 46",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s18-pic-50": {
+      "id": "s18-pic-50",
+      "frame": {
+        "x": 10.277139,
+        "y": 4.233021,
+        "width": 1.44137,
+        "height": 1.473864,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 29,
+      "asset": "assets/media/image89.png",
+      "alt": "그림 49",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s18-pic-45": {
+      "id": "s18-pic-45",
+      "frame": {
+        "x": 11.725525,
+        "y": 5.094333,
+        "width": 1.085871,
+        "height": 1.25542,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 31,
+      "asset": "assets/media/image90.png",
+      "alt": "그림 44",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s18-pic-52": {
+      "id": "s18-pic-52",
+      "frame": {
+        "x": 8.735945,
+        "y": 4.199578,
+        "width": 1.430644,
+        "height": 1.526021,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 32,
+      "asset": "assets/media/image91.png",
+      "alt": "그림 51",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s18-pic-55": {
+      "id": "s18-pic-55",
+      "frame": {
+        "x": 7.682455,
+        "y": 4.498716,
+        "width": 0.660738,
+        "height": 0.617453,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 33,
+      "asset": "assets/media/image92.png",
+      "alt": "그림 54",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s18-pic-57": {
+      "id": "s18-pic-57",
+      "frame": {
+        "x": 7.568561,
+        "y": 5.734688,
+        "width": 0.94148,
+        "height": 0.575434,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 34,
+      "asset": "assets/media/image93.png",
+      "alt": "그림 56",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s18-pic-59": {
+      "id": "s18-pic-59",
+      "frame": {
+        "x": 9.20343,
+        "y": 6.083401,
+        "width": 0.587281,
+        "height": 0.918228,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 35,
+      "asset": "assets/media/image94.png",
+      "alt": "그림 58",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s19-pic-45": {
+      "id": "s19-pic-45",
+      "frame": {
+        "x": 8.604583,
+        "y": 1.059406,
+        "width": 0.738373,
+        "height": 0.749054,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 20,
+      "asset": "assets/media/image95.png",
+      "alt": "그림 44",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s19-pic-3": {
+      "id": "s19-pic-3",
+      "frame": {
+        "x": 3.887706,
+        "y": 1.545537,
+        "width": 2.631937,
+        "height": 5.625984,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 24,
+      "asset": "assets/media/image96.png",
+      "alt": "그림 2",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s19-pic-14": {
+      "id": "s19-pic-14",
+      "frame": {
+        "x": 1.177705,
+        "y": 1.545537,
+        "width": 2.64199,
+        "height": 5.625984,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 25,
+      "asset": "assets/media/image97.png",
+      "alt": "그림 13",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s19-pic-23": {
+      "id": "s19-pic-23",
+      "frame": {
+        "x": 10.67967,
+        "y": 4.285439,
+        "width": 1.108937,
+        "height": 1.362642,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 26,
+      "asset": "assets/media/image98.png",
+      "alt": "그림 22",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s19-pic-18": {
+      "id": "s19-pic-18",
+      "frame": {
+        "x": 9.51364,
+        "y": 4.321254,
+        "width": 1.511156,
+        "height": 1.337545,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 27,
+      "asset": "assets/media/image99.png",
+      "alt": "그림 17",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s19-pic-25": {
+      "id": "s19-pic-25",
+      "frame": {
+        "x": 11.431456,
+        "y": 5.172092,
+        "width": 1.018548,
+        "height": 1.418313,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 28,
+      "asset": "assets/media/image100.png",
+      "alt": "그림 24",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s19-pic-32": {
+      "id": "s19-pic-32",
+      "frame": {
+        "x": 7.636492,
+        "y": 4.380232,
+        "width": 0.960317,
+        "height": 0.758815,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 30,
+      "asset": "assets/media/image101.png",
+      "alt": "그림 31",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s19-pic-35": {
+      "id": "s19-pic-35",
+      "frame": {
+        "x": 7.57292,
+        "y": 5.993869,
+        "width": 1.028959,
+        "height": 0.781156,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 31,
+      "asset": "assets/media/image102.png",
+      "alt": "그림 34",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s19-pic-43": {
+      "id": "s19-pic-43",
+      "frame": {
+        "x": 10.586722,
+        "y": 1.083285,
+        "width": 1.405687,
+        "height": 1.395274,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 32,
+      "asset": "assets/media/image103.png",
+      "alt": "그림 42",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s19-pic-39": {
+      "id": "s19-pic-39",
+      "frame": {
+        "x": 9.475643,
+        "y": 1.012592,
+        "width": 1.580185,
+        "height": 1.488283,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 33,
+      "asset": "assets/media/image104.png",
+      "alt": "그림 38",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s19-pic-48": {
+      "id": "s19-pic-48",
+      "frame": {
+        "x": 11.501215,
+        "y": 1.756733,
+        "width": 0.948788,
+        "height": 1.733463,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 34,
+      "asset": "assets/media/image105.png",
+      "alt": "그림 47",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s19-pic-56": {
+      "id": "s19-pic-56",
+      "frame": {
+        "x": 8.539062,
+        "y": 2.190075,
+        "width": 0.854234,
+        "height": 1.097233,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 35,
+      "asset": "assets/media/image106.png",
+      "alt": "그림 55",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s19-pic-63": {
+      "id": "s19-pic-63",
+      "frame": {
+        "x": 7.669016,
+        "y": 1.899642,
+        "width": 0.746632,
+        "height": 0.811822,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 36,
+      "asset": "assets/media/image107.png",
+      "alt": "그림 62",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s19-pic-68": {
+      "id": "s19-pic-68",
+      "frame": {
+        "x": 8.974672,
+        "y": 5.984026,
+        "width": 0.744103,
+        "height": 1.002473,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 38,
+      "asset": "assets/media/image108.png",
+      "alt": "그림 67",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s20-pic-3": {
+      "id": "s20-pic-3",
+      "frame": {
+        "x": 6.524934,
+        "y": 1.710608,
+        "width": 5.867814,
+        "height": 4.827612,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 1,
+      "asset": "assets/media/image109.png",
+      "alt": "그림 2",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s20-pic-11": {
+      "id": "s20-pic-11",
+      "frame": {
+        "x": 1.047572,
+        "y": 1.710608,
+        "width": 5.177761,
+        "height": 4.827612,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 2,
+      "asset": "assets/media/image110.png",
+      "alt": "그림 10",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s21-pic-5": {
+      "id": "s21-pic-5",
+      "frame": {
+        "x": 0.34522,
+        "y": 1.576772,
+        "width": 4.023687,
+        "height": 5.050465,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 7,
+      "asset": "assets/media/image111.png",
+      "alt": "그림 4",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s21-pic-9": {
+      "id": "s21-pic-9",
+      "frame": {
+        "x": 4.483402,
+        "y": 1.576771,
+        "width": 4.259114,
+        "height": 5.05046,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 8,
+      "asset": "assets/media/image112.png",
+      "alt": "그림 8",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s21-pic-14": {
+      "id": "s21-pic-14",
+      "frame": {
+        "x": 8.857012,
+        "y": 1.576771,
+        "width": 4.118566,
+        "height": 5.050458,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 9,
+      "asset": "assets/media/image113.png",
+      "alt": "그림 13",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s22-pic-8": {
+      "id": "s22-pic-8",
+      "frame": {
+        "x": 1.743793,
+        "y": 1.529528,
+        "width": 4.381656,
+        "height": 5.196849,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 7,
+      "asset": "assets/media/image114.png",
+      "alt": "그림 7",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s22-pic-15": {
+      "id": "s22-pic-15",
+      "frame": {
+        "x": 6.950131,
+        "y": 1.529528,
+        "width": 4.484952,
+        "height": 5.196849,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 8,
+      "asset": "assets/media/image115.png",
+      "alt": "그림 14",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s23-pic-17": {
+      "id": "s23-pic-17",
+      "frame": {
+        "x": 1.013054,
+        "y": 2.009688,
+        "width": 3.511692,
+        "height": 4.445032,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 8,
+      "asset": "assets/media/image116.png",
+      "alt": "그림 16",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s23-pic-19": {
+      "id": "s23-pic-19",
+      "frame": {
+        "x": 8.794695,
+        "y": 2.009689,
+        "width": 3.525584,
+        "height": 4.462918,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 9,
+      "asset": "assets/media/image117.png",
+      "alt": "그림 18",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s23-pic-21": {
+      "id": "s23-pic-21",
+      "frame": {
+        "x": 4.88318,
+        "y": 2.009688,
+        "width": 3.596323,
+        "height": 4.445032,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 10,
+      "asset": "assets/media/image118.png",
+      "alt": "그림 20",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s24-pic-11": {
+      "id": "s24-pic-11",
+      "frame": {
+        "x": 4.871585,
+        "y": 2.1437,
+        "width": 3.573477,
+        "height": 4.483529,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 6,
+      "asset": "assets/media/image120.png",
+      "alt": "그림 10",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s24-pic-14": {
+      "id": "s24-pic-14",
+      "frame": {
+        "x": 0.763041,
+        "y": 2.1437,
+        "width": 3.730205,
+        "height": 4.483536,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 7,
+      "asset": "assets/media/image121.png",
+      "alt": "그림 13",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s24-pic-18": {
+      "id": "s24-pic-18",
+      "frame": {
+        "x": 8.856776,
+        "y": 2.1437,
+        "width": 3.720027,
+        "height": 4.483527,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 10,
+      "asset": "assets/media/image122.png",
+      "alt": "그림 17",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s25-pic-9": {
+      "id": "s25-pic-9",
+      "frame": {
+        "x": 0.732732,
+        "y": 2.190945,
+        "width": 3.667465,
+        "height": 4.313973,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 8,
+      "asset": "assets/media/image123.png",
+      "alt": "그림 8",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s25-pic-12": {
+      "id": "s25-pic-12",
+      "frame": {
+        "x": 4.944584,
+        "y": 2.19096,
+        "width": 3.50834,
+        "height": 4.313958,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 9,
+      "asset": "assets/media/image124.png",
+      "alt": "그림 11",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s25-pic-17": {
+      "id": "s25-pic-17",
+      "frame": {
+        "x": 8.887602,
+        "y": 2.190945,
+        "width": 3.652118,
+        "height": 4.313953,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 10,
+      "asset": "assets/media/image125.png",
+      "alt": "그림 16",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s26-pic-10": {
+      "id": "s26-pic-10",
+      "frame": {
+        "x": 0.353012,
+        "y": 2.285433,
+        "width": 6.876488,
+        "height": 3.870821,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 7,
+      "asset": "assets/media/image126.png",
+      "alt": "그림 9",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s26-pic-13": {
+      "id": "s26-pic-13",
+      "frame": {
+        "x": 7.51706,
+        "y": 2.285433,
+        "width": 5.287721,
+        "height": 3.870817,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 8,
+      "asset": "assets/media/image127.png",
+      "alt": "그림 12",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s27-pic-9": {
+      "id": "s27-pic-9",
+      "frame": {
+        "x": 0.729529,
+        "y": 2.009688,
+        "width": 5.942387,
+        "height": 4.617545,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 6,
+      "asset": "assets/media/image128.png",
+      "alt": "그림 8",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s27-pic-10": {
+      "id": "s27-pic-10",
+      "frame": {
+        "x": 7.658793,
+        "y": 1.377647,
+        "width": 4.776698,
+        "height": 5.756534,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 7,
+      "asset": "assets/media/image129.png",
+      "alt": "그림 9",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s28-pic-12": {
+      "id": "s28-pic-12",
+      "frame": {
+        "x": 1.970587,
+        "y": 1.624016,
+        "width": 3.657077,
+        "height": 5.419722,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 7,
+      "asset": "assets/media/image130.png",
+      "alt": "그림 11",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s28-pic-14": {
+      "id": "s28-pic-14",
+      "frame": {
+        "x": 6.202695,
+        "y": 1.629961,
+        "width": 4.73465,
+        "height": 2.758685,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 8,
+      "asset": "assets/media/image131.png",
+      "alt": "그림 13",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s28-pic-24": {
+      "id": "s28-pic-24",
+      "frame": {
+        "x": 6.692536,
+        "y": 4.602452,
+        "width": 1.550372,
+        "height": 2.135024,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 9,
+      "asset": "assets/media/image132.png",
+      "alt": "그림 23",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s28-pic-26": {
+      "id": "s28-pic-26",
+      "frame": {
+        "x": 8.396555,
+        "y": 4.602452,
+        "width": 2.290966,
+        "height": 2.001089,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 10,
+      "asset": "assets/media/image133.png",
+      "alt": "그림 25",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s29-pic-5": {
+      "id": "s29-pic-5",
+      "frame": {
+        "x": 6.950131,
+        "y": 1.179337,
+        "width": 3.259838,
+        "height": 5.860384,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 1,
+      "asset": "assets/media/image134.png",
+      "alt": "그림 4",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s29-pic-12": {
+      "id": "s29-pic-12",
+      "frame": {
+        "x": 2.548824,
+        "y": 2.521654,
+        "width": 3.8439,
+        "height": 3.745809,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 7,
+      "asset": "assets/media/image135.png",
+      "alt": "그림 11",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s30-pic-14": {
+      "id": "s30-pic-14",
+      "frame": {
+        "x": 2.792651,
+        "y": 1.988119,
+        "width": 3.596293,
+        "height": 4.75502,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 7,
+      "asset": "assets/media/image136.png",
+      "alt": "그림 13",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s30-pic-4": {
+      "id": "s30-pic-4",
+      "frame": {
+        "x": 7.000925,
+        "y": 2.238189,
+        "width": 5.489852,
+        "height": 4.11739,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 8,
+      "asset": "assets/media/image137.jpeg",
+      "alt": "그림 3",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s12-reference-25": {
+      "id": "s12-reference-25",
+      "asset": "assets/media/image33.png",
+      "alt": "원본 연출 참고 이미지",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "reference"
+    },
+    "s23-reference-25": {
+      "id": "s23-reference-25",
+      "asset": "assets/media/image119.png",
+      "alt": "원본 연출 참고 이미지",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "reference"
+    }
+  },
+  "products": {
+    "product-15-image42": {
+      "id": "product-15-image42",
+      "photoId": "s15-pic-10",
+      "name": "",
+      "code": "3407",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-15-image43": {
+      "id": "product-15-image43",
+      "photoId": "s15-pic-7",
+      "name": "",
+      "code": "3407",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-15-image44": {
+      "id": "product-15-image44",
+      "photoId": "s15-pic-16",
+      "name": "",
+      "code": "4037",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-15-image45": {
+      "id": "product-15-image45",
+      "photoId": "s15-pic-31",
+      "name": "",
+      "code": "3407",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-15-image46": {
+      "id": "product-15-image46",
+      "photoId": "s15-pic-28",
+      "name": "",
+      "code": "4037",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-15-image47": {
+      "id": "product-15-image47",
+      "photoId": "s15-pic-4",
+      "name": "",
+      "code": "4037",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-15-image48": {
+      "id": "product-15-image48",
+      "photoId": "s15-pic-8",
+      "name": "",
+      "code": "1930",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-15-image49": {
+      "id": "product-15-image49",
+      "photoId": "s15-pic-14",
+      "name": "",
+      "code": "1930",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-15-image50": {
+      "id": "product-15-image50",
+      "photoId": "s15-pic-30",
+      "name": "",
+      "code": "3454",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-15-image52": {
+      "id": "product-15-image52",
+      "photoId": "s15-pic-6",
+      "name": "",
+      "code": "2834",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-15-image54": {
+      "id": "product-15-image54",
+      "photoId": "s15-pic-37",
+      "name": "",
+      "code": "",
+      "codeStatus": "not_in_source"
+    },
+    "product-15-image55": {
+      "id": "product-15-image55",
+      "photoId": "s15-pic-39",
+      "name": "",
+      "code": "",
+      "codeStatus": "not_in_source"
+    },
+    "product-15-image56": {
+      "id": "product-15-image56",
+      "photoId": "s15-pic-40",
+      "name": "",
+      "code": "",
+      "codeStatus": "not_in_source"
+    },
+    "product-15-image57": {
+      "id": "product-15-image57",
+      "photoId": "s15-pic-43",
+      "name": "",
+      "code": "",
+      "codeStatus": "not_in_source"
+    },
+    "product-15-image58": {
+      "id": "product-15-image58",
+      "photoId": "s15-pic-44",
+      "name": "",
+      "code": "",
+      "codeStatus": "not_in_source"
+    },
+    "product-15-image59": {
+      "id": "product-15-image59",
+      "photoId": "s15-pic-46",
+      "name": "",
+      "code": "2817",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-15-image60": {
+      "id": "product-15-image60",
+      "photoId": "s15-pic-49",
+      "name": "",
+      "code": "2817",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-15-image61": {
+      "id": "product-15-image61",
+      "photoId": "s15-pic-56",
+      "name": "",
+      "code": "2817",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-15-image62": {
+      "id": "product-15-image62",
+      "photoId": "s15-pic-62",
+      "name": "",
+      "code": "2817",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-16-image55": {
+      "id": "product-16-image55",
+      "photoId": "s16-pic-76",
+      "name": "",
+      "code": "",
+      "codeStatus": "not_in_source"
+    },
+    "product-16-image56": {
+      "id": "product-16-image56",
+      "photoId": "s16-pic-77",
+      "name": "",
+      "code": "",
+      "codeStatus": "not_in_source"
+    },
+    "product-16-image57": {
+      "id": "product-16-image57",
+      "photoId": "s16-pic-78",
+      "name": "",
+      "code": "",
+      "codeStatus": "not_in_source"
+    },
+    "product-16-image58": {
+      "id": "product-16-image58",
+      "photoId": "s16-pic-79",
+      "name": "",
+      "code": "",
+      "codeStatus": "not_in_source"
+    },
+    "product-16-image64": {
+      "id": "product-16-image64",
+      "photoId": "s16-pic-80",
+      "name": "",
+      "code": "2829",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-16-image65": {
+      "id": "product-16-image65",
+      "photoId": "s16-pic-81",
+      "name": "",
+      "code": "2829",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-16-image66": {
+      "id": "product-16-image66",
+      "photoId": "s16-pic-85",
+      "name": "",
+      "code": "2823",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-16-image67": {
+      "id": "product-16-image67",
+      "photoId": "s16-pic-88",
+      "name": "",
+      "code": "2828",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-16-image52": {
+      "id": "product-16-image52",
+      "photoId": "s16-pic-91",
+      "name": "",
+      "code": "2834",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-16-image54": {
+      "id": "product-16-image54",
+      "photoId": "s16-pic-93",
+      "name": "",
+      "code": "",
+      "codeStatus": "not_in_source"
+    },
+    "product-17-image73": {
+      "id": "product-17-image73",
+      "photoId": "s17-pic-23",
+      "name": "",
+      "code": "8567",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-17-image74": {
+      "id": "product-17-image74",
+      "photoId": "s17-pic-28",
+      "name": "",
+      "code": "3552",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-17-image75": {
+      "id": "product-17-image75",
+      "photoId": "s17-pic-26",
+      "name": "",
+      "code": "3549",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-17-image76": {
+      "id": "product-17-image76",
+      "photoId": "s17-pic-30",
+      "name": "",
+      "code": "4583",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-17-image77": {
+      "id": "product-17-image77",
+      "photoId": "s17-pic-35",
+      "name": "",
+      "code": "5514",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-17-image78": {
+      "id": "product-17-image78",
+      "photoId": "s17-pic-39",
+      "name": "",
+      "code": "3404",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-17-image69": {
+      "id": "product-17-image69",
+      "photoId": "s17-pic-44",
+      "name": "",
+      "code": "1928",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-17-image70": {
+      "id": "product-17-image70",
+      "photoId": "s17-pic-41",
+      "name": "",
+      "code": "1929",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-17-image79": {
+      "id": "product-17-image79",
+      "photoId": "s17-pic-46",
+      "name": "",
+      "code": "4581",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-17-image80": {
+      "id": "product-17-image80",
+      "photoId": "s17-pic-48",
+      "name": "",
+      "code": "3865",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-17-image81": {
+      "id": "product-17-image81",
+      "photoId": "s17-pic-50",
+      "name": "",
+      "code": "4037",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-18-image74": {
+      "id": "product-18-image74",
+      "photoId": "s18-pic-33",
+      "name": "",
+      "code": "3552",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-18-image82": {
+      "id": "product-18-image82",
+      "photoId": "s18-pic-25",
+      "name": "",
+      "code": "7087",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-18-image85": {
+      "id": "product-18-image85",
+      "photoId": "s18-pic-36",
+      "name": "",
+      "code": "4580",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-18-image86": {
+      "id": "product-18-image86",
+      "photoId": "s18-pic-23",
+      "name": "",
+      "code": "7089",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-18-image87": {
+      "id": "product-18-image87",
+      "photoId": "s18-pic-41",
+      "name": "",
+      "code": "4034 & 4035",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-18-image88": {
+      "id": "product-18-image88",
+      "photoId": "s18-pic-47",
+      "name": "",
+      "code": "1925",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-18-image89": {
+      "id": "product-18-image89",
+      "photoId": "s18-pic-50",
+      "name": "",
+      "code": "1925",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-18-image90": {
+      "id": "product-18-image90",
+      "photoId": "s18-pic-45",
+      "name": "",
+      "code": "8127",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-18-image91": {
+      "id": "product-18-image91",
+      "photoId": "s18-pic-52",
+      "name": "",
+      "code": "8179",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-18-image92": {
+      "id": "product-18-image92",
+      "photoId": "s18-pic-55",
+      "name": "",
+      "code": "3795",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-18-image93": {
+      "id": "product-18-image93",
+      "photoId": "s18-pic-57",
+      "name": "",
+      "code": "4040",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-18-image94": {
+      "id": "product-18-image94",
+      "photoId": "s18-pic-59",
+      "name": "",
+      "code": "4037",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-19-image95": {
+      "id": "product-19-image95",
+      "photoId": "s19-pic-45",
+      "name": "",
+      "code": "3663",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-19-image103": {
+      "id": "product-19-image103",
+      "photoId": "s19-pic-43",
+      "name": "",
+      "code": "4577",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-19-image104": {
+      "id": "product-19-image104",
+      "photoId": "s19-pic-39",
+      "name": "",
+      "code": "8571",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-19-image105": {
+      "id": "product-19-image105",
+      "photoId": "s19-pic-48",
+      "name": "",
+      "code": "4584",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-19-image106": {
+      "id": "product-19-image106",
+      "photoId": "s19-pic-56",
+      "name": "",
+      "code": "1519",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-19-image107": {
+      "id": "product-19-image107",
+      "photoId": "s19-pic-63",
+      "name": "",
+      "code": "4036",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-19-image98": {
+      "id": "product-19-image98",
+      "photoId": "s19-pic-23",
+      "name": "",
+      "code": "7085",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-19-image99": {
+      "id": "product-19-image99",
+      "photoId": "s19-pic-18",
+      "name": "",
+      "code": "8186",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-19-image100": {
+      "id": "product-19-image100",
+      "photoId": "s19-pic-25",
+      "name": "",
+      "code": "8126",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-19-image101": {
+      "id": "product-19-image101",
+      "photoId": "s19-pic-32",
+      "name": "",
+      "code": "6845 OR 0258",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-19-image102": {
+      "id": "product-19-image102",
+      "photoId": "s19-pic-35",
+      "name": "",
+      "code": "3414",
+      "codeStatus": "confirmed_from_source"
+    },
+    "product-19-image108": {
+      "id": "product-19-image108",
+      "photoId": "s19-pic-68",
+      "name": "",
+      "code": "4037",
+      "codeStatus": "confirmed_from_source"
+    }
+  },
+  "keyNotes": [],
+  "schedule": {
+    "month": "2026-10",
+    "shareLabel": "VM 가이드 공유",
+    "uploadLabel": "사진 업로드",
+    "holidays": [
+      {
+        "date": "2026-10-03",
+        "name": "개천절"
+      },
+      {
+        "date": "2026-10-05",
+        "name": "대체공휴일"
+      },
+      {
+        "date": "2026-10-09",
+        "name": "한글날"
+      }
+    ],
+    "events": [
+      {
+        "id": "share-1008",
+        "plannedDate": "2026-10-08",
+        "explicitShareDate": "2026-10-08",
+        "uploadOverride": "2026-10-14"
+      },
+      {
+        "id": "share-1023",
+        "plannedDate": "2026-10-23",
+        "explicitShareDate": "2026-10-23",
+        "uploadOverride": "2026-10-28"
+      },
+      {
+        "id": "share-1106",
+        "plannedDate": "2026-11-06",
+        "explicitShareDate": "2026-11-06",
+        "uploadOverride": "2026-11-10"
+      },
+      {
+        "id": "share-1119",
+        "plannedDate": "2026-11-19",
+        "explicitShareDate": "2026-11-19",
+        "uploadOverride": "2026-11-24"
+      }
+    ],
+    "otherEvents": [
+      {
+        "date": "2026-10-16",
+        "label": "패밀리데이",
+        "kind": "family"
+      }
+    ],
+    "notes": [
+      "★ 기존 월 1회 진행되던 VM 연출 가이드 및 사진 업로드는 월 2회(2주 간격 목 or금)로 조정됩니다.",
+      "(프로모션 필요에 따라 일정 변경 예정)",
+      "",
+      "가이드는 카카오톡 오픈 채팅방, ERP 및 구글 드라이브에 공유되며, 차주 화요일까지 사진 업로드가 완료되어야 합니다."
+    ],
+    "months": [
+      "2026-10",
+      "2026-11"
+    ],
+    "currentEventId": "share-1023"
+  },
+  "promotion": {
+    "photoId": "s09-pic-4",
+    "name": "New Arrivals",
+    "startDate": "2026-09-10",
+    "endDate": "2026-10-06",
+    "benefit": "10% OFF",
+    "eligibleItems": "",
+    "operatingNotes": "",
+    "status": "sample",
+    "statusLabel": "기존 POP 예시"
+  },
+  "keyItem": {
+    "comment": [
+      "해당 상품은 26AW 집중 노출 및 판매 진행하는 상품입니다.",
+      "메인 동선 및 주요 위치 우선 노출해주시고, 착장 및 DP 적극 활용 부탁드립니다."
+    ],
+    "groups": [
+      {
+        "id": "retro-pigment",
+        "name": "RETRO PIGMENT",
+        "items": [
+          {
+            "id": "key-1512",
+            "photoId": "s10-pic-35",
+            "name": "",
+            "code": "1512"
+          },
+          {
+            "id": "key-4034",
+            "photoId": "s10-pic-39",
+            "name": "",
+            "code": "4034"
+          },
+          {
+            "id": "key-3406",
+            "photoId": "s10-pic-37",
+            "name": "",
+            "code": "3406"
+          }
+        ]
+      },
+      {
+        "id": "super-light",
+        "name": "SUPER LIGHT",
+        "items": [
+          {
+            "id": "key-1516",
+            "photoId": "s10-pic-30",
+            "name": "",
+            "code": "1516"
+          },
+          {
+            "id": "key-4046",
+            "photoId": "s10-pic-32",
+            "name": "",
+            "code": "4046"
+          },
+          {
+            "id": "key-4047",
+            "photoId": "s10-pic-28",
+            "name": "",
+            "code": "4047"
+          }
+        ]
+      },
+      {
+        "id": "reversible-check",
+        "name": "REVERSIBLE CHECK",
+        "items": [
+          {
+            "id": "key-3413",
+            "photoId": "s10-pic-42",
+            "name": "",
+            "code": "3413"
+          },
+          {
+            "id": "key-4041",
+            "photoId": "s10-pic-44",
+            "name": "",
+            "code": "4041"
+          }
+        ]
+      }
+    ],
+    "galleries": [
+      {
+        "id": "gallery-11",
+        "label": "RETRO PIGMENT",
+        "columns": 3,
+        "photoIds": [
+          "s11-pic-22",
+          "s11-pic-24",
+          "s11-pic-18"
+        ]
+      },
+      {
+        "id": "gallery-12",
+        "label": "SUPER LIGHT",
+        "columns": 3,
+        "photoIds": [
+          "s12-pic-12",
+          "s12-pic-18",
+          "s12-pic-11"
+        ]
+      },
+      {
+        "id": "gallery-13",
+        "label": "REVERSIBLE CKECK",
+        "columns": 3,
+        "photoIds": [
+          "s13-pic-10",
+          "s13-pic-14",
+          "s13-pic-12"
+        ]
+      }
+    ]
+  },
+  "panorama": {
+    "photoIds": [
+      "s14-pic-46",
+      "s14-pic-36",
+      "s14-pic-43"
+    ],
+    "labels": [
+      "LEFT",
+      "MAIN",
+      "RIGHT"
+    ],
+    "columns": 3,
+    "fullImages": true,
+    "columnWeights": [
+      1,
+      2.15,
+      1
+    ]
+  },
+  "vp": [
+    {
+      "id": "vp-15-main",
+      "scene": {
+        "id": "scene-15-9",
+        "nodes": [
+          {
+            "photoId": "s15-pic-9",
+            "role": "background",
+            "z": 16,
+            "displayFrame": {
+              "x": 0.9525625387471636,
+              "y": 1.421962,
+              "width": 5.733844461252835,
+              "height": 5.601375731478415,
+              "rotation": 0.0,
+              "flipH": false,
+              "flipV": false
+            },
+            "displayCrop": {
+              "l": 0,
+              "t": 0,
+              "r": 0,
+              "b": 0
+            },
+            "visibleBounds": {
+              "x": 1.7473528601089428,
+              "y": 1.857204033189201,
+              "width": 4.7308947700105906,
+              "height": 4.844433065062413
+            }
+          },
+          {
+            "photoId": "s15-pic-10",
+            "role": "product",
+            "z": 24,
+            "productId": "product-15-image42"
+          },
+          {
+            "photoId": "s15-pic-7",
+            "role": "product",
+            "z": 25,
+            "productId": "product-15-image43"
+          },
+          {
+            "photoId": "s15-pic-16",
+            "role": "product",
+            "z": 26,
+            "productId": "product-15-image44"
+          },
+          {
+            "photoId": "s15-pic-31",
+            "role": "product",
+            "z": 27,
+            "productId": "product-15-image45"
+          },
+          {
+            "photoId": "s15-pic-28",
+            "role": "product",
+            "z": 28,
+            "productId": "product-15-image46"
+          },
+          {
+            "photoId": "s15-pic-4",
+            "role": "product",
+            "z": 29,
+            "productId": "product-15-image47"
+          },
+          {
+            "photoId": "s15-pic-8",
+            "role": "product",
+            "z": 30,
+            "productId": "product-15-image48"
+          },
+          {
+            "photoId": "s15-pic-14",
+            "role": "product",
+            "z": 31,
+            "productId": "product-15-image49"
+          },
+          {
+            "photoId": "s15-pic-30",
+            "role": "product",
+            "z": 32,
+            "productId": "product-15-image50"
+          }
+        ],
+        "bounds": {
+          "x": 1.557352860108943,
+          "y": 1.667204033189201,
+          "width": 5.1108947700105904,
+          "height": 5.224433065062413
+        },
+        "floorY": 6.701637098251614
+      },
+      "arrangementName": "",
+      "usageItems": [
+        {
+          "id": "vp-15-main-item-1",
+          "productId": "product-15-image42",
+          "photoId": "s15-pic-10",
+          "name": "",
+          "code": "3407",
+          "productIds": [
+            "product-15-image42",
+            "product-15-image43",
+            "product-15-image45"
+          ]
+        },
+        {
+          "id": "vp-15-main-item-2",
+          "productId": "product-15-image44",
+          "photoId": "s15-pic-16",
+          "name": "",
+          "code": "4037",
+          "productIds": [
+            "product-15-image44",
+            "product-15-image46",
+            "product-15-image47"
+          ]
+        },
+        {
+          "id": "vp-15-main-item-3",
+          "productId": "product-15-image48",
+          "photoId": "s15-pic-8",
+          "name": "",
+          "code": "1930",
+          "productIds": [
+            "product-15-image48",
+            "product-15-image49"
+          ]
+        },
+        {
+          "id": "vp-15-main-item-4",
+          "productId": "product-15-image50",
+          "photoId": "s15-pic-30",
+          "name": "",
+          "code": "3454",
+          "productIds": [
+            "product-15-image50"
+          ]
+        }
+      ],
+      "pairId": "vp-pair-1"
+    },
+    {
+      "id": "vp-15-sub",
+      "scene": {
+        "id": "scene-15-2",
+        "nodes": [
+          {
+            "photoId": "s15-pic-2",
+            "role": "background",
+            "z": 37,
+            "displayFrame": {
+              "x": 6.313310931027165,
+              "y": 1.365760125723751,
+              "width": 7.337242066083322,
+              "height": 5.187389632691519,
+              "rotation": 0.0,
+              "flipH": false,
+              "flipV": false
+            },
+            "displayCrop": {
+              "l": 0,
+              "t": 0,
+              "r": 0,
+              "b": 0
+            },
+            "visibleBounds": {
+              "x": 7.872474870069871,
+              "y": 2.646098868163171,
+              "width": 4.3766648924187015,
+              "height": 3.199012559905944
+            }
+          },
+          {
+            "photoId": "s15-pic-6",
+            "role": "product",
+            "z": 39,
+            "productId": "product-15-image52",
+            "duplicate": true
+          },
+          {
+            "photoId": "s15-pic-11",
+            "role": "product",
+            "z": 40,
+            "productId": "product-15-image52"
+          },
+          {
+            "photoId": "s15-pic-26",
+            "role": "decoration",
+            "z": 41
+          },
+          {
+            "photoId": "s15-pic-37",
+            "role": "product",
+            "z": 42,
+            "productId": "product-15-image54"
+          },
+          {
+            "photoId": "s15-pic-39",
+            "role": "product",
+            "z": 43,
+            "productId": "product-15-image55"
+          },
+          {
+            "photoId": "s15-pic-40",
+            "role": "product",
+            "z": 44,
+            "productId": "product-15-image56"
+          },
+          {
+            "photoId": "s15-pic-43",
+            "role": "product",
+            "z": 45,
+            "productId": "product-15-image57"
+          },
+          {
+            "photoId": "s15-pic-44",
+            "role": "product",
+            "z": 46,
+            "productId": "product-15-image58"
+          },
+          {
+            "photoId": "s15-pic-46",
+            "role": "product",
+            "z": 47,
+            "productId": "product-15-image59",
+            "duplicate": true
+          },
+          {
+            "photoId": "s15-pic-47",
+            "role": "product",
+            "z": 48,
+            "productId": "product-15-image59"
+          },
+          {
+            "photoId": "s15-pic-49",
+            "role": "product",
+            "z": 49,
+            "productId": "product-15-image60",
+            "duplicate": true
+          },
+          {
+            "photoId": "s15-pic-50",
+            "role": "product",
+            "z": 50,
+            "productId": "product-15-image60"
+          },
+          {
+            "photoId": "s15-pic-56",
+            "role": "product",
+            "z": 51,
+            "productId": "product-15-image61",
+            "duplicate": true
+          },
+          {
+            "photoId": "s15-pic-57",
+            "role": "product",
+            "z": 52,
+            "productId": "product-15-image61"
+          },
+          {
+            "photoId": "s15-pic-62",
+            "role": "product",
+            "z": 53,
+            "productId": "product-15-image62",
+            "duplicate": true
+          },
+          {
+            "photoId": "s15-pic-64",
+            "role": "product",
+            "z": 54,
+            "productId": "product-15-image62"
+          }
+        ],
+        "bounds": {
+          "x": 7.505359931273925,
+          "y": 0.8106783630067027,
+          "width": 5.1108947700105904,
+          "height": 5.224433065062413
+        },
+        "floorY": 5.845111428069115
+      },
+      "arrangementName": "",
+      "usageItems": [
+        {
+          "id": "vp-15-sub-item-1",
+          "productId": "product-15-image52",
+          "photoId": "s15-pic-11",
+          "name": "",
+          "code": "2834",
+          "productIds": [
+            "product-15-image52",
+            "product-15-image52"
+          ]
+        },
+        {
+          "id": "vp-15-sub-item-2",
+          "productId": "product-15-image54",
+          "photoId": "s15-pic-37",
+          "name": "",
+          "code": "",
+          "productIds": [
+            "product-15-image54"
+          ]
+        },
+        {
+          "id": "vp-15-sub-item-3",
+          "productId": "product-15-image55",
+          "photoId": "s15-pic-39",
+          "name": "",
+          "code": "",
+          "productIds": [
+            "product-15-image55"
+          ]
+        },
+        {
+          "id": "vp-15-sub-item-4",
+          "productId": "product-15-image56",
+          "photoId": "s15-pic-40",
+          "name": "",
+          "code": "",
+          "productIds": [
+            "product-15-image56"
+          ]
+        },
+        {
+          "id": "vp-15-sub-item-5",
+          "productId": "product-15-image57",
+          "photoId": "s15-pic-43",
+          "name": "",
+          "code": "",
+          "productIds": [
+            "product-15-image57"
+          ]
+        },
+        {
+          "id": "vp-15-sub-item-6",
+          "productId": "product-15-image58",
+          "photoId": "s15-pic-44",
+          "name": "",
+          "code": "",
+          "productIds": [
+            "product-15-image58"
+          ]
+        },
+        {
+          "id": "vp-15-sub-item-7",
+          "productId": "product-15-image59",
+          "photoId": "s15-pic-47",
+          "name": "",
+          "code": "2817",
+          "productIds": [
+            "product-15-image59",
+            "product-15-image59",
+            "product-15-image60",
+            "product-15-image60",
+            "product-15-image61",
+            "product-15-image61",
+            "product-15-image62",
+            "product-15-image62"
+          ]
+        }
+      ],
+      "pairId": "vp-pair-1"
+    },
+    {
+      "id": "vp-16-main",
+      "scene": {
+        "id": "scene-16-59",
+        "nodes": [
+          {
+            "photoId": "s16-pic-59",
+            "role": "background",
+            "z": 18,
+            "displayFrame": {
+              "x": 0.993104,
+              "y": 3.0355393388230825,
+              "width": 5.153288,
+              "height": 4.093672008614683,
+              "rotation": 0.0,
+              "flipH": false,
+              "flipV": false
+            },
+            "displayCrop": {
+              "l": 0,
+              "t": 0,
+              "r": 0,
+              "b": 0
+            },
+            "visibleBounds": {
+              "x": 0.993104,
+              "y": 3.0355393388230825,
+              "width": 5.068421408966148,
+              "height": 4.093672008614683
+            }
+          },
+          {
+            "photoId": "s16-pic-60",
+            "role": "decoration",
+            "z": 19
+          },
+          {
+            "photoId": "s16-pic-76",
+            "role": "product",
+            "z": 23,
+            "productId": "product-16-image55"
+          },
+          {
+            "photoId": "s16-pic-77",
+            "role": "product",
+            "z": 24,
+            "productId": "product-16-image56"
+          },
+          {
+            "photoId": "s16-pic-78",
+            "role": "product",
+            "z": 25,
+            "productId": "product-16-image57"
+          },
+          {
+            "photoId": "s16-pic-79",
+            "role": "product",
+            "z": 26,
+            "productId": "product-16-image58"
+          },
+          {
+            "photoId": "s16-pic-80",
+            "role": "product",
+            "z": 27,
+            "productId": "product-16-image64",
+            "duplicate": true
+          },
+          {
+            "photoId": "s16-pic-81",
+            "role": "product",
+            "z": 28,
+            "productId": "product-16-image65",
+            "duplicate": true
+          },
+          {
+            "photoId": "s16-pic-82",
+            "role": "product",
+            "z": 29,
+            "productId": "product-16-image64"
+          },
+          {
+            "photoId": "s16-pic-83",
+            "role": "product",
+            "z": 30,
+            "productId": "product-16-image65"
+          },
+          {
+            "photoId": "s16-pic-85",
+            "role": "product",
+            "z": 31,
+            "productId": "product-16-image66",
+            "duplicate": true
+          },
+          {
+            "photoId": "s16-pic-86",
+            "role": "product",
+            "z": 32,
+            "productId": "product-16-image66"
+          },
+          {
+            "photoId": "s16-pic-88",
+            "role": "product",
+            "z": 33,
+            "productId": "product-16-image67",
+            "duplicate": true
+          },
+          {
+            "photoId": "s16-pic-89",
+            "role": "product",
+            "z": 34,
+            "productId": "product-16-image67"
+          },
+          {
+            "photoId": "s16-pic-91",
+            "role": "product",
+            "z": 35,
+            "productId": "product-16-image52",
+            "duplicate": true
+          },
+          {
+            "photoId": "s16-pic-92",
+            "role": "product",
+            "z": 36,
+            "productId": "product-16-image52"
+          },
+          {
+            "photoId": "s16-pic-93",
+            "role": "product",
+            "z": 37,
+            "productId": "product-16-image54"
+          }
+        ],
+        "bounds": {
+          "x": 0.8031039999999998,
+          "y": 1.4557480000000003,
+          "width": 5.448421408966148,
+          "height": 5.863463347437765
+        },
+        "floorY": 7.129211347437765
+      },
+      "arrangementName": "",
+      "usageItems": [
+        {
+          "id": "vp-16-main-item-1",
+          "productId": "product-16-image55",
+          "photoId": "s16-pic-76",
+          "name": "",
+          "code": "",
+          "productIds": [
+            "product-16-image55"
+          ]
+        },
+        {
+          "id": "vp-16-main-item-2",
+          "productId": "product-16-image56",
+          "photoId": "s16-pic-77",
+          "name": "",
+          "code": "",
+          "productIds": [
+            "product-16-image56"
+          ]
+        },
+        {
+          "id": "vp-16-main-item-3",
+          "productId": "product-16-image57",
+          "photoId": "s16-pic-78",
+          "name": "",
+          "code": "",
+          "productIds": [
+            "product-16-image57"
+          ]
+        },
+        {
+          "id": "vp-16-main-item-4",
+          "productId": "product-16-image58",
+          "photoId": "s16-pic-79",
+          "name": "",
+          "code": "",
+          "productIds": [
+            "product-16-image58"
+          ]
+        },
+        {
+          "id": "vp-16-main-item-5",
+          "productId": "product-16-image64",
+          "photoId": "s16-pic-82",
+          "name": "",
+          "code": "2829",
+          "productIds": [
+            "product-16-image64",
+            "product-16-image65",
+            "product-16-image64",
+            "product-16-image65"
+          ]
+        },
+        {
+          "id": "vp-16-main-item-6",
+          "productId": "product-16-image66",
+          "photoId": "s16-pic-86",
+          "name": "",
+          "code": "2823",
+          "productIds": [
+            "product-16-image66",
+            "product-16-image66"
+          ]
+        },
+        {
+          "id": "vp-16-main-item-7",
+          "productId": "product-16-image67",
+          "photoId": "s16-pic-89",
+          "name": "",
+          "code": "2828",
+          "productIds": [
+            "product-16-image67",
+            "product-16-image67"
+          ]
+        },
+        {
+          "id": "vp-16-main-item-8",
+          "productId": "product-16-image52",
+          "photoId": "s16-pic-92",
+          "name": "",
+          "code": "2834",
+          "productIds": [
+            "product-16-image52",
+            "product-16-image52"
+          ]
+        },
+        {
+          "id": "vp-16-main-item-9",
+          "productId": "product-16-image54",
+          "photoId": "s16-pic-93",
+          "name": "",
+          "code": "",
+          "productIds": [
+            "product-16-image54"
+          ]
+        }
+      ],
+      "pairId": "vp-pair-2"
+    },
+    {
+      "id": "vp-16-sub",
+      "scene": {
+        "id": "scene-16-100",
+        "nodes": [
+          {
+            "photoId": "s16-pic-100",
+            "role": "background",
+            "z": 42,
+            "displayFrame": {
+              "x": 5.96098158576791,
+              "y": 2.4877393680654887,
+              "width": 7.623978915422091,
+              "height": 4.004820954229669,
+              "rotation": 0.0,
+              "flipH": true,
+              "flipV": false
+            },
+            "displayCrop": {
+              "l": 0,
+              "t": 0,
+              "r": 0,
+              "b": 0
+            },
+            "visibleBounds": {
+              "x": 7.603602497545215,
+              "y": 3.2786871891250784,
+              "width": 4.449631330637256,
+              "height": 2.814945302024304
+            }
+          }
+        ],
+        "bounds": {
+          "x": 7.104207458380769,
+          "y": 0.4201691437116168,
+          "width": 5.448421408966148,
+          "height": 5.863463347437765
+        },
+        "floorY": 6.093632491149382
+      },
+      "arrangementName": "",
+      "usageItems": [],
+      "pairId": "vp-pair-2"
+    }
+  ],
+  "mnq": [
+    {
+      "id": "mnq-17",
+      "label": "MNQ_A",
+      "outfitPhotoIds": [
+        "s17-pic-24",
+        "s17-pic-17"
+      ],
+      "groups": [
+        {
+          "label": "UNISEX",
+          "scene": {
+            "id": "scene-17-23",
+            "nodes": [
+              {
+                "photoId": "s17-pic-23",
+                "role": "product",
+                "z": 28,
+                "productId": "product-17-image73"
+              },
+              {
+                "photoId": "s17-pic-28",
+                "role": "product",
+                "z": 29,
+                "productId": "product-17-image74"
+              },
+              {
+                "photoId": "s17-pic-26",
+                "role": "product",
+                "z": 31,
+                "productId": "product-17-image75"
+              },
+              {
+                "photoId": "s17-pic-30",
+                "role": "product",
+                "z": 32,
+                "productId": "product-17-image76"
+              },
+              {
+                "photoId": "s17-pic-35",
+                "role": "product",
+                "z": 33,
+                "productId": "product-17-image77"
+              },
+              {
+                "photoId": "s17-pic-39",
+                "role": "product",
+                "z": 34,
+                "productId": "product-17-image78"
+              }
+            ],
+            "bounds": {
+              "x": 7.149642,
+              "y": 0.977277,
+              "width": 5.622673000000001,
+              "height": 2.9741969999999998
+            }
+          },
+          "extraCodes": []
+        },
+        {
+          "label": "WOMAN'S",
+          "scene": {
+            "id": "scene-17-44",
+            "nodes": [
+              {
+                "photoId": "s17-pic-44",
+                "role": "product",
+                "z": 1,
+                "productId": "product-17-image69"
+              },
+              {
+                "photoId": "s17-pic-41",
+                "role": "product",
+                "z": 2,
+                "productId": "product-17-image70"
+              },
+              {
+                "photoId": "s17-pic-46",
+                "role": "product",
+                "z": 35,
+                "productId": "product-17-image79"
+              },
+              {
+                "photoId": "s17-pic-48",
+                "role": "product",
+                "z": 36,
+                "productId": "product-17-image80"
+              },
+              {
+                "photoId": "s17-pic-50",
+                "role": "product",
+                "z": 37,
+                "productId": "product-17-image81"
+              }
+            ],
+            "bounds": {
+              "x": 7.325733,
+              "y": 4.28287,
+              "width": 5.015539,
+              "height": 2.8835769999999994
+            }
+          },
+          "extraCodes": []
+        }
+      ]
+    },
+    {
+      "id": "mnq-18",
+      "label": "MNQ_B",
+      "outfitPhotoIds": [
+        "s18-pic-16",
+        "s18-pic-12"
+      ],
+      "groups": [
+        {
+          "label": "UNISEX",
+          "scene": {
+            "id": "scene-18-33",
+            "nodes": [
+              {
+                "photoId": "s18-pic-33",
+                "role": "product",
+                "z": 1,
+                "productId": "product-18-image74"
+              },
+              {
+                "photoId": "s18-pic-25",
+                "role": "product",
+                "z": 2,
+                "productId": "product-18-image82"
+              },
+              {
+                "photoId": "s18-pic-36",
+                "role": "product",
+                "z": 25,
+                "productId": "product-18-image85"
+              },
+              {
+                "photoId": "s18-pic-23",
+                "role": "product",
+                "z": 26,
+                "productId": "product-18-image86"
+              },
+              {
+                "photoId": "s18-pic-41",
+                "role": "product",
+                "z": 27,
+                "productId": "product-18-image87"
+              }
+            ],
+            "bounds": {
+              "x": 7.375782,
+              "y": 0.960189,
+              "width": 5.3083399999999985,
+              "height": 2.951373
+            }
+          },
+          "extraCodes": []
+        },
+        {
+          "label": "WOMAN'S",
+          "scene": {
+            "id": "scene-18-47",
+            "nodes": [
+              {
+                "photoId": "s18-pic-47",
+                "role": "product",
+                "z": 28,
+                "productId": "product-18-image88"
+              },
+              {
+                "photoId": "s18-pic-50",
+                "role": "product",
+                "z": 29,
+                "productId": "product-18-image89"
+              },
+              {
+                "photoId": "s18-pic-45",
+                "role": "product",
+                "z": 31,
+                "productId": "product-18-image90"
+              },
+              {
+                "photoId": "s18-pic-52",
+                "role": "product",
+                "z": 32,
+                "productId": "product-18-image91"
+              },
+              {
+                "photoId": "s18-pic-55",
+                "role": "product",
+                "z": 33,
+                "productId": "product-18-image92"
+              },
+              {
+                "photoId": "s18-pic-57",
+                "role": "product",
+                "z": 34,
+                "productId": "product-18-image93"
+              },
+              {
+                "photoId": "s18-pic-59",
+                "role": "product",
+                "z": 35,
+                "productId": "product-18-image94"
+              }
+            ],
+            "bounds": {
+              "x": 7.568561,
+              "y": 4.195697,
+              "width": 5.242834999999999,
+              "height": 3.125932
+            }
+          },
+          "extraCodes": []
+        }
+      ]
+    },
+    {
+      "id": "mnq-19",
+      "label": "MNQ_C",
+      "outfitPhotoIds": [
+        "s19-pic-14",
+        "s19-pic-3"
+      ],
+      "groups": [
+        {
+          "label": "UNISEX",
+          "scene": {
+            "id": "scene-19-45",
+            "nodes": [
+              {
+                "photoId": "s19-pic-45",
+                "role": "product",
+                "z": 20,
+                "productId": "product-19-image95"
+              },
+              {
+                "photoId": "s19-pic-43",
+                "role": "product",
+                "z": 32,
+                "productId": "product-19-image103"
+              },
+              {
+                "photoId": "s19-pic-39",
+                "role": "product",
+                "z": 33,
+                "productId": "product-19-image104"
+              },
+              {
+                "photoId": "s19-pic-48",
+                "role": "product",
+                "z": 34,
+                "productId": "product-19-image105"
+              },
+              {
+                "photoId": "s19-pic-56",
+                "role": "product",
+                "z": 35,
+                "productId": "product-19-image106"
+              },
+              {
+                "photoId": "s19-pic-63",
+                "role": "product",
+                "z": 36,
+                "productId": "product-19-image107"
+              }
+            ],
+            "bounds": {
+              "x": 7.669016,
+              "y": 1.012592,
+              "width": 4.7809870000000005,
+              "height": 2.797604
+            }
+          },
+          "extraCodes": []
+        },
+        {
+          "label": "WOMAN'S",
+          "scene": {
+            "id": "scene-19-23",
+            "nodes": [
+              {
+                "photoId": "s19-pic-23",
+                "role": "product",
+                "z": 26,
+                "productId": "product-19-image98"
+              },
+              {
+                "photoId": "s19-pic-18",
+                "role": "product",
+                "z": 27,
+                "productId": "product-19-image99"
+              },
+              {
+                "photoId": "s19-pic-25",
+                "role": "product",
+                "z": 28,
+                "productId": "product-19-image100"
+              },
+              {
+                "photoId": "s19-pic-32",
+                "role": "product",
+                "z": 30,
+                "productId": "product-19-image101"
+              },
+              {
+                "photoId": "s19-pic-35",
+                "role": "product",
+                "z": 31,
+                "productId": "product-19-image102"
+              },
+              {
+                "photoId": "s19-pic-68",
+                "role": "product",
+                "z": 38,
+                "productId": "product-19-image108"
+              }
+            ],
+            "bounds": {
+              "x": 7.57292,
+              "y": 4.285439,
+              "width": 4.877084,
+              "height": 3.02106
+            }
+          },
+          "extraCodes": []
+        }
+      ]
+    }
+  ],
+  "galleries": {
+    "unisex": [
+      {
+        "id": "gallery-20",
+        "label": "",
+        "columns": 2,
+        "photoIds": [
+          "s20-pic-11",
+          "s20-pic-3"
+        ]
+      },
+      {
+        "id": "gallery-21",
+        "label": "",
+        "columns": 3,
+        "photoIds": [
+          "s21-pic-5",
+          "s21-pic-9",
+          "s21-pic-14"
+        ]
+      }
+    ],
+    "woman": [
+      {
+        "id": "gallery-22",
+        "label": "",
+        "columns": 2,
+        "photoIds": [
+          "s22-pic-8",
+          "s22-pic-15"
+        ]
+      }
+    ],
+    "bag": [
+      {
+        "id": "gallery-23",
+        "label": "",
+        "columns": 3,
+        "photoIds": [
+          "s23-pic-17",
+          "s23-pic-21",
+          "s23-pic-19"
+        ]
+      },
+      {
+        "id": "gallery-24",
+        "label": "",
+        "columns": 3,
+        "photoIds": [
+          "s24-pic-14",
+          "s24-pic-11",
+          "s24-pic-18"
+        ]
+      },
+      {
+        "id": "gallery-25",
+        "label": "",
+        "columns": 3,
+        "photoIds": [
+          "s25-pic-9",
+          "s25-pic-12",
+          "s25-pic-17"
+        ]
+      },
+      {
+        "id": "gallery-26",
+        "label": "",
+        "columns": 2,
+        "photoIds": [
+          "s26-pic-10",
+          "s26-pic-13"
+        ]
+      },
+      {
+        "id": "gallery-27",
+        "label": "",
+        "columns": 2,
+        "photoIds": [
+          "s27-pic-9",
+          "s27-pic-10"
+        ]
+      }
+    ],
+    "acc": [
+      {
+        "id": "gallery-28",
+        "label": "",
+        "columns": 2,
+        "photoIds": [
+          "s28-pic-12",
+          "s28-pic-14",
+          "s28-pic-24",
+          "s28-pic-26"
+        ],
+        "comment": "AI로 제작된 이미지로, 실제 상품과 디테일 차이가 있을 수 있습니다."
+      }
+    ],
+    "headwear": [
+      {
+        "id": "gallery-29",
+        "label": "",
+        "columns": 2,
+        "photoIds": [
+          "s29-pic-12",
+          "s29-pic-5"
+        ]
+      },
+      {
+        "id": "gallery-30",
+        "label": "",
+        "columns": 2,
+        "photoIds": [
+          "s30-pic-14",
+          "s30-pic-4"
+        ]
+      }
+    ]
+  }
+}

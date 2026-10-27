@@ -1,0 +1,1 @@
+window.VM_GUIDE_CATALOG = {"schemaVersion": 1, "editions": [{"id": "2026-10-1", "season": "2026 AW", "releasedOn": "2026-10-08", "tabLabel": "OCT. 01", "published": true}, {"id": "2026-10-2", "season": "2026 AW", "releasedOn": "2026-10-27", "tabLabel": "OCT. 02", "published": true}]};
