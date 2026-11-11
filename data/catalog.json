@@ -14,6 +14,13 @@
       "releasedOn": "2026-10-27",
       "tabLabel": "OCT. 02",
       "published": true
+    },
+    {
+      "id": "2026-11-1",
+      "season": "2026 AW",
+      "releasedOn": "2026-11-11",
+      "tabLabel": "NOV. 01",
+      "published": true
     }
   ]
 }

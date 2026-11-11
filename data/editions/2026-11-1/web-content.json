@@ -1,0 +1,5460 @@
+{
+  "schemaVersion": 2,
+  "edition": {
+    "id": "2026-11-1",
+    "season": "2026 AW",
+    "label": "NOV. 01",
+    "revision": "NOV. 01"
+  },
+  "categories": [
+    {
+      "id": "key-notes",
+      "label": "KEY NOTES"
+    },
+    {
+      "id": "schedule",
+      "label": "SCHEDULE"
+    },
+    {
+      "id": "promotion",
+      "label": "PROMOTION"
+    },
+    {
+      "id": "key-item",
+      "label": "KEY ITEM"
+    },
+    {
+      "id": "panorama",
+      "label": "PANORAMA"
+    },
+    {
+      "id": "vp",
+      "label": "VP"
+    },
+    {
+      "id": "mnq",
+      "label": "MNQ"
+    },
+    {
+      "id": "unisex",
+      "label": "UNISEX"
+    },
+    {
+      "id": "woman",
+      "label": "WOMAN'S"
+    },
+    {
+      "id": "bag",
+      "label": "BAG"
+    },
+    {
+      "id": "acc",
+      "label": "ACC"
+    },
+    {
+      "id": "headwear",
+      "label": "HEADWEAR"
+    }
+  ],
+  "photos": {
+    "2026-11-1-product-5cd9f771567ac268": {
+      "id": "2026-11-1-product-5cd9f771567ac268",
+      "asset": "assets/editions/2026-11-1/product/5cd9f771567ac268.png",
+      "alt": "1512",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-d215dbdae77325a6": {
+      "id": "2026-11-1-product-d215dbdae77325a6",
+      "asset": "assets/editions/2026-11-1/product/d215dbdae77325a6.png",
+      "alt": "1811",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-ca130d23e4f2a0fc": {
+      "id": "2026-11-1-product-ca130d23e4f2a0fc",
+      "asset": "assets/editions/2026-11-1/product/ca130d23e4f2a0fc.png",
+      "alt": "4587",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-7b9351248fd30bc6": {
+      "id": "2026-11-1-product-7b9351248fd30bc6",
+      "asset": "assets/editions/2026-11-1/product/7b9351248fd30bc6.png",
+      "alt": "4672",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "s10-pic-28": {
+      "id": "s10-pic-28",
+      "frame": {
+        "x": 5.507896,
+        "y": 4.519196,
+        "width": 2.243863,
+        "height": 1.272162,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 6,
+      "asset": "assets/media/image20.png",
+      "alt": "그림 27",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s10-pic-30": {
+      "id": "s10-pic-30",
+      "frame": {
+        "x": 4.754158,
+        "y": 2.348948,
+        "width": 3.663059,
+        "height": 1.189055,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 7,
+      "asset": "assets/media/image21.png",
+      "alt": "그림 29",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s10-pic-32": {
+      "id": "s10-pic-32",
+      "frame": {
+        "x": 4.693426,
+        "y": 3.407315,
+        "width": 3.784521,
+        "height": 1.17627,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 8,
+      "asset": "assets/media/image22.png",
+      "alt": "그림 31",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s10-pic-35": {
+      "id": "s10-pic-35",
+      "frame": {
+        "x": 1.331616,
+        "y": 2.348948,
+        "width": 2.237471,
+        "height": 1.195449,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 9,
+      "asset": "assets/media/image23.png",
+      "alt": "그림 34",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s10-pic-37": {
+      "id": "s10-pic-37",
+      "frame": {
+        "x": 1.267416,
+        "y": 4.864406,
+        "width": 2.46761,
+        "height": 0.926952,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 10,
+      "asset": "assets/media/image24.png",
+      "alt": "그림 36",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s10-pic-39": {
+      "id": "s10-pic-39",
+      "frame": {
+        "x": 1.283398,
+        "y": 3.629052,
+        "width": 2.435647,
+        "height": 1.150699,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 11,
+      "asset": "assets/media/image25.png",
+      "alt": "그림 38",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s10-pic-42": {
+      "id": "s10-pic-42",
+      "frame": {
+        "x": 9.506399,
+        "y": 2.889693,
+        "width": 2.499574,
+        "height": 0.978094,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 12,
+      "asset": "assets/media/image26.png",
+      "alt": "그림 41",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s10-pic-44": {
+      "id": "s10-pic-44",
+      "frame": {
+        "x": 9.484024,
+        "y": 3.91745,
+        "width": 2.544323,
+        "height": 1.29134,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 13,
+      "asset": "assets/media/image27.png",
+      "alt": "그림 43",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s11-pic-18": {
+      "id": "s11-pic-18",
+      "frame": {
+        "x": 9.053368,
+        "y": 2.16443,
+        "width": 3.812404,
+        "height": 4.271654,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 8,
+      "asset": "assets/media/image28.png",
+      "alt": "그림 17",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s11-pic-22": {
+      "id": "s11-pic-22",
+      "frame": {
+        "x": 0.374886,
+        "y": 2.16443,
+        "width": 3.953184,
+        "height": 4.271654,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 9,
+      "asset": "assets/media/image29.png",
+      "alt": "그림 21",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s11-pic-24": {
+      "id": "s11-pic-24",
+      "frame": {
+        "x": 4.767218,
+        "y": 2.16443,
+        "width": 3.870921,
+        "height": 4.271654,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 10,
+      "asset": "assets/media/image30.png",
+      "alt": "그림 23",
+      "crop": {
+        "l": 0.23482,
+        "t": 0.0,
+        "r": 0.05295,
+        "b": 0.0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s12-pic-11": {
+      "id": "s12-pic-11",
+      "frame": {
+        "x": 9.252419,
+        "y": 2.285433,
+        "width": 3.889592,
+        "height": 4.269683,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 7,
+      "asset": "assets/media/image31.png",
+      "alt": "그림 10",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s12-pic-12": {
+      "id": "s12-pic-12",
+      "frame": {
+        "x": 0.120488,
+        "y": 2.278794,
+        "width": 4.141771,
+        "height": 4.27632,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 15,
+      "asset": "assets/media/image34.png",
+      "alt": "그림 11",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s12-pic-18": {
+      "id": "s12-pic-18",
+      "frame": {
+        "x": 4.604786,
+        "y": 2.285433,
+        "width": 4.269681,
+        "height": 4.269681,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 9,
+      "asset": "assets/media/image32.png",
+      "alt": "그림 17",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s13-pic-10": {
+      "id": "s13-pic-10",
+      "frame": {
+        "x": 0.364283,
+        "y": 2.819758,
+        "width": 2.53591,
+        "height": 3.381212,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 10,
+      "asset": "assets/media/image37.png",
+      "alt": "그림 9",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s13-pic-12": {
+      "id": "s13-pic-12",
+      "frame": {
+        "x": 8.638377,
+        "y": 2.821305,
+        "width": 4.350017,
+        "height": 3.378248,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 1,
+      "asset": "assets/media/image35.png",
+      "alt": "그림 11",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s13-pic-14": {
+      "id": "s13-pic-14",
+      "frame": {
+        "x": 3.213391,
+        "y": 2.818341,
+        "width": 5.102999,
+        "height": 3.381215,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 2,
+      "asset": "assets/media/image36.png",
+      "alt": "그림 13",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s28-pic-24": {
+      "id": "s28-pic-24",
+      "frame": {
+        "x": 6.692536,
+        "y": 4.602452,
+        "width": 1.550372,
+        "height": 2.135024,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 9,
+      "asset": "assets/media/image132.png",
+      "alt": "그림 23",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "s28-pic-26": {
+      "id": "s28-pic-26",
+      "frame": {
+        "x": 8.396555,
+        "y": 4.602452,
+        "width": 2.290966,
+        "height": 2.001089,
+        "rotation": 0.0,
+        "flipH": false,
+        "flipV": false
+      },
+      "z": 10,
+      "asset": "assets/media/image133.png",
+      "alt": "그림 25",
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "role": "photo",
+      "comments": []
+    },
+    "2026-11-1-product-077f17bd36102dc3": {
+      "id": "2026-11-1-product-077f17bd36102dc3",
+      "asset": "assets/editions/2026-11-1/product/077f17bd36102dc3.png",
+      "alt": "8571",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-53eb00466ccab214": {
+      "id": "2026-11-1-product-53eb00466ccab214",
+      "asset": "assets/editions/2026-11-1/product/53eb00466ccab214.png",
+      "alt": "1820",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-65924e1230ea2d52": {
+      "id": "2026-11-1-product-65924e1230ea2d52",
+      "asset": "assets/editions/2026-11-1/product/65924e1230ea2d52.png",
+      "alt": "1924",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-9f4e0921ec4c8e9c": {
+      "id": "2026-11-1-product-9f4e0921ec4c8e9c",
+      "asset": "assets/editions/2026-11-1/product/9f4e0921ec4c8e9c.png",
+      "alt": "3017",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-d937f53c2b3a7327": {
+      "id": "2026-11-1-product-d937f53c2b3a7327",
+      "asset": "assets/editions/2026-11-1/product/d937f53c2b3a7327.png",
+      "alt": "4043",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo",
+      "backgroundReview": true
+    },
+    "2026-11-1-product-d51495cb062ec615": {
+      "id": "2026-11-1-product-d51495cb062ec615",
+      "asset": "assets/editions/2026-11-1/product/d51495cb062ec615.png",
+      "alt": "8127",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-b748306d0929dcd6": {
+      "id": "2026-11-1-product-b748306d0929dcd6",
+      "asset": "assets/editions/2026-11-1/product/b748306d0929dcd6.png",
+      "alt": "4580",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 0.8333333333333334,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1800
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-67dea3abd6c18d95": {
+      "id": "2026-11-1-product-67dea3abd6c18d95",
+      "asset": "assets/editions/2026-11-1/product/67dea3abd6c18d95.png",
+      "alt": "4662",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo",
+      "backgroundReview": true
+    },
+    "2026-11-1-product-9565dabf39ce3b02": {
+      "id": "2026-11-1-product-9565dabf39ce3b02",
+      "asset": "assets/editions/2026-11-1/product/9565dabf39ce3b02.png",
+      "alt": "7086",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-07ac50041e4856d8": {
+      "id": "2026-11-1-product-07ac50041e4856d8",
+      "asset": "assets/editions/2026-11-1/product/07ac50041e4856d8.png",
+      "alt": "8182",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-debb070f9301187f": {
+      "id": "2026-11-1-product-debb070f9301187f",
+      "asset": "assets/editions/2026-11-1/product/debb070f9301187f.png",
+      "alt": "1820",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-b479351973f21822": {
+      "id": "2026-11-1-product-b479351973f21822",
+      "asset": "assets/editions/2026-11-1/product/b479351973f21822.png",
+      "alt": "1926",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-d1c14860c89dc924": {
+      "id": "2026-11-1-product-d1c14860c89dc924",
+      "asset": "assets/editions/2026-11-1/product/d1c14860c89dc924.png",
+      "alt": "4587",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-32c1b75c55763710": {
+      "id": "2026-11-1-product-32c1b75c55763710",
+      "asset": "assets/editions/2026-11-1/product/32c1b75c55763710.png",
+      "alt": "4674",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-1e1fe7ca55febddb": {
+      "id": "2026-11-1-product-1e1fe7ca55febddb",
+      "asset": "assets/editions/2026-11-1/product/1e1fe7ca55febddb.png",
+      "alt": "3406",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-ea20946e4733bc6d": {
+      "id": "2026-11-1-product-ea20946e4733bc6d",
+      "asset": "assets/editions/2026-11-1/product/ea20946e4733bc6d.png",
+      "alt": "3454",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-e2a89ae4c477bfe0": {
+      "id": "2026-11-1-product-e2a89ae4c477bfe0",
+      "asset": "assets/editions/2026-11-1/product/e2a89ae4c477bfe0.png",
+      "alt": "4577",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-0f005e9d2dcbd2ae": {
+      "id": "2026-11-1-product-0f005e9d2dcbd2ae",
+      "asset": "assets/editions/2026-11-1/product/0f005e9d2dcbd2ae.png",
+      "alt": "4588",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-4151a4ecff797481": {
+      "id": "2026-11-1-product-4151a4ecff797481",
+      "asset": "assets/editions/2026-11-1/product/4151a4ecff797481.png",
+      "alt": "5151",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-d1e5fe787f2fbb48": {
+      "id": "2026-11-1-product-d1e5fe787f2fbb48",
+      "asset": "assets/editions/2026-11-1/product/d1e5fe787f2fbb48.png",
+      "alt": "8181",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-260bbbe6116523e1": {
+      "id": "2026-11-1-product-260bbbe6116523e1",
+      "asset": "assets/editions/2026-11-1/product/260bbbe6116523e1.png",
+      "alt": "1813",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-13f8e58bba7e9483": {
+      "id": "2026-11-1-product-13f8e58bba7e9483",
+      "asset": "assets/editions/2026-11-1/product/13f8e58bba7e9483.png",
+      "alt": "3414",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-33569e6260201d2a": {
+      "id": "2026-11-1-product-33569e6260201d2a",
+      "asset": "assets/editions/2026-11-1/product/33569e6260201d2a.png",
+      "alt": "4660",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-5e5f33521eb58767": {
+      "id": "2026-11-1-product-5e5f33521eb58767",
+      "asset": "assets/editions/2026-11-1/product/5e5f33521eb58767.png",
+      "alt": "8129",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-41d95ab2d0ce182a": {
+      "id": "2026-11-1-product-41d95ab2d0ce182a",
+      "asset": "assets/editions/2026-11-1/product/41d95ab2d0ce182a.png",
+      "alt": "8571",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-panorama-27a979152df9d652": {
+      "id": "2026-11-1-panorama-27a979152df9d652",
+      "asset": "assets/editions/2026-11-1/panorama/27a979152df9d652.jpg",
+      "alt": "panorama",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.3333333333333333,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 3000,
+        "height": 2250
+      },
+      "role": "photo"
+    },
+    "2026-11-1-panorama-bae39b45d6b2467e": {
+      "id": "2026-11-1-panorama-bae39b45d6b2467e",
+      "asset": "assets/editions/2026-11-1/panorama/bae39b45d6b2467e.jpg",
+      "alt": "panorama",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.3251533742331287,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 3024,
+        "height": 2282
+      },
+      "role": "photo"
+    },
+    "2026-11-1-panorama-ea3e1e18f5dc755f": {
+      "id": "2026-11-1-panorama-ea3e1e18f5dc755f",
+      "asset": "assets/editions/2026-11-1/panorama/ea3e1e18f5dc755f.jpg",
+      "alt": "panorama",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.3251533742331287,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 3024,
+        "height": 2282
+      },
+      "role": "photo"
+    },
+    "2026-11-1-outfit-4f78b57b14d847bb": {
+      "id": "2026-11-1-outfit-4f78b57b14d847bb",
+      "asset": "assets/editions/2026-11-1/outfit/4f78b57b14d847bb.jpg",
+      "alt": "outfit",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 0.4527473189465743,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1421,
+        "height": 3139
+      },
+      "role": "photo"
+    },
+    "2026-11-1-outfit-49fe39ff8ede475f": {
+      "id": "2026-11-1-outfit-49fe39ff8ede475f",
+      "asset": "assets/editions/2026-11-1/outfit/49fe39ff8ede475f.jpg",
+      "alt": "outfit",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 0.45289464029759063,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1417,
+        "height": 3129
+      },
+      "role": "photo"
+    },
+    "2026-11-1-outfit-121d53abce36a42f": {
+      "id": "2026-11-1-outfit-121d53abce36a42f",
+      "asset": "assets/editions/2026-11-1/outfit/121d53abce36a42f.jpg",
+      "alt": "outfit",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 0.45067249769254986,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1352,
+        "height": 3000
+      },
+      "role": "photo"
+    },
+    "2026-11-1-outfit-9a494e4fe2817b82": {
+      "id": "2026-11-1-outfit-9a494e4fe2817b82",
+      "asset": "assets/editions/2026-11-1/outfit/9a494e4fe2817b82.jpg",
+      "alt": "outfit",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 0.44885897152475723,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1393,
+        "height": 3103
+      },
+      "role": "photo"
+    },
+    "2026-11-1-outfit-603bed0711d44ae8": {
+      "id": "2026-11-1-outfit-603bed0711d44ae8",
+      "asset": "assets/editions/2026-11-1/outfit/603bed0711d44ae8.jpg",
+      "alt": "outfit",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 0.46960496154983733,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1423,
+        "height": 3030
+      },
+      "role": "photo"
+    },
+    "2026-11-1-outfit-b07fce2fa024eb08": {
+      "id": "2026-11-1-outfit-b07fce2fa024eb08",
+      "asset": "assets/editions/2026-11-1/outfit/b07fce2fa024eb08.jpg",
+      "alt": "outfit",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 0.46781807413600895,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1403,
+        "height": 3000
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-1f62c8b3813f9be0": {
+      "id": "2026-11-1-product-1f62c8b3813f9be0",
+      "asset": "assets/editions/2026-11-1/product/1f62c8b3813f9be0.png",
+      "alt": "1814",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-e70e2dfb40efc36e": {
+      "id": "2026-11-1-product-e70e2dfb40efc36e",
+      "asset": "assets/editions/2026-11-1/product/e70e2dfb40efc36e.png",
+      "alt": "3415",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-unisex-8cd36d82eb2d9502": {
+      "id": "2026-11-1-unisex-8cd36d82eb2d9502",
+      "asset": "assets/editions/2026-11-1/unisex/8cd36d82eb2d9502.jpg",
+      "alt": "unisex",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 0.75,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 2250,
+        "height": 3000
+      },
+      "role": "photo"
+    },
+    "2026-11-1-unisex-b9cb06ec42433eae": {
+      "id": "2026-11-1-unisex-b9cb06ec42433eae",
+      "asset": "assets/editions/2026-11-1/unisex/b9cb06ec42433eae.jpg",
+      "alt": "unisex",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 0.7534791252485089,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 2274,
+        "height": 3018
+      },
+      "role": "photo"
+    },
+    "2026-11-1-unisex-efd22af2d9fd950b": {
+      "id": "2026-11-1-unisex-efd22af2d9fd950b",
+      "asset": "assets/editions/2026-11-1/unisex/efd22af2d9fd950b.jpg",
+      "alt": "unisex",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 0.7543046357615895,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 2278,
+        "height": 3020
+      },
+      "role": "photo"
+    },
+    "2026-11-1-unisex-abfc3ba0e2786c24": {
+      "id": "2026-11-1-unisex-abfc3ba0e2786c24",
+      "asset": "assets/editions/2026-11-1/unisex/abfc3ba0e2786c24.jpg",
+      "alt": "unisex",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 0.75,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 2250,
+        "height": 3000
+      },
+      "role": "photo"
+    },
+    "2026-11-1-unisex-cda3689b9e115241": {
+      "id": "2026-11-1-unisex-cda3689b9e115241",
+      "asset": "assets/editions/2026-11-1/unisex/cda3689b9e115241.jpg",
+      "alt": "unisex",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 0.7534791252485089,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 2274,
+        "height": 3018
+      },
+      "role": "photo"
+    },
+    "2026-11-1-unisex-dfa2a4e4be653fcf": {
+      "id": "2026-11-1-unisex-dfa2a4e4be653fcf",
+      "asset": "assets/editions/2026-11-1/unisex/dfa2a4e4be653fcf.jpg",
+      "alt": "unisex",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 0.75,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 2250,
+        "height": 3000
+      },
+      "role": "photo"
+    },
+    "2026-11-1-unisex-07936619087a3b5f": {
+      "id": "2026-11-1-unisex-07936619087a3b5f",
+      "asset": "assets/editions/2026-11-1/unisex/07936619087a3b5f.jpg",
+      "alt": "unisex",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 0.7556142668428005,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 2288,
+        "height": 3028
+      },
+      "role": "photo"
+    },
+    "2026-11-1-woman-62c29f1edbc026f9": {
+      "id": "2026-11-1-woman-62c29f1edbc026f9",
+      "asset": "assets/editions/2026-11-1/woman/62c29f1edbc026f9.jpg",
+      "alt": "woman",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 0.753315649867374,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 2272,
+        "height": 3016
+      },
+      "role": "photo"
+    },
+    "2026-11-1-woman-be66767b614338ae": {
+      "id": "2026-11-1-woman-be66767b614338ae",
+      "asset": "assets/editions/2026-11-1/woman/be66767b614338ae.jpg",
+      "alt": "woman",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 0.7556142668428005,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 2288,
+        "height": 3028
+      },
+      "role": "photo"
+    },
+    "2026-11-1-bag-3b7846b10e1d8f3b": {
+      "id": "2026-11-1-bag-3b7846b10e1d8f3b",
+      "asset": "assets/editions/2026-11-1/bag/3b7846b10e1d8f3b.jpg",
+      "alt": "bag",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 0.7543046357615895,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 2278,
+        "height": 3020
+      },
+      "role": "photo"
+    },
+    "2026-11-1-bag-860474a303b5ee32": {
+      "id": "2026-11-1-bag-860474a303b5ee32",
+      "asset": "assets/editions/2026-11-1/bag/860474a303b5ee32.jpg",
+      "alt": "bag",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 0.7547918043621943,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 2284,
+        "height": 3026
+      },
+      "role": "photo"
+    },
+    "2026-11-1-bag-5e5eeb46034ad1e5": {
+      "id": "2026-11-1-bag-5e5eeb46034ad1e5",
+      "asset": "assets/editions/2026-11-1/bag/5e5eeb46034ad1e5.jpg",
+      "alt": "bag",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 0.7546296296296297,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 2282,
+        "height": 3024
+      },
+      "role": "photo"
+    },
+    "2026-11-1-bag-1a7dd0f7f590f0e3": {
+      "id": "2026-11-1-bag-1a7dd0f7f590f0e3",
+      "asset": "assets/editions/2026-11-1/bag/1a7dd0f7f590f0e3.jpg",
+      "alt": "bag",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 0.75,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 2250,
+        "height": 3000
+      },
+      "role": "photo"
+    },
+    "2026-11-1-bag-ba531681934ff647": {
+      "id": "2026-11-1-bag-ba531681934ff647",
+      "asset": "assets/editions/2026-11-1/bag/ba531681934ff647.jpg",
+      "alt": "bag",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 0.7556142668428005,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 2288,
+        "height": 3028
+      },
+      "role": "photo"
+    },
+    "2026-11-1-bag-00aab4211b524ac0": {
+      "id": "2026-11-1-bag-00aab4211b524ac0",
+      "asset": "assets/editions/2026-11-1/bag/00aab4211b524ac0.jpg",
+      "alt": "bag",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 0.75,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 2250,
+        "height": 3000
+      },
+      "role": "photo"
+    },
+    "2026-11-1-bag-bc6ccdedb4014526": {
+      "id": "2026-11-1-bag-bc6ccdedb4014526",
+      "asset": "assets/editions/2026-11-1/bag/bc6ccdedb4014526.jpg",
+      "alt": "bag",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.3295053003533568,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 3010,
+        "height": 2264
+      },
+      "role": "photo"
+    },
+    "2026-11-1-acc-44e8c99528f51afd": {
+      "id": "2026-11-1-acc-44e8c99528f51afd",
+      "asset": "assets/editions/2026-11-1/acc/44e8c99528f51afd.jpg",
+      "alt": "acc",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.3333333333333333,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 3000,
+        "height": 2250
+      },
+      "role": "photo"
+    },
+    "2026-11-1-headwear-3a47a23b3fccfd15": {
+      "id": "2026-11-1-headwear-3a47a23b3fccfd15",
+      "asset": "assets/editions/2026-11-1/headwear/3a47a23b3fccfd15.jpg",
+      "alt": "headwear",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 0.7509986684420772,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 2256,
+        "height": 3004
+      },
+      "role": "photo"
+    },
+    "2026-11-1-headwear-4aae9fac8ff11918": {
+      "id": "2026-11-1-headwear-4aae9fac8ff11918",
+      "asset": "assets/editions/2026-11-1/headwear/4aae9fac8ff11918.jpg",
+      "alt": "headwear",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.3333333333333333,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 3000,
+        "height": 2250
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-21bbe626d9622bd1": {
+      "id": "2026-11-1-product-21bbe626d9622bd1",
+      "asset": "assets/editions/2026-11-1/product/21bbe626d9622bd1.png",
+      "alt": "4577",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-table-76bf585c32082099": {
+      "id": "2026-11-1-table-76bf585c32082099",
+      "asset": "assets/editions/2026-11-1/table/76bf585c32082099.png",
+      "alt": "table",
+      "frame": {
+        "x": 0.35,
+        "y": 0.15000000000000036,
+        "width": 5.0,
+        "height": 6.0,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "r": 0,
+        "t": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1193,
+        "height": 1432
+      },
+      "role": "photo"
+    },
+    "2026-11-1-table-153a0500e1b98052": {
+      "id": "2026-11-1-table-153a0500e1b98052",
+      "asset": "assets/editions/2026-11-1/table/153a0500e1b98052.png",
+      "alt": "table",
+      "frame": {
+        "x": 0.35,
+        "y": 2.552962073873918,
+        "width": 5.0,
+        "height": 3.75,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "r": 0,
+        "t": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1523,
+        "height": 1142
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-4192137047504c70": {
+      "id": "2026-11-1-product-4192137047504c70",
+      "asset": "assets/editions/2026-11-1/product/4192137047504c70.png",
+      "alt": "1928",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-1801e5976c4f7f8c": {
+      "id": "2026-11-1-product-1801e5976c4f7f8c",
+      "asset": "assets/editions/2026-11-1/product/1801e5976c4f7f8c.png",
+      "alt": "1928",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-90140c1399616138": {
+      "id": "2026-11-1-product-90140c1399616138",
+      "asset": "assets/editions/2026-11-1/product/90140c1399616138.png",
+      "alt": "3407",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-6290c3d97ad93626": {
+      "id": "2026-11-1-product-6290c3d97ad93626",
+      "asset": "assets/editions/2026-11-1/product/6290c3d97ad93626.png",
+      "alt": "3414",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-26fb1ed82cd48cba": {
+      "id": "2026-11-1-product-26fb1ed82cd48cba",
+      "asset": "assets/editions/2026-11-1/product/26fb1ed82cd48cba.png",
+      "alt": "4037",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-52685cfe8b6d9ec1": {
+      "id": "2026-11-1-product-52685cfe8b6d9ec1",
+      "asset": "assets/editions/2026-11-1/product/52685cfe8b6d9ec1.png",
+      "alt": "4043",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-081720c2741efdbc": {
+      "id": "2026-11-1-product-081720c2741efdbc",
+      "asset": "assets/editions/2026-11-1/product/081720c2741efdbc.png",
+      "alt": "4190",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-9f8a8a5a32411748": {
+      "id": "2026-11-1-product-9f8a8a5a32411748",
+      "asset": "assets/editions/2026-11-1/product/9f8a8a5a32411748.png",
+      "alt": "4036",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-13e4a10edcf67953": {
+      "id": "2026-11-1-product-13e4a10edcf67953",
+      "asset": "assets/editions/2026-11-1/product/13e4a10edcf67953.png",
+      "alt": "4036",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-efe7a88098dcde21": {
+      "id": "2026-11-1-product-efe7a88098dcde21",
+      "asset": "assets/editions/2026-11-1/product/efe7a88098dcde21.png",
+      "alt": "4036",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-table-87e56ae021c12f29": {
+      "id": "2026-11-1-table-87e56ae021c12f29",
+      "asset": "assets/editions/2026-11-1/table/87e56ae021c12f29.png",
+      "alt": "table",
+      "frame": {
+        "x": 0.35,
+        "y": 0.15000000000000036,
+        "width": 5.0,
+        "height": 4.777864380358535,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "r": 0,
+        "t": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1385,
+        "height": 1323
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-33922b6be61fca62": {
+      "id": "2026-11-1-product-33922b6be61fca62",
+      "asset": "assets/editions/2026-11-1/product/33922b6be61fca62.png",
+      "alt": "1928",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-dc9f4332df3951bb": {
+      "id": "2026-11-1-product-dc9f4332df3951bb",
+      "asset": "assets/editions/2026-11-1/product/dc9f4332df3951bb.png",
+      "alt": "1928",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-1f57b757be44df74": {
+      "id": "2026-11-1-product-1f57b757be44df74",
+      "asset": "assets/editions/2026-11-1/product/1f57b757be44df74.png",
+      "alt": "3407",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-789c8e04ba230c5f": {
+      "id": "2026-11-1-product-789c8e04ba230c5f",
+      "asset": "assets/editions/2026-11-1/product/789c8e04ba230c5f.png",
+      "alt": "3414",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-8af73e283517007d": {
+      "id": "2026-11-1-product-8af73e283517007d",
+      "asset": "assets/editions/2026-11-1/product/8af73e283517007d.png",
+      "alt": "4037",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-c32c27bb44be0a85": {
+      "id": "2026-11-1-product-c32c27bb44be0a85",
+      "asset": "assets/editions/2026-11-1/product/c32c27bb44be0a85.png",
+      "alt": "4043",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-6b4e95c955d30ee9": {
+      "id": "2026-11-1-product-6b4e95c955d30ee9",
+      "asset": "assets/editions/2026-11-1/product/6b4e95c955d30ee9.png",
+      "alt": "4190",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-3b70fd2374678e03": {
+      "id": "2026-11-1-product-3b70fd2374678e03",
+      "asset": "assets/editions/2026-11-1/product/3b70fd2374678e03.png",
+      "alt": "4036",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-4e0300a8f7e8934f": {
+      "id": "2026-11-1-product-4e0300a8f7e8934f",
+      "asset": "assets/editions/2026-11-1/product/4e0300a8f7e8934f.png",
+      "alt": "4036",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-d456336c4bba27c8": {
+      "id": "2026-11-1-product-d456336c4bba27c8",
+      "asset": "assets/editions/2026-11-1/product/d456336c4bba27c8.png",
+      "alt": "4036",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-table-fdf1c7fc9058cad3": {
+      "id": "2026-11-1-table-fdf1c7fc9058cad3",
+      "asset": "assets/editions/2026-11-1/table/fdf1c7fc9058cad3.png",
+      "alt": "table",
+      "frame": {
+        "x": 0.35,
+        "y": 1.1386940570055515,
+        "width": 5.0,
+        "height": 3.75,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "r": 0,
+        "t": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1547,
+        "height": 1161
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-31e3daeb4533fd38": {
+      "id": "2026-11-1-product-31e3daeb4533fd38",
+      "asset": "assets/editions/2026-11-1/product/31e3daeb4533fd38.png",
+      "alt": "1928",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-f875157435baf4d9": {
+      "id": "2026-11-1-product-f875157435baf4d9",
+      "asset": "assets/editions/2026-11-1/product/f875157435baf4d9.png",
+      "alt": "1928",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-49be5f22dc6ec224": {
+      "id": "2026-11-1-product-49be5f22dc6ec224",
+      "asset": "assets/editions/2026-11-1/product/49be5f22dc6ec224.png",
+      "alt": "3407",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-74b57c9649a985cb": {
+      "id": "2026-11-1-product-74b57c9649a985cb",
+      "asset": "assets/editions/2026-11-1/product/74b57c9649a985cb.png",
+      "alt": "3414",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-c8c20f163e84c036": {
+      "id": "2026-11-1-product-c8c20f163e84c036",
+      "asset": "assets/editions/2026-11-1/product/c8c20f163e84c036.png",
+      "alt": "4037",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-0cc822b8924f6b15": {
+      "id": "2026-11-1-product-0cc822b8924f6b15",
+      "asset": "assets/editions/2026-11-1/product/0cc822b8924f6b15.png",
+      "alt": "4043",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-8fd57a795807b8b7": {
+      "id": "2026-11-1-product-8fd57a795807b8b7",
+      "asset": "assets/editions/2026-11-1/product/8fd57a795807b8b7.png",
+      "alt": "4190",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-07704b959a998269": {
+      "id": "2026-11-1-product-07704b959a998269",
+      "asset": "assets/editions/2026-11-1/product/07704b959a998269.png",
+      "alt": "4036",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-9ed5ef155de61778": {
+      "id": "2026-11-1-product-9ed5ef155de61778",
+      "asset": "assets/editions/2026-11-1/product/9ed5ef155de61778.png",
+      "alt": "4036",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-3d1083e42e4332ff": {
+      "id": "2026-11-1-product-3d1083e42e4332ff",
+      "asset": "assets/editions/2026-11-1/product/3d1083e42e4332ff.png",
+      "alt": "4036",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-81441e93cf4b1eed": {
+      "id": "2026-11-1-product-81441e93cf4b1eed",
+      "asset": "assets/editions/2026-11-1/product/81441e93cf4b1eed.png",
+      "alt": "1928",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-987264862904aa71": {
+      "id": "2026-11-1-product-987264862904aa71",
+      "asset": "assets/editions/2026-11-1/product/987264862904aa71.png",
+      "alt": "1928",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-8f8c7eaf817b9081": {
+      "id": "2026-11-1-product-8f8c7eaf817b9081",
+      "asset": "assets/editions/2026-11-1/product/8f8c7eaf817b9081.png",
+      "alt": "3407",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-54bfaa5a6e8bc877": {
+      "id": "2026-11-1-product-54bfaa5a6e8bc877",
+      "asset": "assets/editions/2026-11-1/product/54bfaa5a6e8bc877.png",
+      "alt": "3414",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-48f63a8cc2283e40": {
+      "id": "2026-11-1-product-48f63a8cc2283e40",
+      "asset": "assets/editions/2026-11-1/product/48f63a8cc2283e40.png",
+      "alt": "4037",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-67ea820c1b07d796": {
+      "id": "2026-11-1-product-67ea820c1b07d796",
+      "asset": "assets/editions/2026-11-1/product/67ea820c1b07d796.png",
+      "alt": "4043",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-3238ee079fefe160": {
+      "id": "2026-11-1-product-3238ee079fefe160",
+      "asset": "assets/editions/2026-11-1/product/3238ee079fefe160.png",
+      "alt": "4190",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-9c450d2373ff1179": {
+      "id": "2026-11-1-product-9c450d2373ff1179",
+      "asset": "assets/editions/2026-11-1/product/9c450d2373ff1179.png",
+      "alt": "4036",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-ead44bbaa340f827": {
+      "id": "2026-11-1-product-ead44bbaa340f827",
+      "asset": "assets/editions/2026-11-1/product/ead44bbaa340f827.png",
+      "alt": "4036",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-76582612be0eea95": {
+      "id": "2026-11-1-product-76582612be0eea95",
+      "asset": "assets/editions/2026-11-1/product/76582612be0eea95.png",
+      "alt": "4036",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo"
+    },
+    "2026-11-1-product-a5c7c99ab7bf22bb": {
+      "id": "2026-11-1-product-a5c7c99ab7bf22bb",
+      "asset": "assets/editions/2026-11-1/product/a5c7c99ab7bf22bb.png",
+      "alt": "4037",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1.0,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 1500,
+        "height": 1500
+      },
+      "role": "photo",
+      "backgroundReview": true
+    },
+    "2026-11-1-pop-980a195121d7ce6e": {
+      "id": "2026-11-1-pop-980a195121d7ce6e",
+      "asset": "assets/editions/2026-11-1/pop/980a195121d7ce6e.png",
+      "alt": "pop",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 0.7066795740561471,
+        "height": 1,
+        "rotation": 0,
+        "flipH": false,
+        "flipV": false
+      },
+      "crop": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      },
+      "opacity": 1,
+      "z": 1,
+      "naturalSize": {
+        "width": 730,
+        "height": 1033
+      },
+      "role": "photo"
+    }
+  },
+  "products": {
+    "2026-11-1-product-4192137047504c70-item": {
+      "id": "2026-11-1-product-4192137047504c70-item",
+      "photoId": "2026-11-1-product-4192137047504c70",
+      "code": "1928",
+      "name": ""
+    },
+    "2026-11-1-product-1801e5976c4f7f8c-item": {
+      "id": "2026-11-1-product-1801e5976c4f7f8c-item",
+      "photoId": "2026-11-1-product-1801e5976c4f7f8c",
+      "code": "1928",
+      "name": ""
+    },
+    "2026-11-1-product-90140c1399616138-item": {
+      "id": "2026-11-1-product-90140c1399616138-item",
+      "photoId": "2026-11-1-product-90140c1399616138",
+      "code": "3407",
+      "name": ""
+    },
+    "2026-11-1-product-6290c3d97ad93626-item": {
+      "id": "2026-11-1-product-6290c3d97ad93626-item",
+      "photoId": "2026-11-1-product-6290c3d97ad93626",
+      "code": "3414",
+      "name": ""
+    },
+    "2026-11-1-product-26fb1ed82cd48cba-item": {
+      "id": "2026-11-1-product-26fb1ed82cd48cba-item",
+      "photoId": "2026-11-1-product-26fb1ed82cd48cba",
+      "code": "4037",
+      "name": ""
+    },
+    "2026-11-1-product-52685cfe8b6d9ec1-item": {
+      "id": "2026-11-1-product-52685cfe8b6d9ec1-item",
+      "photoId": "2026-11-1-product-52685cfe8b6d9ec1",
+      "code": "4043",
+      "name": ""
+    },
+    "2026-11-1-product-081720c2741efdbc-item": {
+      "id": "2026-11-1-product-081720c2741efdbc-item",
+      "photoId": "2026-11-1-product-081720c2741efdbc",
+      "code": "4190",
+      "name": ""
+    },
+    "2026-11-1-product-9f8a8a5a32411748-item": {
+      "id": "2026-11-1-product-9f8a8a5a32411748-item",
+      "photoId": "2026-11-1-product-9f8a8a5a32411748",
+      "code": "4036",
+      "name": ""
+    },
+    "2026-11-1-product-13e4a10edcf67953-item": {
+      "id": "2026-11-1-product-13e4a10edcf67953-item",
+      "photoId": "2026-11-1-product-13e4a10edcf67953",
+      "code": "4036",
+      "name": ""
+    },
+    "2026-11-1-product-efe7a88098dcde21-item": {
+      "id": "2026-11-1-product-efe7a88098dcde21-item",
+      "photoId": "2026-11-1-product-efe7a88098dcde21",
+      "code": "4036",
+      "name": ""
+    },
+    "2026-11-1-product-33922b6be61fca62-item": {
+      "id": "2026-11-1-product-33922b6be61fca62-item",
+      "photoId": "2026-11-1-product-33922b6be61fca62",
+      "code": "1928",
+      "name": ""
+    },
+    "2026-11-1-product-dc9f4332df3951bb-item": {
+      "id": "2026-11-1-product-dc9f4332df3951bb-item",
+      "photoId": "2026-11-1-product-dc9f4332df3951bb",
+      "code": "1928",
+      "name": ""
+    },
+    "2026-11-1-product-1f57b757be44df74-item": {
+      "id": "2026-11-1-product-1f57b757be44df74-item",
+      "photoId": "2026-11-1-product-1f57b757be44df74",
+      "code": "3407",
+      "name": ""
+    },
+    "2026-11-1-product-789c8e04ba230c5f-item": {
+      "id": "2026-11-1-product-789c8e04ba230c5f-item",
+      "photoId": "2026-11-1-product-789c8e04ba230c5f",
+      "code": "3414",
+      "name": ""
+    },
+    "2026-11-1-product-8af73e283517007d-item": {
+      "id": "2026-11-1-product-8af73e283517007d-item",
+      "photoId": "2026-11-1-product-8af73e283517007d",
+      "code": "4037",
+      "name": ""
+    },
+    "2026-11-1-product-c32c27bb44be0a85-item": {
+      "id": "2026-11-1-product-c32c27bb44be0a85-item",
+      "photoId": "2026-11-1-product-c32c27bb44be0a85",
+      "code": "4043",
+      "name": ""
+    },
+    "2026-11-1-product-6b4e95c955d30ee9-item": {
+      "id": "2026-11-1-product-6b4e95c955d30ee9-item",
+      "photoId": "2026-11-1-product-6b4e95c955d30ee9",
+      "code": "4190",
+      "name": ""
+    },
+    "2026-11-1-product-3b70fd2374678e03-item": {
+      "id": "2026-11-1-product-3b70fd2374678e03-item",
+      "photoId": "2026-11-1-product-3b70fd2374678e03",
+      "code": "4036",
+      "name": ""
+    },
+    "2026-11-1-product-4e0300a8f7e8934f-item": {
+      "id": "2026-11-1-product-4e0300a8f7e8934f-item",
+      "photoId": "2026-11-1-product-4e0300a8f7e8934f",
+      "code": "4036",
+      "name": ""
+    },
+    "2026-11-1-product-d456336c4bba27c8-item": {
+      "id": "2026-11-1-product-d456336c4bba27c8-item",
+      "photoId": "2026-11-1-product-d456336c4bba27c8",
+      "code": "4036",
+      "name": ""
+    },
+    "2026-11-1-product-31e3daeb4533fd38-item": {
+      "id": "2026-11-1-product-31e3daeb4533fd38-item",
+      "photoId": "2026-11-1-product-31e3daeb4533fd38",
+      "code": "1928",
+      "name": ""
+    },
+    "2026-11-1-product-f875157435baf4d9-item": {
+      "id": "2026-11-1-product-f875157435baf4d9-item",
+      "photoId": "2026-11-1-product-f875157435baf4d9",
+      "code": "1928",
+      "name": ""
+    },
+    "2026-11-1-product-49be5f22dc6ec224-item": {
+      "id": "2026-11-1-product-49be5f22dc6ec224-item",
+      "photoId": "2026-11-1-product-49be5f22dc6ec224",
+      "code": "3407",
+      "name": ""
+    },
+    "2026-11-1-product-74b57c9649a985cb-item": {
+      "id": "2026-11-1-product-74b57c9649a985cb-item",
+      "photoId": "2026-11-1-product-74b57c9649a985cb",
+      "code": "3414",
+      "name": ""
+    },
+    "2026-11-1-product-c8c20f163e84c036-item": {
+      "id": "2026-11-1-product-c8c20f163e84c036-item",
+      "photoId": "2026-11-1-product-c8c20f163e84c036",
+      "code": "4037",
+      "name": ""
+    },
+    "2026-11-1-product-0cc822b8924f6b15-item": {
+      "id": "2026-11-1-product-0cc822b8924f6b15-item",
+      "photoId": "2026-11-1-product-0cc822b8924f6b15",
+      "code": "4043",
+      "name": ""
+    },
+    "2026-11-1-product-8fd57a795807b8b7-item": {
+      "id": "2026-11-1-product-8fd57a795807b8b7-item",
+      "photoId": "2026-11-1-product-8fd57a795807b8b7",
+      "code": "4190",
+      "name": ""
+    },
+    "2026-11-1-product-07704b959a998269-item": {
+      "id": "2026-11-1-product-07704b959a998269-item",
+      "photoId": "2026-11-1-product-07704b959a998269",
+      "code": "4036",
+      "name": ""
+    },
+    "2026-11-1-product-9ed5ef155de61778-item": {
+      "id": "2026-11-1-product-9ed5ef155de61778-item",
+      "photoId": "2026-11-1-product-9ed5ef155de61778",
+      "code": "4036",
+      "name": ""
+    },
+    "2026-11-1-product-3d1083e42e4332ff-item": {
+      "id": "2026-11-1-product-3d1083e42e4332ff-item",
+      "photoId": "2026-11-1-product-3d1083e42e4332ff",
+      "code": "4036",
+      "name": ""
+    },
+    "2026-11-1-product-81441e93cf4b1eed-item": {
+      "id": "2026-11-1-product-81441e93cf4b1eed-item",
+      "photoId": "2026-11-1-product-81441e93cf4b1eed",
+      "code": "1928",
+      "name": ""
+    },
+    "2026-11-1-product-987264862904aa71-item": {
+      "id": "2026-11-1-product-987264862904aa71-item",
+      "photoId": "2026-11-1-product-987264862904aa71",
+      "code": "1928",
+      "name": ""
+    },
+    "2026-11-1-product-8f8c7eaf817b9081-item": {
+      "id": "2026-11-1-product-8f8c7eaf817b9081-item",
+      "photoId": "2026-11-1-product-8f8c7eaf817b9081",
+      "code": "3407",
+      "name": ""
+    },
+    "2026-11-1-product-54bfaa5a6e8bc877-item": {
+      "id": "2026-11-1-product-54bfaa5a6e8bc877-item",
+      "photoId": "2026-11-1-product-54bfaa5a6e8bc877",
+      "code": "3414",
+      "name": ""
+    },
+    "2026-11-1-product-48f63a8cc2283e40-item": {
+      "id": "2026-11-1-product-48f63a8cc2283e40-item",
+      "photoId": "2026-11-1-product-48f63a8cc2283e40",
+      "code": "4037",
+      "name": ""
+    },
+    "2026-11-1-product-67ea820c1b07d796-item": {
+      "id": "2026-11-1-product-67ea820c1b07d796-item",
+      "photoId": "2026-11-1-product-67ea820c1b07d796",
+      "code": "4043",
+      "name": ""
+    },
+    "2026-11-1-product-3238ee079fefe160-item": {
+      "id": "2026-11-1-product-3238ee079fefe160-item",
+      "photoId": "2026-11-1-product-3238ee079fefe160",
+      "code": "4190",
+      "name": ""
+    },
+    "2026-11-1-product-9c450d2373ff1179-item": {
+      "id": "2026-11-1-product-9c450d2373ff1179-item",
+      "photoId": "2026-11-1-product-9c450d2373ff1179",
+      "code": "4036",
+      "name": ""
+    },
+    "2026-11-1-product-ead44bbaa340f827-item": {
+      "id": "2026-11-1-product-ead44bbaa340f827-item",
+      "photoId": "2026-11-1-product-ead44bbaa340f827",
+      "code": "4036",
+      "name": ""
+    },
+    "2026-11-1-product-76582612be0eea95-item": {
+      "id": "2026-11-1-product-76582612be0eea95-item",
+      "photoId": "2026-11-1-product-76582612be0eea95",
+      "code": "4036",
+      "name": ""
+    }
+  },
+  "keyNotes": [],
+  "keyItem": {
+    "comment": [
+      "해당 상품은 26AW 집중 노출 및 판매 진행하는 상품입니다.",
+      "메인 동선 및 주요 위치 우선 노출해주시고, 착장 및 DP 적극 활용 부탁드립니다."
+    ],
+    "groups": [
+      {
+        "id": "retro-pigment",
+        "name": "RETRO PIGMENT",
+        "items": [
+          {
+            "id": "key-1512",
+            "photoId": "s10-pic-35",
+            "name": "",
+            "code": "1512"
+          },
+          {
+            "id": "key-4034",
+            "photoId": "s10-pic-39",
+            "name": "",
+            "code": "4034"
+          },
+          {
+            "id": "key-3406",
+            "photoId": "s10-pic-37",
+            "name": "",
+            "code": "3406"
+          }
+        ]
+      },
+      {
+        "id": "super-light",
+        "name": "SUPER LIGHT",
+        "items": [
+          {
+            "id": "key-1516",
+            "photoId": "s10-pic-30",
+            "name": "",
+            "code": "1516"
+          },
+          {
+            "id": "key-4046",
+            "photoId": "s10-pic-32",
+            "name": "",
+            "code": "4046"
+          },
+          {
+            "id": "key-4047",
+            "photoId": "s10-pic-28",
+            "name": "",
+            "code": "4047"
+          }
+        ]
+      },
+      {
+        "id": "reversible-check",
+        "name": "REVERSIBLE CHECK",
+        "items": [
+          {
+            "id": "key-3413",
+            "photoId": "s10-pic-42",
+            "name": "",
+            "code": "3413"
+          },
+          {
+            "id": "key-4041",
+            "photoId": "s10-pic-44",
+            "name": "",
+            "code": "4041"
+          }
+        ]
+      }
+    ],
+    "galleries": [
+      {
+        "id": "gallery-11",
+        "label": "RETRO PIGMENT",
+        "columns": 3,
+        "photoIds": [
+          "s11-pic-22",
+          "s11-pic-24",
+          "s11-pic-18"
+        ]
+      },
+      {
+        "id": "gallery-12",
+        "label": "SUPER LIGHT",
+        "columns": 3,
+        "photoIds": [
+          "s12-pic-12",
+          "s12-pic-18",
+          "s12-pic-11"
+        ]
+      },
+      {
+        "id": "gallery-13",
+        "label": "REVERSIBLE CKECK",
+        "columns": 3,
+        "photoIds": [
+          "s13-pic-10",
+          "s13-pic-14",
+          "s13-pic-12"
+        ]
+      }
+    ]
+  },
+  "galleries": {
+    "unisex": [
+      {
+        "id": "2026-10-2-unisex",
+        "photoIds": [
+          "2026-11-1-unisex-8cd36d82eb2d9502",
+          "2026-11-1-unisex-b9cb06ec42433eae",
+          "2026-11-1-unisex-efd22af2d9fd950b",
+          "2026-11-1-unisex-abfc3ba0e2786c24",
+          "2026-11-1-unisex-cda3689b9e115241",
+          "2026-11-1-unisex-dfa2a4e4be653fcf",
+          "2026-11-1-unisex-07936619087a3b5f"
+        ],
+        "columns": 3
+      }
+    ],
+    "woman": [
+      {
+        "id": "2026-10-2-woman",
+        "photoIds": [
+          "2026-11-1-woman-62c29f1edbc026f9",
+          "2026-11-1-woman-be66767b614338ae"
+        ],
+        "columns": 3
+      }
+    ],
+    "bag": [
+      {
+        "id": "2026-10-2-bag",
+        "photoIds": [
+          "2026-11-1-bag-bc6ccdedb4014526",
+          "2026-11-1-bag-00aab4211b524ac0",
+          "2026-11-1-bag-3b7846b10e1d8f3b",
+          "2026-11-1-bag-860474a303b5ee32",
+          "2026-11-1-bag-5e5eeb46034ad1e5",
+          "2026-11-1-bag-1a7dd0f7f590f0e3",
+          "2026-11-1-bag-ba531681934ff647"
+        ],
+        "columns": 3
+      }
+    ],
+    "acc": [
+      {
+        "id": "gallery-28",
+        "label": "",
+        "columns": 2,
+        "photoIds": [
+          "2026-11-1-acc-44e8c99528f51afd",
+          "s28-pic-24",
+          "s28-pic-26"
+        ],
+        "comment": "AI로 제작된 이미지로, 실제 상품과 디테일 차이가 있을 수 있습니다."
+      }
+    ],
+    "headwear": [
+      {
+        "id": "gallery-29",
+        "label": "",
+        "columns": 2,
+        "photoIds": [
+          "2026-11-1-headwear-3a47a23b3fccfd15",
+          "2026-11-1-headwear-4aae9fac8ff11918"
+        ]
+      },
+      {
+        "id": "gallery-30",
+        "label": "",
+        "columns": 2,
+        "photoIds": []
+      }
+    ]
+  },
+  "keyNotesSearchText": " · VM 운영 가이드·\n\n원활하고 효율적인 운영을 위해 ‘카카오톡 오픈채팅방’과 ‘구글 드라이브’로 운영합니다.\n\n\n1. 카카오톡 오픈채팅방\n\n[VMD → 매장]\n· VM 관련 안내사항\n· VM 연출 가이드 및 프로모션 공지\n\n[매장 → VMD]\n· A/S(인테리어, 비품) 및 매장 관련 요청\n· VM 관련 전반 요청 사항\n\n(https://open.kakao.com/o/gS0FHfri , 참여코드 5555)\n\n\n2. 구글 드라이브\n\n· 매장 사진 업로드\n· POP, 비주얼, 로고 등 파일 공유\n\n(WORKSPACE 공유 드라이브 사용, *각 매장 계정 등록 필수)\n\n",
+  "schedule": {
+    "month": "2026-11",
+    "months": [
+      "2026-11",
+      "2026-12"
+    ],
+    "shareLabel": "가이드 공유",
+    "uploadLabel": "사진 업로드",
+    "holidays": [
+      {
+        "date": "2026-10-03",
+        "name": "개천절"
+      },
+      {
+        "date": "2026-10-05",
+        "name": "대체공휴일"
+      },
+      {
+        "date": "2026-10-09",
+        "name": "한글날"
+      }
+    ],
+    "events": [
+      {
+        "id": "2026-11-1-schedule-24595f951a",
+        "plannedDate": "2026-11-11",
+        "explicitShareDate": "2026-11-11",
+        "uploadOverride": "2026-11-17"
+      },
+      {
+        "id": "2026-11-1-schedule-37c6bcc68b",
+        "plannedDate": "2026-12-17",
+        "explicitShareDate": "2026-12-17",
+        "uploadOverride": "2026-12-22"
+      },
+      {
+        "id": "2026-11-1-schedule-e2eb6d95d6",
+        "plannedDate": "2026-11-27",
+        "explicitShareDate": "2026-11-27"
+      }
+    ],
+    "currentEventId": "2026-11-1-schedule-24595f951a",
+    "familyDayRule": "third-friday",
+    "otherEvents": [],
+    "notes": []
+  },
+  "promotion": {
+    "photoId": "2026-11-1-pop-980a195121d7ce6e",
+    "name": "MORE KANGOL, MORE BENEFITS",
+    "status": "current",
+    "verbatimText": "- 11/13(금)~ 12월 중 종료 예정\n- 신상품 기본 할인율 20% 진행, 일부 30% 특가 진행\n\n★이월 50% 할인 한시적 운영 및 30% 전환 예정에 따라, POP 할인율 최대 30%로 표기한 점 참고 부탁드립니다.",
+    "id": "2026-11-1-pop-bbf648784b",
+    "pops": [
+      {
+        "photoId": "2026-11-1-pop-980a195121d7ce6e",
+        "name": "MORE KANGOL, MORE BENEFITS",
+        "status": "current",
+        "verbatimText": "- 11/13(금)~ 12월 중 종료 예정\n- 신상품 기본 할인율 20% 진행, 일부 30% 특가 진행\n\n★이월 50% 할인 한시적 운영 및 30% 전환 예정에 따라, POP 할인율 최대 30%로 표기한 점 참고 부탁드립니다.",
+        "id": "2026-11-1-pop-bbf648784b"
+      }
+    ]
+  },
+  "panorama": {
+    "photoIds": [
+      "2026-11-1-panorama-bae39b45d6b2467e",
+      "2026-11-1-panorama-27a979152df9d652",
+      "2026-11-1-panorama-ea3e1e18f5dc755f"
+    ],
+    "labels": [
+      "LEFT",
+      "MAIN",
+      "RIGHT"
+    ],
+    "columns": 3,
+    "columnWeights": [
+      1,
+      2.15,
+      1
+    ],
+    "fullImages": true,
+    "photoDisplays": {
+      "2026-11-1-panorama-27a979152df9d652": {
+        "ratio": 2.3801801801801803,
+        "crop": {
+          "l": 0,
+          "r": 0,
+          "t": 0.24278463820373797,
+          "b": 0.19864197671214923
+        }
+      },
+      "2026-11-1-panorama-bae39b45d6b2467e": {
+        "ratio": 1.655109489051095,
+        "crop": {
+          "l": 0,
+          "r": 0,
+          "t": 0.10955105514613436,
+          "b": 0.08963268148320083
+        }
+      },
+      "2026-11-1-panorama-ea3e1e18f5dc755f": {
+        "ratio": 1.3331987075928917,
+        "crop": {
+          "l": 0,
+          "r": 0,
+          "t": 0.003017304665067111,
+          "b": 0.003017304665067111
+        }
+      }
+    },
+    "instructionSource": "4.PANORAMA/디테일 기입.png",
+    "layout": {
+      "width": 1000,
+      "height": 240.05957380201255,
+      "frames": {
+        "2026-11-1-panorama-bae39b45d6b2467e": {
+          "x": 0,
+          "y": 34.73922940505287,
+          "width": 232.289156626506,
+          "height": 164.34670102681952
+        },
+        "2026-11-1-panorama-27a979152df9d652": {
+          "x": 246.54850824745364,
+          "y": 6.234413965087299,
+          "width": 499.42168674698786,
+          "height": 233.82515983692525
+        },
+        "2026-11-1-panorama-ea3e1e18f5dc755f": {
+          "x": 767.710843373494,
+          "y": 17.79535001733737,
+          "width": 232.289156626506,
+          "height": 198.2344598022505
+        }
+      }
+    }
+  },
+  "vp": [
+    {
+      "id": "2026-10-2-black-vertical",
+      "arrangementName": "",
+      "usageItems": [
+        {
+          "id": "8f3c1cd2c65a4baea7a70d761bdc0e4b",
+          "name": "",
+          "productId": "2026-11-1-product-81441e93cf4b1eed-item",
+          "photoId": "2026-11-1-product-81441e93cf4b1eed",
+          "code": "1928"
+        },
+        {
+          "id": "612424a4726c41babe4b4a6d08796407",
+          "name": "",
+          "productId": "2026-11-1-product-987264862904aa71-item",
+          "photoId": "2026-11-1-product-987264862904aa71",
+          "code": "1928"
+        },
+        {
+          "id": "0f749c0bac43408cb05c53f8fdd1c9d3",
+          "name": "",
+          "productId": "2026-11-1-product-8f8c7eaf817b9081-item",
+          "photoId": "2026-11-1-product-8f8c7eaf817b9081",
+          "code": "3407"
+        },
+        {
+          "id": "49ff901417e2470c9f7bea2b35e43ce6",
+          "name": "",
+          "productId": "2026-11-1-product-54bfaa5a6e8bc877-item",
+          "photoId": "2026-11-1-product-54bfaa5a6e8bc877",
+          "code": "3414"
+        },
+        {
+          "id": "ee1f85160bb64e2d8092c23b1ef04491",
+          "name": "",
+          "productId": "2026-11-1-product-48f63a8cc2283e40-item",
+          "photoId": "2026-11-1-product-48f63a8cc2283e40",
+          "code": "4037"
+        },
+        {
+          "id": "b7c87a32df994727994524d5728afff1",
+          "name": "",
+          "productId": "2026-11-1-product-67ea820c1b07d796-item",
+          "photoId": "2026-11-1-product-67ea820c1b07d796",
+          "code": "4043"
+        },
+        {
+          "id": "6164620570294e7ea53183232afe44c5",
+          "name": "",
+          "productId": "2026-11-1-product-3238ee079fefe160-item",
+          "photoId": "2026-11-1-product-3238ee079fefe160",
+          "code": "4190"
+        },
+        {
+          "id": "f60220e1c5c347b3828600a7f4ac9650",
+          "name": "",
+          "productId": "2026-11-1-product-9c450d2373ff1179-item",
+          "photoId": "2026-11-1-product-9c450d2373ff1179",
+          "code": "4036"
+        },
+        {
+          "id": "6002f2d029e3422ab9de8daafc1a46ca",
+          "name": "",
+          "productId": "2026-11-1-product-ead44bbaa340f827-item",
+          "photoId": "2026-11-1-product-ead44bbaa340f827",
+          "code": "4036"
+        },
+        {
+          "id": "316bd15f4cde4eb8acf3f7b7fcee7dfd",
+          "name": "",
+          "productId": "2026-11-1-product-76582612be0eea95-item",
+          "photoId": "2026-11-1-product-76582612be0eea95",
+          "code": "4036"
+        }
+      ],
+      "scene": {
+        "id": "2026-10-2-black-vertical-scene",
+        "nodes": [
+          {
+            "photoId": "2026-11-1-table-76bf585c32082099",
+            "role": "background"
+          }
+        ],
+        "floorY": 5.940393013100437,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 5.7,
+          "height": 6.452962073873918
+        }
+      }
+    },
+    {
+      "id": "2026-10-2-black-double",
+      "arrangementName": "",
+      "usageItems": [
+        {
+          "id": "73a533060f6f43fe9e34b220e2a96865",
+          "name": "",
+          "productId": "2026-11-1-product-33922b6be61fca62-item",
+          "photoId": "2026-11-1-product-33922b6be61fca62",
+          "code": "1928"
+        },
+        {
+          "id": "a48fdd1095904bd09c0aaf405b999169",
+          "name": "",
+          "productId": "2026-11-1-product-dc9f4332df3951bb-item",
+          "photoId": "2026-11-1-product-dc9f4332df3951bb",
+          "code": "1928"
+        },
+        {
+          "id": "daf8005503ea463c8306ccc523241989",
+          "name": "",
+          "productId": "2026-11-1-product-1f57b757be44df74-item",
+          "photoId": "2026-11-1-product-1f57b757be44df74",
+          "code": "3407"
+        },
+        {
+          "id": "7749e66770ac4133805d4f3be9eb69e6",
+          "name": "",
+          "productId": "2026-11-1-product-789c8e04ba230c5f-item",
+          "photoId": "2026-11-1-product-789c8e04ba230c5f",
+          "code": "3414"
+        },
+        {
+          "id": "5f7df6a120c54e59b7cf2331d5ecbfea",
+          "name": "",
+          "productId": "2026-11-1-product-8af73e283517007d-item",
+          "photoId": "2026-11-1-product-8af73e283517007d",
+          "code": "4037"
+        },
+        {
+          "id": "f1d1f7e4c56c4c1480a8df5a2c1bbdcc",
+          "name": "",
+          "productId": "2026-11-1-product-c32c27bb44be0a85-item",
+          "photoId": "2026-11-1-product-c32c27bb44be0a85",
+          "code": "4043"
+        },
+        {
+          "id": "5d5196210a7e435aa79a17f9f369338d",
+          "name": "",
+          "productId": "2026-11-1-product-6b4e95c955d30ee9-item",
+          "photoId": "2026-11-1-product-6b4e95c955d30ee9",
+          "code": "4190"
+        },
+        {
+          "id": "25941bae250e404884f1634f756922b8",
+          "name": "",
+          "productId": "2026-11-1-product-3b70fd2374678e03-item",
+          "photoId": "2026-11-1-product-3b70fd2374678e03",
+          "code": "4036"
+        },
+        {
+          "id": "3accbd5a6e134cabb7372f544ea50cfd",
+          "name": "",
+          "productId": "2026-11-1-product-4e0300a8f7e8934f-item",
+          "photoId": "2026-11-1-product-4e0300a8f7e8934f",
+          "code": "4036"
+        },
+        {
+          "id": "287c64cc19ea4a15add36c776b22fc6d",
+          "name": "",
+          "productId": "2026-11-1-product-d456336c4bba27c8-item",
+          "photoId": "2026-11-1-product-d456336c4bba27c8",
+          "code": "4036"
+        }
+      ],
+      "scene": {
+        "id": "2026-10-2-black-double-scene",
+        "nodes": [
+          {
+            "photoId": "2026-11-1-table-87e56ae021c12f29",
+            "role": "background"
+          }
+        ],
+        "floorY": 4.826539360872955,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 5.7,
+          "height": 5.077864380358536
+        }
+      }
+    },
+    {
+      "id": "2026-10-2-green-cubic",
+      "arrangementName": "",
+      "usageItems": [
+        {
+          "id": "677ab85b7e5c4c43b336c399d2bc6130",
+          "name": "",
+          "productId": "2026-11-1-product-4192137047504c70-item",
+          "photoId": "2026-11-1-product-4192137047504c70",
+          "code": "1928"
+        },
+        {
+          "id": "0043e1c82f1b42f6bc337483ac2b4fc6",
+          "name": "",
+          "productId": "2026-11-1-product-1801e5976c4f7f8c-item",
+          "photoId": "2026-11-1-product-1801e5976c4f7f8c",
+          "code": "1928"
+        },
+        {
+          "id": "212bfd6c75b34ea288ea2f4c62a1e563",
+          "name": "",
+          "productId": "2026-11-1-product-90140c1399616138-item",
+          "photoId": "2026-11-1-product-90140c1399616138",
+          "code": "3407"
+        },
+        {
+          "id": "782e231ea7854c56a1d8bec04729f0b4",
+          "name": "",
+          "productId": "2026-11-1-product-6290c3d97ad93626-item",
+          "photoId": "2026-11-1-product-6290c3d97ad93626",
+          "code": "3414"
+        },
+        {
+          "id": "43b41506f545465898e8680da4842b65",
+          "name": "",
+          "productId": "2026-11-1-product-26fb1ed82cd48cba-item",
+          "photoId": "2026-11-1-product-26fb1ed82cd48cba",
+          "code": "4037"
+        },
+        {
+          "id": "ac8168be0a354af1be1b0d357ca4fb42",
+          "name": "",
+          "productId": "2026-11-1-product-52685cfe8b6d9ec1-item",
+          "photoId": "2026-11-1-product-52685cfe8b6d9ec1",
+          "code": "4043"
+        },
+        {
+          "id": "8e1f355476b0405490f746cf3f4f4f70",
+          "name": "",
+          "productId": "2026-11-1-product-081720c2741efdbc-item",
+          "photoId": "2026-11-1-product-081720c2741efdbc",
+          "code": "4190"
+        },
+        {
+          "id": "5807f20de8504785905cb7a39e3474fe",
+          "name": "",
+          "productId": "2026-11-1-product-9f8a8a5a32411748-item",
+          "photoId": "2026-11-1-product-9f8a8a5a32411748",
+          "code": "4036"
+        },
+        {
+          "id": "29e873e13c494b3b84c8b4b6502d90d2",
+          "name": "",
+          "productId": "2026-11-1-product-13e4a10edcf67953-item",
+          "photoId": "2026-11-1-product-13e4a10edcf67953",
+          "code": "4036"
+        },
+        {
+          "id": "e2a329f14a9a4170aae65df91401ba2a",
+          "name": "",
+          "productId": "2026-11-1-product-efe7a88098dcde21-item",
+          "photoId": "2026-11-1-product-efe7a88098dcde21",
+          "code": "4036"
+        }
+      ],
+      "scene": {
+        "id": "2026-10-2-green-cubic-scene",
+        "nodes": [
+          {
+            "photoId": "2026-11-1-table-153a0500e1b98052",
+            "role": "background"
+          }
+        ],
+        "floorY": 5.940393013100437,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 5.7,
+          "height": 6.452962073873918
+        }
+      }
+    },
+    {
+      "id": "2026-10-2-green-storage",
+      "arrangementName": "",
+      "usageItems": [
+        {
+          "id": "8b1d78d9c41347cc9a45112bcc9e7f0c",
+          "name": "",
+          "productId": "2026-11-1-product-31e3daeb4533fd38-item",
+          "photoId": "2026-11-1-product-31e3daeb4533fd38",
+          "code": "1928"
+        },
+        {
+          "id": "a88cda66b0b84221adb6a1a01e5629f5",
+          "name": "",
+          "productId": "2026-11-1-product-f875157435baf4d9-item",
+          "photoId": "2026-11-1-product-f875157435baf4d9",
+          "code": "1928"
+        },
+        {
+          "id": "eb288803c5e34f3496eb3c85bacd04e5",
+          "name": "",
+          "productId": "2026-11-1-product-49be5f22dc6ec224-item",
+          "photoId": "2026-11-1-product-49be5f22dc6ec224",
+          "code": "3407"
+        },
+        {
+          "id": "287ec17aa5444026bb5126f3536533ee",
+          "name": "",
+          "productId": "2026-11-1-product-74b57c9649a985cb-item",
+          "photoId": "2026-11-1-product-74b57c9649a985cb",
+          "code": "3414"
+        },
+        {
+          "id": "7bdbfde1efc4448bb1098072b77a1df5",
+          "name": "",
+          "productId": "2026-11-1-product-c8c20f163e84c036-item",
+          "photoId": "2026-11-1-product-c8c20f163e84c036",
+          "code": "4037"
+        },
+        {
+          "id": "99c1f8f174b5489d8ca0c4574eadda23",
+          "name": "",
+          "productId": "2026-11-1-product-0cc822b8924f6b15-item",
+          "photoId": "2026-11-1-product-0cc822b8924f6b15",
+          "code": "4043"
+        },
+        {
+          "id": "71d1257f8c814d53a8e68c0875fa44e3",
+          "name": "",
+          "productId": "2026-11-1-product-8fd57a795807b8b7-item",
+          "photoId": "2026-11-1-product-8fd57a795807b8b7",
+          "code": "4190"
+        },
+        {
+          "id": "8e7e9a8d99774410ae09bd8775bd0cfb",
+          "name": "",
+          "productId": "2026-11-1-product-07704b959a998269-item",
+          "photoId": "2026-11-1-product-07704b959a998269",
+          "code": "4036"
+        },
+        {
+          "id": "ad7744fc64e54e70ab9874b1e4419ed6",
+          "name": "",
+          "productId": "2026-11-1-product-9ed5ef155de61778-item",
+          "photoId": "2026-11-1-product-9ed5ef155de61778",
+          "code": "4036"
+        },
+        {
+          "id": "69a9ec2040484ddfbdb7e59e0b50a32b",
+          "name": "",
+          "productId": "2026-11-1-product-3d1083e42e4332ff-item",
+          "photoId": "2026-11-1-product-3d1083e42e4332ff",
+          "code": "4036"
+        }
+      ],
+      "scene": {
+        "id": "2026-10-2-green-storage-scene",
+        "nodes": [
+          {
+            "photoId": "2026-11-1-table-fdf1c7fc9058cad3",
+            "role": "background"
+          }
+        ],
+        "floorY": 4.826539360872955,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 5.7,
+          "height": 5.077864380358536
+        }
+      }
+    }
+  ],
+  "mnq": [
+    {
+      "id": "2026-11-1-mnq_a",
+      "label": "MNQ_A",
+      "outfitPhotoIds": [
+        "2026-11-1-outfit-4f78b57b14d847bb",
+        "2026-11-1-outfit-49fe39ff8ede475f"
+      ],
+      "outfitAspectRatios": [
+        0.4527473189465743,
+        0.45289464029759063
+      ],
+      "groups": [],
+      "nativePanel": {
+        "width": 564,
+        "height": 620,
+        "headings": [
+          {
+            "text": "UNISEX",
+            "x": 0.012659109100724108,
+            "y": 0.013808483616967229,
+            "width": 0.3118867854284172,
+            "height": 0.0442993819320972
+          },
+          {
+            "text": "WOMAN’s",
+            "x": 0.012659109100724108,
+            "y": 0.5104472102277539,
+            "width": 0.3118867854284172,
+            "height": 0.0442993819320972
+          }
+        ],
+        "lines": [
+          {
+            "x": 0.014714729807710195,
+            "y": 0.5080646854627042,
+            "width": 0.9730273077567433
+          }
+        ],
+        "images": [
+          {
+            "photoId": "2026-11-1-product-5cd9f771567ac268",
+            "code": "1512",
+            "itemId": "5446c1d2093e4a97992fce514c4f2507",
+            "x": 0.16561586638830894,
+            "y": 0.2795494012054302,
+            "width": 0.18,
+            "height": 0.16374193548387095,
+            "z": 1,
+            "transparentBackground": true
+          },
+          {
+            "photoId": "2026-11-1-product-d215dbdae77325a6",
+            "code": "1811",
+            "itemId": "024105470e6f405f83a97481bf4f03f7",
+            "x": 0.5487568798633519,
+            "y": 0.07981704225278491,
+            "width": 0.2390396659707723,
+            "height": 0.2174489864637348,
+            "z": 2,
+            "transparentBackground": true
+          },
+          {
+            "photoId": "2026-11-1-product-ca130d23e4f2a0fc",
+            "code": "4587",
+            "itemId": "03306243c31f4597ba491e07f6067f59",
+            "x": 0.6217821218447523,
+            "y": 0.19525815338132058,
+            "width": 0.2658246346555323,
+            "height": 0.24181466765438742,
+            "z": 3,
+            "transparentBackground": true
+          },
+          {
+            "photoId": "2026-11-1-product-7b9351248fd30bc6",
+            "code": "4672",
+            "itemId": "255f7675cff446ca91afb557f4cb3679",
+            "x": 0.1673486430062631,
+            "y": 0.06470588235294114,
+            "width": 0.18,
+            "height": 0.16374193548387095,
+            "z": 4,
+            "transparentBackground": true
+          },
+          {
+            "photoId": "2026-11-1-product-077f17bd36102dc3",
+            "code": "8571",
+            "itemId": "e842e0525d4542e09d826c87117310d1",
+            "x": 0.38848484848484843,
+            "y": 0.06859504132231403,
+            "width": 0.2539393939393939,
+            "height": 0.2310029325513196,
+            "z": 5,
+            "transparentBackground": true
+          },
+          {
+            "photoId": "2026-11-1-product-53eb00466ccab214",
+            "code": "1820",
+            "itemId": "ffd4c7d19f354f4a847a18ce3dc1a57a",
+            "x": 0.34878787878787887,
+            "y": 0.5672176308539946,
+            "width": 0.223939393939394,
+            "height": 0.2037126099706745,
+            "z": 7,
+            "transparentBackground": true
+          },
+          {
+            "photoId": "2026-11-1-product-65924e1230ea2d52",
+            "code": "1924",
+            "itemId": "cf25243d9f764ea5ac96218008389d5e",
+            "x": 0.5333333333333337,
+            "y": 0.5644628099173556,
+            "width": 0.23030303030303034,
+            "height": 0.20950146627565983,
+            "z": 10,
+            "transparentBackground": true
+          },
+          {
+            "photoId": "2026-11-1-product-9f4e0921ec4c8e9c",
+            "code": "3017",
+            "itemId": "d456d81df35b42e881cd2739aa6f093a",
+            "x": 0.16636363636363638,
+            "y": 0.553443526170799,
+            "width": 0.18,
+            "height": 0.16374193548387095,
+            "z": 8,
+            "transparentBackground": true
+          },
+          {
+            "photoId": "2026-11-1-product-d937f53c2b3a7327",
+            "code": "4043",
+            "itemId": "ecc3cc62a8a74d8d90404ca56616f97c",
+            "x": 0.1703030303030303,
+            "y": 0.7596694214876034,
+            "width": 0.18,
+            "height": 0.16374193548387095,
+            "z": 9,
+            "transparentBackground": true
+          },
+          {
+            "photoId": "2026-11-1-product-d51495cb062ec615",
+            "code": "8127",
+            "itemId": "c0a8a122f981483da8035d1a3371b16f",
+            "x": 0.7518181818181816,
+            "y": 0.6610909979561008,
+            "width": 0.2300000000000001,
+            "height": 0.20922580645161296,
+            "z": 11,
+            "transparentBackground": true
+          },
+          {
+            "photoId": "2026-11-1-product-1f62c8b3813f9be0",
+            "code": "1814",
+            "itemId": "895266a644694713946612da3011c5c0",
+            "x": 0.6393939393939393,
+            "y": 0.5723415977961432,
+            "width": 0.22424242424242424,
+            "height": 0.20398826979472137,
+            "z": 6,
+            "transparentBackground": true
+          }
+        ],
+        "labels": [
+          {
+            "code": "1512",
+            "itemId": "5446c1d2093e4a97992fce514c4f2507",
+            "x": 0.2556158663883089,
+            "y": 0.44329133668930115
+          },
+          {
+            "code": "1811",
+            "itemId": "024105470e6f405f83a97481bf4f03f7",
+            "x": 0.668276712848738,
+            "y": 0.29726602871651975
+          },
+          {
+            "code": "4587",
+            "itemId": "03306243c31f4597ba491e07f6067f59",
+            "x": 0.7546944391725185,
+            "y": 0.437072821035708
+          },
+          {
+            "code": "4672",
+            "itemId": "255f7675cff446ca91afb557f4cb3679",
+            "x": 0.2573486430062631,
+            "y": 0.2284478178368121
+          },
+          {
+            "code": "8571",
+            "itemId": "e842e0525d4542e09d826c87117310d1",
+            "x": 0.5154545454545454,
+            "y": 0.2995979738736336
+          },
+          {
+            "code": "1820",
+            "itemId": "ffd4c7d19f354f4a847a18ce3dc1a57a",
+            "x": 0.46075757575757587,
+            "y": 0.7709302408246691
+          },
+          {
+            "code": "1924",
+            "itemId": "cf25243d9f764ea5ac96218008389d5e",
+            "x": 0.6484848484848489,
+            "y": 0.7739642761930154
+          },
+          {
+            "code": "3017",
+            "itemId": "d456d81df35b42e881cd2739aa6f093a",
+            "x": 0.25636363636363635,
+            "y": 0.7171854616546699
+          },
+          {
+            "code": "4043",
+            "itemId": "ecc3cc62a8a74d8d90404ca56616f97c",
+            "x": 0.26030303030303026,
+            "y": 0.9234113569714744
+          },
+          {
+            "code": "8127",
+            "itemId": "c0a8a122f981483da8035d1a3371b16f",
+            "x": 0.8668181818181817,
+            "y": 0.8703168044077138
+          },
+          {
+            "code": "1814",
+            "itemId": "895266a644694713946612da3011c5c0",
+            "x": 0.7515151515151515,
+            "y": 0.7763298675908646
+          }
+        ]
+      }
+    },
+    {
+      "id": "2026-11-1-mnq_b",
+      "label": "MNQ_B",
+      "outfitPhotoIds": [
+        "2026-11-1-outfit-121d53abce36a42f",
+        "2026-11-1-outfit-9a494e4fe2817b82"
+      ],
+      "outfitAspectRatios": [
+        0.45067249769254986,
+        0.44885897152475723
+      ],
+      "groups": [],
+      "nativePanel": {
+        "width": 564,
+        "height": 645,
+        "images": [
+          {
+            "photoId": "2026-11-1-product-1e1fe7ca55febddb",
+            "code": "3406",
+            "itemId": "f647de45dcdc4d83b7a0109f347800b8",
+            "x": 0.06727272727272723,
+            "y": 0.23649867374005323,
+            "width": 0.2175757575757576,
+            "height": 0.1902522903453136,
+            "z": 1,
+            "transparentBackground": true
+          },
+          {
+            "photoId": "2026-11-1-product-ea20946e4733bc6d",
+            "code": "3454",
+            "itemId": "64f8b9c9e1e3446584ceeb4b8c8226c7",
+            "x": 0.08515151515151523,
+            "y": 0.05305039787798407,
+            "width": 0.18,
+            "height": 0.1573953488372093,
+            "z": 2,
+            "transparentBackground": true
+          },
+          {
+            "photoId": "2026-11-1-product-e2a89ae4c477bfe0",
+            "code": "4577",
+            "itemId": "454039c872e1422f8d64cea263d32931",
+            "x": 0.603030303030303,
+            "y": 0.06673740053050398,
+            "width": 0.24242424242424243,
+            "height": 0.2119802677942213,
+            "z": 3,
+            "transparentBackground": true
+          },
+          {
+            "photoId": "2026-11-1-product-0f005e9d2dcbd2ae",
+            "code": "4588",
+            "itemId": "4f791b7ebca84c42aab399941225ea35",
+            "x": 0.6845454545454549,
+            "y": 0.1701856763925732,
+            "width": 0.2639393939393938,
+            "height": 0.2307935165609583,
+            "z": 4,
+            "transparentBackground": true
+          },
+          {
+            "photoId": "2026-11-1-product-4151a4ecff797481",
+            "code": "5151",
+            "itemId": "ba5f1c3bacc74921937c20338e265c63",
+            "x": 0.43999999999999995,
+            "y": 0.061273209549071644,
+            "width": 0.24787878787878803,
+            "height": 0.2167498238195914,
+            "z": 5,
+            "transparentBackground": true
+          },
+          {
+            "photoId": "2026-11-1-product-d1e5fe787f2fbb48",
+            "code": "8181",
+            "itemId": "e89dce1ab54d469fa57f4bdda431e0fe",
+            "x": 0.30333333333333334,
+            "y": 0.06127320954907162,
+            "width": 0.2390909090909092,
+            "height": 0.2090655391120508,
+            "z": 6,
+            "transparentBackground": true
+          },
+          {
+            "photoId": "2026-11-1-product-260bbbe6116523e1",
+            "code": "1813",
+            "itemId": "9d21e70ef1354f198db755f3e14db72d",
+            "x": 0.5696969696969697,
+            "y": 0.5281167108753315,
+            "width": 0.24545454545454548,
+            "height": 0.21463002114164909,
+            "z": 7,
+            "transparentBackground": true
+          },
+          {
+            "photoId": "2026-11-1-product-13f8e58bba7e9483",
+            "code": "3414",
+            "itemId": "d165f867150f4b74b23ca63d87564be2",
+            "x": 0.16939393939393943,
+            "y": 0.7721485411140584,
+            "width": 0.18,
+            "height": 0.1573953488372093,
+            "z": 8,
+            "transparentBackground": true
+          },
+          {
+            "photoId": "2026-11-1-product-33569e6260201d2a",
+            "code": "4660",
+            "itemId": "02c7ddc50bdc426b9b9ef3ab156910d8",
+            "x": 0.15181818181818185,
+            "y": 0.562440318302387,
+            "width": 0.2087878787878788,
+            "height": 0.1825680056377731,
+            "z": 10,
+            "transparentBackground": true
+          },
+          {
+            "photoId": "2026-11-1-product-5e5f33521eb58767",
+            "code": "8129",
+            "itemId": "1e9deeabf9b24e8bab6db546a41f1b8f",
+            "x": 0.6818181818181817,
+            "y": 0.6287533156498675,
+            "width": 0.2575757575757578,
+            "height": 0.22522903453136028,
+            "z": 11,
+            "transparentBackground": true
+          },
+          {
+            "photoId": "2026-11-1-product-41d95ab2d0ce182a",
+            "code": "8571",
+            "itemId": "3761c7a9f96e4b8c83e3ab76110968a9",
+            "x": 0.46333333333333343,
+            "y": 0.5332625994694958,
+            "width": 0.22151515151515144,
+            "height": 0.19369696969696965,
+            "z": 12,
+            "transparentBackground": true
+          },
+          {
+            "photoId": "2026-11-1-product-a5c7c99ab7bf22bb",
+            "code": "4037",
+            "itemId": "5753e43254e541eb9ef4ee3314328d76",
+            "group": "WOMAN'S",
+            "x": 0.31818181818181823,
+            "y": 0.7725118129665043,
+            "width": 0.18,
+            "height": 0.1573953488372093,
+            "z": 13,
+            "transparentBackground": true
+          }
+        ],
+        "labels": [
+          {
+            "code": "3406",
+            "itemId": "f647de45dcdc4d83b7a0109f347800b8",
+            "x": 0.17606060606060603,
+            "y": 0.42675096408536684
+          },
+          {
+            "code": "3454",
+            "itemId": "64f8b9c9e1e3446584ceeb4b8c8226c7",
+            "x": 0.17515151515151522,
+            "y": 0.21044574671519337
+          },
+          {
+            "code": "4577",
+            "itemId": "454039c872e1422f8d64cea263d32931",
+            "x": 0.7242424242424242,
+            "y": 0.2787176683247253
+          },
+          {
+            "code": "4588",
+            "itemId": "4f791b7ebca84c42aab399941225ea35",
+            "x": 0.8165151515151519,
+            "y": 0.4009791929535315
+          },
+          {
+            "code": "5151",
+            "itemId": "ba5f1c3bacc74921937c20338e265c63",
+            "x": 0.563939393939394,
+            "y": 0.2780230333686631
+          },
+          {
+            "code": "8181",
+            "itemId": "e89dce1ab54d469fa57f4bdda431e0fe",
+            "x": 0.42287878787878797,
+            "y": 0.2703387486611224
+          },
+          {
+            "code": "1813",
+            "itemId": "9d21e70ef1354f198db755f3e14db72d",
+            "x": 0.6924242424242424,
+            "y": 0.7427467320169806
+          },
+          {
+            "code": "3414",
+            "itemId": "d165f867150f4b74b23ca63d87564be2",
+            "x": 0.2593939393939394,
+            "y": 0.9295438899512677
+          },
+          {
+            "code": "4660",
+            "itemId": "02c7ddc50bdc426b9b9ef3ab156910d8",
+            "x": 0.2562121212121212,
+            "y": 0.7450083239401601
+          },
+          {
+            "code": "8129",
+            "itemId": "1e9deeabf9b24e8bab6db546a41f1b8f",
+            "x": 0.8106060606060606,
+            "y": 0.8539823501812278
+          },
+          {
+            "code": "8571",
+            "itemId": "3761c7a9f96e4b8c83e3ab76110968a9",
+            "x": 0.5740909090909092,
+            "y": 0.7269595691664654
+          },
+          {
+            "code": "4037",
+            "itemId": "5753e43254e541eb9ef4ee3314328d76",
+            "x": 0.4081818181818182,
+            "y": 0.9299071618037136
+          }
+        ],
+        "headings": [
+          {
+            "text": "UNISEX",
+            "x": 0.012659109100724108,
+            "y": 0.013273271073673926,
+            "width": 0.3118867854284172,
+            "height": 0.04258235162465157
+          },
+          {
+            "text": "WOMAN’s",
+            "x": 0.012659109100724108,
+            "y": 0.4906624346375308,
+            "width": 0.3118867854284172,
+            "height": 0.04258235162465157
+          }
+        ],
+        "lines": [
+          {
+            "x": 0.014714729807710195,
+            "y": 0.4883722557936072,
+            "width": 0.9730273077567433
+          }
+        ]
+      }
+    },
+    {
+      "id": "2026-11-1-mnq_c",
+      "label": "MNQ_C",
+      "outfitPhotoIds": [
+        "2026-11-1-outfit-603bed0711d44ae8",
+        "2026-11-1-outfit-b07fce2fa024eb08"
+      ],
+      "outfitAspectRatios": [
+        0.46960496154983733,
+        0.46781807413600895
+      ],
+      "groups": [],
+      "nativePanel": {
+        "width": 564,
+        "height": 676,
+        "images": [
+          {
+            "photoId": "2026-11-1-product-b748306d0929dcd6",
+            "code": "4580",
+            "itemId": "129d8a95e1d14ab698f1ec13fc311f68",
+            "x": 0.7003030303030301,
+            "y": 0.1860606060606061,
+            "width": 0.2572727272727273,
+            "height": 0.2575771920387306,
+            "z": 1,
+            "transparentBackground": true
+          },
+          {
+            "photoId": "2026-11-1-product-67dea3abd6c18d95",
+            "code": "4662",
+            "itemId": "40879995392d4b15a41046b56652f951",
+            "x": 0.08181818181818179,
+            "y": 0.0825252525252525,
+            "width": 0.18,
+            "height": 0.1501775147928994,
+            "z": 2,
+            "transparentBackground": true
+          },
+          {
+            "photoId": "2026-11-1-product-9565dabf39ce3b02",
+            "code": "7086",
+            "itemId": "738b84b527d24690be594a7ef21800d6",
+            "x": 0.4784848484848483,
+            "y": 0.11787878787878789,
+            "width": 0.2427272727272729,
+            "height": 0.20251210328133418,
+            "z": 7,
+            "transparentBackground": true
+          },
+          {
+            "photoId": "2026-11-1-product-07ac50041e4856d8",
+            "code": "8182",
+            "itemId": "d08c1836758d4fa184e53ab6e3d7737d",
+            "x": 0.26121212121212123,
+            "y": 0.10808080808080817,
+            "width": 0.29636363636363633,
+            "height": 0.2472619688004303,
+            "z": 3,
+            "transparentBackground": true
+          },
+          {
+            "photoId": "2026-11-1-product-debb070f9301187f",
+            "code": "1820",
+            "itemId": "85f141e9432d4250b58cd9de3dc3c2a9",
+            "x": 0.3972727272727272,
+            "y": 0.5424242424242427,
+            "width": 0.24515151515151512,
+            "height": 0.20453469607315755,
+            "z": 6,
+            "transparentBackground": true
+          },
+          {
+            "photoId": "2026-11-1-product-b479351973f21822",
+            "code": "1926",
+            "itemId": "d191efa91f934da3b6f4a70a769e65d0",
+            "x": 0.5484848484848487,
+            "y": 0.5424242424242424,
+            "width": 0.2424242424242422,
+            "height": 0.20225927918235592,
+            "z": 4,
+            "transparentBackground": true
+          },
+          {
+            "photoId": "2026-11-1-product-d1c14860c89dc924",
+            "code": "4587",
+            "itemId": "47466b134c6f4abf862483564e00e49b",
+            "x": 0.6733333333333331,
+            "y": 0.6614141414141411,
+            "width": 0.27515151515151515,
+            "height": 0.22956428187197417,
+            "z": 8,
+            "transparentBackground": true
+          },
+          {
+            "photoId": "2026-11-1-product-32c1b75c55763710",
+            "code": "4674",
+            "itemId": "404582d33a5b47fea54aebf676db7f39",
+            "x": 0.10030303030303034,
+            "y": 0.5402020202020203,
+            "width": 0.20878787878787872,
+            "height": 0.17419580419580413,
+            "z": 9,
+            "transparentBackground": true
+          },
+          {
+            "photoId": "2026-11-1-product-e70e2dfb40efc36e",
+            "code": "3415",
+            "itemId": "bcddaf96db1848b2be853fbc5bfade88",
+            "x": 0.11545454545454553,
+            "y": 0.7624242424242426,
+            "width": 0.18,
+            "height": 0.1501775147928994,
+            "z": 10,
+            "transparentBackground": true
+          },
+          {
+            "photoId": "2026-11-1-product-21bbe626d9622bd1",
+            "code": "4577",
+            "itemId": "322b170f37ca44128241a32a9cf07445",
+            "x": 0.6154545454545455,
+            "y": 0.12101010101010104,
+            "width": 0.24212121212121207,
+            "height": 0.2020064550833781,
+            "z": 5,
+            "transparentBackground": true
+          }
+        ],
+        "labels": [
+          {
+            "code": "4580",
+            "itemId": "129d8a95e1d14ab698f1ec13fc311f68",
+            "x": 0.8289393939393938,
+            "y": 0.4436377980993367
+          },
+          {
+            "code": "4662",
+            "itemId": "40879995392d4b15a41046b56652f951",
+            "x": 0.1718181818181818,
+            "y": 0.2327027673181519
+          },
+          {
+            "code": "7086",
+            "itemId": "738b84b527d24690be594a7ef21800d6",
+            "x": 0.5998484848484847,
+            "y": 0.3203908911601221
+          },
+          {
+            "code": "8182",
+            "itemId": "d08c1836758d4fa184e53ab6e3d7737d",
+            "x": 0.4093939393939394,
+            "y": 0.3553427768812385
+          },
+          {
+            "code": "1820",
+            "itemId": "85f141e9432d4250b58cd9de3dc3c2a9",
+            "x": 0.5198484848484848,
+            "y": 0.7469589384974002
+          },
+          {
+            "code": "1926",
+            "itemId": "d191efa91f934da3b6f4a70a769e65d0",
+            "x": 0.6696969696969698,
+            "y": 0.7446835216065983
+          },
+          {
+            "code": "4587",
+            "itemId": "47466b134c6f4abf862483564e00e49b",
+            "x": 0.8109090909090907,
+            "y": 0.8909784232861153
+          },
+          {
+            "code": "4674",
+            "itemId": "404582d33a5b47fea54aebf676db7f39",
+            "x": 0.2046969696969697,
+            "y": 0.7143978243978245
+          },
+          {
+            "code": "3415",
+            "itemId": "bcddaf96db1848b2be853fbc5bfade88",
+            "x": 0.20545454545454553,
+            "y": 0.912601757217142
+          },
+          {
+            "code": "4577",
+            "itemId": "322b170f37ca44128241a32a9cf07445",
+            "x": 0.7365151515151516,
+            "y": 0.3230165560934791
+          }
+        ],
+        "headings": [
+          {
+            "text": "UNISEX",
+            "x": 0.012659109100724108,
+            "y": 0.02006103526999953,
+            "width": 0.3118867854284172,
+            "height": 0.04062961064778146
+          },
+          {
+            "text": "WOMAN’s",
+            "x": 0.012659109100724108,
+            "y": 0.475558092220721,
+            "width": 0.3118867854284172,
+            "height": 0.04062961064778146
+          }
+        ],
+        "lines": [
+          {
+            "x": 0.014714729807710195,
+            "y": 0.47337293637111927,
+            "width": 0.9730273077567433
+          }
+        ]
+      }
+    }
+  ],
+  "keyNotesHTML": {
+    "width": 927,
+    "height": 592,
+    "textboxes": [
+      {
+        "x": -17.056205576964288,
+        "y": 27.747459323485373,
+        "width": 948.1124111539285,
+        "height": 112.25348399700277,
+        "border": null,
+        "paddingX": 10.10616570327553,
+        "paddingY": 5.053082851637765,
+        "paragraphs": [
+          {
+            "runs": [
+              {
+                "text": " · VM ",
+                "size": 19.650877756369088,
+                "weight": 500,
+                "color": "#000"
+              },
+              {
+                "text": "운영 가이드",
+                "size": 19.650877756369088,
+                "weight": 500,
+                "color": "#000"
+              },
+              {
+                "text": "·",
+                "size": 19.650877756369088,
+                "weight": 500,
+                "color": "#000"
+              }
+            ],
+            "fontSize": 19.650877756369088,
+            "lineHeight": 23.581053307642904
+          },
+          {
+            "runs": [],
+            "fontSize": 19.650877756369088,
+            "lineHeight": 23.581053307642904
+          },
+          {
+            "runs": [
+              {
+                "text": "원활하고 효율적인 운영을 위해 ",
+                "size": 16.843609505459217,
+                "weight": 500,
+                "color": "#000"
+              },
+              {
+                "text": "‘",
+                "size": 16.843609505459217,
+                "weight": 500,
+                "color": "#003CC8"
+              },
+              {
+                "text": "카카오톡 ",
+                "size": 16.843609505459217,
+                "weight": 500,
+                "color": "#003CC8"
+              },
+              {
+                "text": "오픈채팅방’",
+                "size": 16.843609505459217,
+                "weight": 500,
+                "color": "#003CC8"
+              },
+              {
+                "text": "과",
+                "size": 16.843609505459217,
+                "weight": 500,
+                "color": "#000"
+              },
+              {
+                "text": " ",
+                "size": 16.843609505459217,
+                "weight": 500,
+                "color": "#000"
+              },
+              {
+                "text": "‘구글 ",
+                "size": 16.843609505459217,
+                "weight": 500,
+                "color": "#003CC8"
+              },
+              {
+                "text": "드라이브’",
+                "size": 16.843609505459217,
+                "weight": 500,
+                "color": "#003CC8"
+              },
+              {
+                "text": "로",
+                "size": 16.843609505459217,
+                "weight": 500,
+                "color": "#000"
+              },
+              {
+                "text": " 운영합니다",
+                "size": 16.843609505459217,
+                "weight": 500,
+                "color": "#000"
+              },
+              {
+                "text": ".",
+                "size": 16.843609505459217,
+                "weight": 500,
+                "color": "#000"
+              }
+            ],
+            "fontSize": 16.843609505459217,
+            "lineHeight": 25.265414258188827
+          },
+          {
+            "runs": [],
+            "fontSize": 19.650877756369088,
+            "lineHeight": 23.581053307642904
+          }
+        ]
+      },
+      {
+        "x": 44.0,
+        "y": 148.0,
+        "width": 826.0,
+        "height": 416.6984101370156,
+        "border": "#a6a6a6",
+        "paddingX": 10.10616570327553,
+        "paddingY": 5.053082851637765,
+        "paragraphs": [
+          {
+            "runs": [],
+            "fontSize": 16.843609505459217,
+            "lineHeight": 20.21233140655106
+          },
+          {
+            "runs": [
+              {
+                "text": "1. ",
+                "size": 16.843609505459217,
+                "weight": 500,
+                "color": "#000"
+              },
+              {
+                "text": "카카오톡 오픈채팅방",
+                "size": 16.843609505459217,
+                "weight": 500,
+                "color": "#000"
+              }
+            ],
+            "fontSize": 16.843609505459217,
+            "lineHeight": 20.21233140655106
+          },
+          {
+            "runs": [],
+            "fontSize": 16.843609505459217,
+            "lineHeight": 20.21233140655106
+          },
+          {
+            "runs": [
+              {
+                "text": "[VMD → ",
+                "size": 14.036341254549347,
+                "weight": 400,
+                "color": "#000"
+              },
+              {
+                "text": "매장",
+                "size": 14.036341254549347,
+                "weight": 400,
+                "color": "#000"
+              },
+              {
+                "text": "]",
+                "size": 14.036341254549347,
+                "weight": 400,
+                "color": "#000"
+              }
+            ],
+            "fontSize": 14.036341254549347,
+            "lineHeight": 16.843609505459217
+          },
+          {
+            "runs": [
+              {
+                "text": "· VM ",
+                "size": 14.036341254549347,
+                "weight": 400,
+                "color": "#000"
+              },
+              {
+                "text": "관련 안내사항",
+                "size": 14.036341254549347,
+                "weight": 400,
+                "color": "#000"
+              }
+            ],
+            "fontSize": 14.036341254549347,
+            "lineHeight": 16.843609505459217
+          },
+          {
+            "runs": [
+              {
+                "text": "· VM",
+                "size": 14.036341254549347,
+                "weight": 400,
+                "color": "#000"
+              },
+              {
+                "text": " 연출 가이드 및 프로모션 공지",
+                "size": 14.036341254549347,
+                "weight": 400,
+                "color": "#000"
+              }
+            ],
+            "fontSize": 14.036341254549347,
+            "lineHeight": 16.843609505459217
+          },
+          {
+            "runs": [],
+            "fontSize": 14.036341254549347,
+            "lineHeight": 16.843609505459217
+          },
+          {
+            "runs": [
+              {
+                "text": "[",
+                "size": 14.036341254549347,
+                "weight": 400,
+                "color": "#000"
+              },
+              {
+                "text": "매장 → ",
+                "size": 14.036341254549347,
+                "weight": 400,
+                "color": "#000"
+              },
+              {
+                "text": "VMD]",
+                "size": 14.036341254549347,
+                "weight": 400,
+                "color": "#000"
+              }
+            ],
+            "fontSize": 14.036341254549347,
+            "lineHeight": 16.843609505459217
+          },
+          {
+            "runs": [
+              {
+                "size": 14.036341254549347,
+                "weight": 400,
+                "color": "#000",
+                "text": "· A/S(인테리어, 비품) 및 매장 관련 요청"
+              }
+            ],
+            "fontSize": 14.036341254549347,
+            "lineHeight": 16.843609505459217
+          },
+          {
+            "runs": [
+              {
+                "text": "· VM ",
+                "size": 14.036341254549347,
+                "weight": 400,
+                "color": "#000"
+              },
+              {
+                "text": "관련 전반 요청 사항",
+                "size": 14.036341254549347,
+                "weight": 400,
+                "color": "#000"
+              }
+            ],
+            "fontSize": 14.036341254549347,
+            "lineHeight": 16.843609505459217
+          },
+          {
+            "runs": [],
+            "fontSize": 15.439975380004281,
+            "lineHeight": 18.527970456005136
+          },
+          {
+            "runs": [
+              {
+                "text": "(",
+                "size": 14.036341254549347,
+                "weight": 400,
+                "color": "#000"
+              },
+              {
+                "text": "https://open.kakao.com/o/gS0FHfri",
+                "size": 14.036341254549347,
+                "weight": 400,
+                "color": "#34798d",
+                "href": "https://open.kakao.com/o/gS0FHfri"
+              },
+              {
+                "text": " , ",
+                "size": 14.036341254549347,
+                "weight": 400,
+                "color": "#000"
+              },
+              {
+                "text": "참여코드 ",
+                "size": 14.036341254549347,
+                "weight": 400,
+                "color": "#000"
+              },
+              {
+                "text": "5555)",
+                "size": 14.036341254549347,
+                "weight": 400,
+                "color": "#000"
+              }
+            ],
+            "fontSize": 14.036341254549347,
+            "lineHeight": 16.843609505459217
+          },
+          {
+            "runs": [],
+            "fontSize": 16.843609505459217,
+            "lineHeight": 20.21233140655106
+          },
+          {
+            "runs": [],
+            "fontSize": 16.843609505459217,
+            "lineHeight": 20.21233140655106
+          },
+          {
+            "runs": [
+              {
+                "text": "2. ",
+                "size": 16.843609505459217,
+                "weight": 500,
+                "color": "#000"
+              },
+              {
+                "text": "구글 드라이브",
+                "size": 16.843609505459217,
+                "weight": 500,
+                "color": "#000"
+              }
+            ],
+            "fontSize": 16.843609505459217,
+            "lineHeight": 20.21233140655106
+          },
+          {
+            "runs": [],
+            "fontSize": 14.036341254549347,
+            "lineHeight": 16.843609505459217
+          },
+          {
+            "runs": [
+              {
+                "text": "· ",
+                "size": 14.036341254549347,
+                "weight": 400,
+                "color": "#000"
+              },
+              {
+                "text": "매장 사진 업로드",
+                "size": 14.036341254549347,
+                "weight": 400,
+                "color": "#000"
+              }
+            ],
+            "fontSize": 14.036341254549347,
+            "lineHeight": 16.843609505459217
+          },
+          {
+            "runs": [
+              {
+                "text": "· POP, ",
+                "size": 14.036341254549347,
+                "weight": 400,
+                "color": "#000"
+              },
+              {
+                "text": "비주얼",
+                "size": 14.036341254549347,
+                "weight": 400,
+                "color": "#000"
+              },
+              {
+                "text": ", ",
+                "size": 14.036341254549347,
+                "weight": 400,
+                "color": "#000"
+              },
+              {
+                "text": "로고 등 파일 공유",
+                "size": 14.036341254549347,
+                "weight": 400,
+                "color": "#000"
+              }
+            ],
+            "fontSize": 14.036341254549347,
+            "lineHeight": 16.843609505459217
+          },
+          {
+            "runs": [],
+            "fontSize": 14.036341254549347,
+            "lineHeight": 16.843609505459217
+          },
+          {
+            "runs": [
+              {
+                "text": "(WORKSPACE ",
+                "size": 14.036341254549347,
+                "weight": 400,
+                "color": "#000"
+              },
+              {
+                "text": "공유 드라이브 사용",
+                "size": 14.036341254549347,
+                "weight": 400,
+                "color": "#000"
+              },
+              {
+                "text": ", *",
+                "size": 14.036341254549347,
+                "weight": 400,
+                "color": "#000"
+              },
+              {
+                "text": "각 매장 계정 등록 필수",
+                "size": 14.036341254549347,
+                "weight": 400,
+                "color": "#000"
+              },
+              {
+                "text": ")",
+                "size": 14.036341254549347,
+                "weight": 500,
+                "color": "#000"
+              }
+            ],
+            "fontSize": 14.036341254549347,
+            "lineHeight": 16.843609505459217
+          },
+          {
+            "runs": [],
+            "fontSize": 15.439975380004281,
+            "lineHeight": 18.527970456005136
+          },
+          {
+            "runs": [],
+            "fontSize": 16.843609505459217,
+            "lineHeight": 20.21233140655106
+          }
+        ]
+      }
+    ]
+  }
+}
