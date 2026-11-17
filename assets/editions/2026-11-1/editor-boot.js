@@ -7,6 +7,7 @@
   await load(`./data/editions/${edition.id}/web-content.js`);
   await load(`./data/editions/${edition.id}/comments.js`);
   if(window.VM_WEB_CONTENT?.edition?.id!==edition.id||window.VM_COMMENTS?.editionId!==edition.id)throw new Error('차수 데이터가 일치하지 않습니다.');
-  await load(["2026-11-1"].includes(edition.id)?`./assets/editions/${edition.id}/editor-app.js`:'./app.js');
+  const renderer = ["2026-11-1"].includes(edition.id) ? `./assets/editions/${edition.id}/editor-app.js` : './app.js';
+  await load(renderer + '?v=20261117-tab-title');
  }catch(error){const p=document.createElement('p');p.className='loading-message';p.textContent='가이드 데이터를 불러오지 못했습니다. 파일과 차수 설정을 확인해 주세요.';document.querySelector('#guide').replaceChildren(p);console.error(error);}})();
 })();
