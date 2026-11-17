@@ -45,24 +45,35 @@
 .status-content .store-detail-row > td { background: #f4f7f5; }
 .status-content .store-details {
   contain: inline-size; max-width: calc(100vw - 58px);
-  display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr) minmax(0, 3.1fr); gap: 10px 16px;
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr) max-content repeat(2, minmax(0, 1fr));
+  gap: 10px 24px;
 }
-.status-content .detail-history {
-  display: grid; grid-template-columns: max-content repeat(2, minmax(0, 1fr));
-  align-content: start; gap: 4px 14px; min-width: 0;
+.status-content .detail-history { display: contents; }
+.status-content .detail-label {
+  display: inline-flex; align-items: center; min-height: 21px;
+  align-self: start; color: #4c6357;
 }
-.status-content .history-heading { padding-top: 3px; }
-.status-content .period-badge {
-  border: 1px solid #bacac0; border-radius: 5px;
+.status-content .detail-label.period-badge {
+  background: #fff; color: #255d40;
+  border: 1px solid #255d40; border-radius: 5px;
   padding: 2px 6px; font-size: 12px; line-height: 1.25;
 }
-.status-content .period-badge-month { background: #255d40; border-color: #255d40; color: #fff; }
-.status-content .detail-metric { display: grid; align-content: start; justify-items: start; gap: 3px; min-width: 0; }
-.status-content .detail-label { color: #4c6357; }
+.status-content .detail-label.period-badge-month { background: #255d40; color: #fff; }
+.status-content .detail-metric {
+  display: grid; grid-template-rows: 21px minmax(16px, auto) 4px;
+  align-content: start; justify-items: start; gap: 3px; min-width: 0;
+}
 .status-content .detail-metric strong { font-weight: 600; }
 .status-content .detail-result { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 6px; font-weight: 650; }
 .status-content .detail-result small { font-size: 11px; color: #4c6357; font-weight: 400; white-space: nowrap; }
-.status-content .detail-metric progress { width: 100%; height: 8px; accent-color: #255d40; }
+.status-content .detail-metric progress {
+  appearance: none; width: min(100%, 216px); height: 4px; margin: 0; border: 0;
+  background: #dce5df; border-radius: 2px; overflow: hidden;
+}
+.status-content .detail-metric progress::-webkit-progress-bar { background: #dce5df; border-radius: 2px; }
+.status-content .detail-metric progress::-webkit-progress-value { background: #255d40; border-radius: 2px; }
+.status-content .detail-metric progress::-moz-progress-bar { background: #255d40; border-radius: 2px; }
 .status-content .badge { display: inline-block; padding: 4px 8px; background: #e6f1e8; color: #27613a; border-radius: 4px; font-size: 12px; white-space: nowrap; }
 .status-content .badge.missing { background: #f1f1ee; color: #6b716c; }
 .status-content .badge.short { background: #fff0d3; color: #8b5a11; }
@@ -107,9 +118,11 @@
     display: flex; align-items: center; width: 100%; min-height: 21px; padding-right: 3px;
   }
   .status-content .store-name { min-width: 0; overflow: hidden; text-overflow: ellipsis; }
-  .status-content .store-details { max-width: 100%; grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .status-content .detail-history { grid-column: 1 / -1; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px 16px; }
-  .status-content .history-heading { grid-column: 1 / -1; padding-top: 0; }
+  .status-content .store-details { max-width: 100%; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 16px; }
+  .status-content .detail-history {
+    display: grid; grid-column: 1 / -1; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px 16px;
+  }
+  .status-content .history-heading { grid-column: 1 / -1; min-height: 0; }
 }
 @media (max-width: 360px) {
   .status-content .status-heading { column-gap: 6px; }
