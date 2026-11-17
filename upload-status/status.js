@@ -5,6 +5,8 @@
   const minimum = 5;
   let editions = [];
   let rows = [];
+  let activePeriod;
+  const historyReports = new Map();
   let endpoint;
   let loading = false;
   const requested = new URL(location.href).searchParams.get('period') || '';
@@ -79,6 +81,93 @@
       value => value.split('-')[2] + '차');
   }
 
+  function historyReport(period) {
+    const cached = historyReports.get(period);
+    if (cached && cached.expires > Date.now()) return cached.report;
+    const report = query(period).then(data => {
+      if (data.error || data.period !== period || !Array.isArray(data.stores)
+          || !data.stores.every(row => typeof row?.name === 'string'
+            && Number.isSafeInteger(row.photo_count) && row.photo_count >= 0)) {
+        throw Error('과거 집계 응답을 확인할 수 없습니다.');
+      }
+      return data.stores;
+    }).catch(error => {
+      if (historyReports.get(period)?.report === report) historyReports.delete(period);
+      throw error;
+    });
+    historyReports.set(period, {report, expires: Date.now() + 60000});
+    return report;
+  }
+
+  function submissionHistory(store) {
+    const section = document.createElement('div');
+    section.className = 'submission-history';
+    const heading = document.createElement('strong');
+    heading.textContent = '누적 제출률';
+    const switches = document.createElement('div');
+    switches.className = 'history-switches';
+    const result = document.createElement('span');
+    result.className = 'history-result';
+    result.setAttribute('aria-live', 'polite');
+    const bar = document.createElement('progress');
+    bar.max = 100;
+    bar.setAttribute('aria-label', '누적 제출률');
+    const period = activePeriod;
+    const currentRows = rows;
+    const currentNames = new Set(currentRows.map(row => row.name));
+    const buttons = ['월간', '연간'].map(label => {
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.textContent = label;
+      button.addEventListener('click', () => { void show(button); });
+      return button;
+    });
+    let requestNumber = 0;
+
+    async function show(selected) {
+      const request = ++requestNumber;
+      buttons.forEach(button => button.setAttribute('aria-pressed', String(button === selected)));
+      bar.hidden = true;
+      result.textContent = '조회 중…';
+      const prefix = period.slice(0, selected === buttons[0] ? 7 : 4) + '-';
+      let complete = 0;
+      let eligible = 0;
+      try {
+        for (const edition of editions.filter(id => id.startsWith(prefix))) {
+          const report = edition === period ? currentRows : await historyReport(edition);
+          if (!section.isConnected || request !== requestNumber) return;
+          const matches = report.filter(row => row.name === store.name);
+          // A changed name cannot be distinguished from a closed or new store.
+          if (matches.length > 1 || (!matches.length && report.some(row => !currentNames.has(row.name)))) {
+            result.textContent = '매장명 확인 필요';
+            return;
+          }
+          if (matches.length) {
+            eligible++;
+            if (matches[0].photo_count >= minimum) complete++;
+          }
+        }
+        if (!eligible) {
+          result.textContent = '기록 없음';
+          return;
+        }
+        const rate = Math.round(complete / eligible * 1000) / 10;
+        const count = document.createElement('small');
+        count.textContent = complete + '/' + eligible + '차 완료';
+        bar.value = rate;
+        bar.hidden = false;
+        result.replaceChildren(rate + '%', count);
+      } catch (_) {
+        if (request === requestNumber) result.textContent = '누적 조회 실패 · 다시 선택해주세요';
+      }
+    }
+
+    switches.append(...buttons);
+    section.append(heading, switches, result, bar);
+    queueMicrotask(() => { if (section.isConnected) void show(buttons[0]); });
+    return section;
+  }
+
   function storeDetails(row) {
     const details = document.createElement('div');
     details.className = 'store-details';
@@ -106,7 +195,7 @@
     const progressLabel = document.createElement('label');
     progressLabel.className = 'store-progress';
     progressLabel.append('최소 제출 기준 충족 ' + (submitted / minimum * 100) + '%', progress);
-    details.append(facts, progressLabel);
+    details.append(facts, progressLabel, submissionHistory(row));
     return details;
   }
 
@@ -174,6 +263,8 @@
     const stats = ['summary-total', 'summary-complete', 'summary-missing', 'submission-rate'];
     for (const id of stats) element(id).textContent = '—';
     rows = [];
+    activePeriod = undefined;
+    historyReports.clear();
     render();
     if (period && editions.includes(period)) selectors(period);
     try {
@@ -194,6 +285,7 @@
         throw Error('매장 집계 응답 형식을 확인할 수 없습니다. 잠시 후 새로고침해주세요.');
       }
       rows = data.stores;
+      activePeriod = data.period;
       const complete = rows.filter(row => row.photo_count >= 5).length;
       element('summary-total').textContent = rows.length;
       element('summary-complete').textContent = complete;
