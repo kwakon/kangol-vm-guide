@@ -111,7 +111,7 @@
     bar.max = maximum;
     bar.setAttribute('aria-label', title);
     section.append(heading, result, bar);
-    return {section, result, bar};
+    return {section, heading, result, bar};
   }
 
   async function fillSubmissionHistory(metric, store, period, prefix, currentRows, currentNames) {
@@ -165,14 +165,23 @@
     const current = detailMetric('최소 제출 기준 충족', minimum);
     current.result.textContent = row.photo_count + '장 / ' + minimum + '장 (' + (submitted / minimum * 100) + '%)';
     current.bar.value = submitted;
-    const monthly = detailMetric('누적 제출률 — 월간', 100);
-    const annual = detailMetric('누적 제출률 — 연간', 100);
-    for (const {result, bar} of [monthly, annual]) {
+    const history = document.createElement('div');
+    history.className = 'detail-history';
+    const historyHeading = document.createElement('span');
+    historyHeading.className = 'detail-label history-heading';
+    historyHeading.textContent = '누적 제출률';
+    const monthly = detailMetric('월간', 100);
+    const annual = detailMetric('연간', 100);
+    monthly.heading.classList.add('period-badge', 'period-badge-month');
+    annual.heading.classList.add('period-badge');
+    for (const {heading, result, bar} of [monthly, annual]) {
+      bar.setAttribute('aria-label', heading.textContent + ' 누적 제출률');
       result.setAttribute('aria-live', 'polite');
       result.textContent = '조회 중…';
       bar.hidden = true;
     }
-    details.append(name, current.section, monthly.section, annual.section);
+    history.append(historyHeading, monthly.section, annual.section);
+    details.append(name, current.section, history);
     const period = activePeriod;
     const currentRows = rows;
     const names = new Set(currentRows.map(store => store.name));
