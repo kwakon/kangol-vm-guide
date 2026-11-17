@@ -1,7 +1,7 @@
 (() => {
   const element = id => document.getElementById(id);
   const periodPattern = /^\d{4}-(0[1-9]|1[0-2])-[1-9]\d?$/;
-  const labels = {normal: '정상매장', complex: '복합매장'};
+  const labels = {normal: '정상', complex: '복합'};
   const minimum = 5;
   let editions = [];
   let rows = [];
@@ -211,10 +211,14 @@
           || !row.name.toLocaleLowerCase('ko').includes(search)) continue;
       const tr = body.insertRow();
       tr.className = 'store-row';
+      tr.setAttribute('role', 'row');
       const button = document.createElement('button');
       button.type = 'button';
       button.className = 'store-toggle';
-      button.textContent = row.name;
+      const name = document.createElement('span');
+      name.className = 'store-name';
+      name.textContent = row.name;
+      button.append(name);
       button.setAttribute('aria-expanded', 'false');
       tr.insertCell().append(button);
       tr.insertCell().textContent = labels[row.store_type] || '—';
@@ -223,6 +227,7 @@
       badge.className = 'badge' + (row.photo_count === 0 ? ' missing' : row.photo_count < 5 ? ' short' : '');
       badge.textContent = row.submission_status;
       tr.insertCell().append(badge);
+      for (const cell of tr.cells) cell.setAttribute('role', 'cell');
 
       tr.addEventListener('click', () => {
         const wasOpen = opened?.button === button;
@@ -235,8 +240,10 @@
         if (wasOpen) return;
         const detailRow = document.createElement('tr');
         detailRow.className = 'store-detail-row';
+        detailRow.setAttribute('role', 'row');
         detailRow.id = 'store-detail-' + tr.sectionRowIndex;
         const cell = detailRow.insertCell();
+        cell.setAttribute('role', 'cell');
         cell.colSpan = 4;
         cell.append(storeDetails(row));
         tr.after(detailRow);
@@ -246,7 +253,10 @@
       });
     }
     if (!body.rows.length) {
-      const cell = body.insertRow().insertCell();
+      const emptyRow = body.insertRow();
+      emptyRow.setAttribute('role', 'row');
+      const cell = emptyRow.insertCell();
+      cell.setAttribute('role', 'cell');
       cell.colSpan = 4;
       cell.textContent = loading ? '집계 결과를 불러오는 중입니다.'
         : rows.length ? '조건에 맞는 매장이 없습니다.' : '표시할 집계가 없습니다.';

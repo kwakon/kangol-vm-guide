@@ -9,8 +9,8 @@
   <link rel="icon" href="../assets/kangol-logo.svg" type="image/svg+xml">
   <link rel="stylesheet" href="../styles.css">
   <link rel="stylesheet" href="./guide-nav.css?v=20261117">
-  <link rel="stylesheet" href="./style.css?v=20261117-history">
-  <script src="./status.js?v=20261117-history" defer></script>
+  <link rel="stylesheet" href="./style.css?v=20261117-mobile-rows">
+  <script src="./status.js?v=20261117-mobile-rows" defer></script>
 </head>
 <body class="vmd-upload">
   <div class="site-shell">
@@ -53,14 +53,14 @@
     <p id="message" role="alert" hidden></p>
     <div class="filters">
       <label>매장 유형<select id="store-type">
-        <option value="">전체</option><option value="normal">정상매장</option><option value="complex">복합매장</option>
+        <option value="">전체</option><option value="normal">정상</option><option value="complex">복합</option>
       </select></label>
       <label>매장명 검색<input id="store-search" type="search" placeholder="매장명 입력"></label>
-      <label class="manager-checkbox"><input id="missing-only" type="checkbox">미제출 매장만 보기</label>
+      <label class="manager-checkbox"><input id="missing-only" type="checkbox"><span>미제출 매장만 보기</span></label>
     </div>
-    <div class="table-wrap manager-table"><table>
-      <thead><tr><th scope="col">매장명</th><th scope="col">매장 유형</th><th scope="col">업로드 사진 수</th><th scope="col">제출 상태</th></tr></thead>
-      <tbody id="store-list"></tbody>
+    <div class="table-wrap manager-table"><table role="table" aria-label="매장별 제출 현황">
+      <thead role="rowgroup"><tr role="row"><th role="columnheader" scope="col">매장명</th><th role="columnheader" scope="col">매장 유형</th><th role="columnheader" scope="col">업로드 사진 수</th><th role="columnheader" scope="col">제출 상태</th></tr></thead>
+      <tbody id="store-list" role="rowgroup"></tbody>
     </table></div>
     <p id="collected-at" class="muted" role="status">마지막 집계 —</p>
     <p class="note">0장 미제출 · 1~4장 수량 부족 · 5장 이상 제출 완료. 최근 집계는 최대 60초 동안 재사용됩니다.</p>
