@@ -4,18 +4,24 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>KANGOL · 업로드 현황</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="./guide-nav.css">
   <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="./site_navigation.css">
   <script src="./status.js" defer></script>
 </head>
 <body class="vmd-upload">
-  <header><div class="vmd-brand-navigation">
-    <img src="./kangol-logo.svg" width="130" height="22" alt="KANGOL">
-    <nav class="vmd-site-nav" aria-label="KANGOL 서비스">
+  <div class="site-shell">
+  <header class="site-header" id="site-header">
+    <div class="brand-row"><div class="brand-area">
+      <a class="brand" href="../" aria-label="KANGOL VM GUIDE 처음으로">
+        <img src="../assets/kangol-logo.svg" width="130" height="22" alt="KANGOL"><span>VM GUIDE</span>
+      </a>
+    </div></div>
+    <nav class="vm-status-nav" aria-label="KANGOL 서비스">
       <a href="../">VM GUIDE</a><a href="./" aria-current="page">업로드 현황</a>
     </nav>
-  </div></header>
-  <main>
+  </header>
+  <main class="status-content">
     <p class="eyebrow">STORE PHOTO SUBMISSION</p>
     <h1>전체 매장 현황</h1>
     <noscript><p>제출 현황을 조회하려면 JavaScript를 허용해주세요.</p></noscript>
@@ -46,5 +52,6 @@
     <p id="collected-at" class="muted" role="status">마지막 집계 —</p>
     <p class="note">0장 미제출 · 1~4장 수량 부족 · 5장 이상 제출 완료. 최근 집계는 최대 60초 동안 재사용됩니다.</p>
   </main>
+  </div>
 </body>
 </html>

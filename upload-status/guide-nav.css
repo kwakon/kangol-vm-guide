@@ -1,3 +1,6 @@
-.vm-status-nav{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+.site-header > .vm-status-nav{display:flex;flex-wrap:wrap;gap:6px;margin:0;padding:12px 0 20px}
 .vm-status-nav a{color:#333;text-decoration:none;font-size:13px;font-weight:600;padding:6px 10px;border-radius:4px}
 .vm-status-nav a:hover,.vm-status-nav a[aria-current=page]{background:#efefed;color:#171717}
+@media(max-width:600px){
+  .site-header > .vm-status-nav{padding:10px 0 16px}
+}

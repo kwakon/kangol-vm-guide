@@ -11,7 +11,8 @@
 
   async function query(period) {
     if (!endpoint) {
-      const response = await fetch('./endpoint.json', {cache: 'no-store'});
+      const response = await fetch('./endpoint.json', {cache: 'no-store', signal: AbortSignal.timeout(5000)});
+      if (!response.ok) throw Error('집계 설정을 읽지 못했습니다. (HTTP ' + response.status + ')');
       const {url} = await response.json();
       if (!url) throw Error('Apps Script 조회 주소를 설정해주세요.');
       const target = new URL(url);
@@ -21,12 +22,28 @@
       }
       endpoint = target.href;
     }
+    const url = new URL(endpoint);
+    if (period) url.searchParams.set('period', period);
+    try {
+      const response = await fetch(url, {
+        credentials: 'omit', cache: 'no-store', signal: AbortSignal.timeout(15000)
+      });
+      if (!response.ok) throw Error('HTTP ' + response.status);
+      if (!response.headers.get('content-type')?.includes('application/json')) {
+        throw Error('unexpected content type');
+      }
+      return await response.json();
+    } catch (error) {
+      console.warn('[업로드 현황] JSON 요청 실패, JSONP로 재시도:', error.name, error.message);
+      return queryJsonp(url);
+    }
+  }
+
+  function queryJsonp(url) {
     const token = [...crypto.getRandomValues(new Uint8Array(12))]
       .map(byte => byte.toString(16).padStart(2, '0')).join('');
     const callback = 'kangolStatus_' + token;
-    const url = new URL(endpoint);
     url.searchParams.set('cb', callback);
-    if (period) url.searchParams.set('period', period);
     return new Promise((resolve, reject) => {
       const script = document.createElement('script');
       const finish = (error, data) => {
@@ -37,11 +54,11 @@
         if (error) reject(error);
         else resolve(data);
       };
-      const timer = setTimeout(() => finish(Error('조회 시간이 초과되었습니다. 잠시 후 다시 시도해주세요.')), 25000);
+      const timer = setTimeout(() => finish(Error('집계 응답 시간이 초과되었습니다. 잠시 후 새로고침해주세요.')), 15000);
       window[callback] = data => finish(null, data);
-      script.onerror = () => finish(Error('집계 서비스에 접속할 수 없습니다. 공개 접근 설정을 확인해주세요.'));
+      script.onerror = () => finish(Error('집계 요청을 불러오지 못했습니다. 잠시 후 새로고침해주세요.'));
       script.onload = () => {
-        if (window[callback]) finish(Error('집계 응답을 받지 못했습니다. 공개 접근 설정을 확인해주세요.'));
+        if (window[callback]) finish(Error('집계 응답에 JSONP 콜백이 없습니다. 잠시 후 새로고침해주세요.'));
       };
       script.src = url.href;
       document.head.append(script);
@@ -110,6 +127,12 @@
         unpublished: '아직 게시된 가이드 차수를 확인할 수 없습니다.',
       }[data.error] || 'Drive 집계 또는 가이드 차수 확인에 실패했습니다. 잠시 후 다시 시도해주세요.');
       if (!editions.includes(data.period)) throw Error('집계 차수를 확인할 수 없습니다.');
+      if (!Array.isArray(data.stores) || !data.stores.every(row =>
+        row && typeof row.name === 'string' && Number.isSafeInteger(row.photo_count)
+        && row.photo_count >= 0 && typeof row.submission_status === 'string')
+        || !data.collected_at || !Number.isFinite(Date.parse(data.collected_at))) {
+        throw Error('매장 집계 응답 형식을 확인할 수 없습니다. 잠시 후 새로고침해주세요.');
+      }
       rows = data.stores;
       const complete = rows.filter(row => row.photo_count >= 5).length;
       element('summary-total').textContent = rows.length;
@@ -121,6 +144,7 @@
       element('collected-at').textContent = '마지막 집계 ' + collected + ' (한국 시간)' +
         (data.cached ? ' · 최대 60초 이내 저장된 집계' : '');
     } catch (error) {
+      console.error('[업로드 현황] 조회 실패:', period || '기본 차수', error.name, error.message);
       element('message').textContent = error.message;
       element('message').hidden = false;
     } finally {
