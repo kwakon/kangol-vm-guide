@@ -6,8 +6,8 @@
   <title>KANGOL · 업로드 현황</title>
   <link rel="stylesheet" href="../styles.css">
   <link rel="stylesheet" href="./guide-nav.css?v=20261117">
-  <link rel="stylesheet" href="./style.css?v=20261117-mobile">
-  <script src="./status.js?v=20261117" defer></script>
+  <link rel="stylesheet" href="./style.css?v=20261117-detail">
+  <script src="./status.js?v=20261117-detail" defer></script>
 </head>
 <body class="vmd-upload">
   <div class="site-shell">
@@ -20,10 +20,20 @@
     <nav class="vm-status-nav" aria-label="KANGOL 서비스">
       <a href="../">VM GUIDE</a><a href="./" aria-current="page">업로드 현황</a>
     </nav>
+    <section class="stats" aria-label="전체 제출률">
+      <div><span>전체 대상 매장</span><strong id="summary-total">—</strong></div>
+      <div><span>제출 완료 매장</span><strong id="summary-complete">—</strong></div>
+      <div><span>미제출 매장</span><strong id="summary-missing">—</strong></div>
+      <div><span>전체 매장 제출률</span><strong id="submission-rate">—</strong></div>
+    </section>
   </header>
   <main class="status-content">
     <p class="eyebrow">STORE PHOTO SUBMISSION</p>
-    <h1>업로드 현황</h1>
+    <div class="status-heading">
+      <h1>업로드 현황</h1>
+      <a class="drive-shortcut" href="https://drive.google.com/drive/folders/1l_H99qXxxbFiWjd1G38PZjVGeIjSnjJn"
+        target="_blank" rel="noopener noreferrer" aria-label="Google Drive 바로가기 (새 탭)">Google Drive 바로가기</a>
+    </div>
     <noscript><p>제출 현황을 조회하려면 JavaScript를 허용해주세요.</p></noscript>
     <section class="controls" aria-label="조회 조건">
       <label>월<select id="month" disabled></select></label>
@@ -43,12 +53,6 @@
       <thead><tr><th scope="col">매장명</th><th scope="col">매장 유형</th><th scope="col">업로드 사진 수</th><th scope="col">제출 상태</th></tr></thead>
       <tbody id="store-list"></tbody>
     </table></div>
-    <section class="stats" aria-label="전체 제출률">
-      <div><span>전체 대상 매장</span><strong id="summary-total">—</strong></div>
-      <div><span>제출 완료 매장</span><strong id="summary-complete">—</strong></div>
-      <div><span>미제출 매장</span><strong id="summary-missing">—</strong></div>
-      <div><span>전체 매장 제출률</span><strong id="submission-rate">—</strong></div>
-    </section>
     <p id="collected-at" class="muted" role="status">마지막 집계 —</p>
     <p class="note">0장 미제출 · 1~4장 수량 부족 · 5장 이상 제출 완료. 최근 집계는 최대 60초 동안 재사용됩니다.</p>
   </main>

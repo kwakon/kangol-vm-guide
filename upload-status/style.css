@@ -1,5 +1,12 @@
 .status-content { padding: 10px 0 28px; }
+.status-content .status-heading { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px 16px; }
 .status-content h1 { font-size: 30px; letter-spacing: -1px; margin: 7px 0; }
+.status-content .drive-shortcut {
+  display: inline-flex; align-items: center; min-height: 44px;
+  padding: 8px 12px; border: 1px solid #dededb; border-radius: 6px;
+  background: var(--paper); color: var(--ink); font-size: 13px; font-weight: 600; white-space: nowrap;
+}
+.status-content .drive-shortcut:hover { background: var(--canvas); }
 .status-content .eyebrow { letter-spacing: 2px; font-size: 11px; font-weight: 700; color: #49725d; }
 .status-content .muted { color: #64796e; }
 .status-content .controls,
@@ -15,10 +22,10 @@
 .status-content :is(button, select):disabled { opacity: .55; }
 .status-content .manager-checkbox { flex-direction: row; align-items: center; min-height: 38px; }
 .status-content .manager-checkbox input { accent-color: #255d40; }
-.status-content .stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; margin: 24px 0; }
-.status-content .stats div { border: 1px solid #d6e1da; border-radius: 7px; background: #fff; padding: 22px; }
-.status-content .stats span { display: block; color: #5e7565; }
-.status-content .stats strong { display: block; font-size: 38px; font-weight: 650; margin-top: 6px; }
+.vmd-upload .stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; padding-bottom: 12px; }
+.vmd-upload .stats div { border: 1px solid #d6e1da; border-radius: 7px; background: #fff; padding: 10px 14px; }
+.vmd-upload .stats span { display: block; color: #5e7565; font-size: 12px; }
+.vmd-upload .stats strong { display: block; font-size: 25px; font-weight: 650; margin-top: 3px; }
 .status-content .note { background: #edf4ef; border-left: 3px solid #799f86; padding: 14px 18px; color: #44604e; font-size: 12px; }
 .status-content #message { background: #fff0d5; color: #6b4605; border-radius: 5px; padding: 15px; }
 .status-content .table-wrap { overflow-x: auto; background: #fff; border: 1px solid #d6e1da; border-radius: 6px; }
@@ -27,13 +34,33 @@
 .status-content th { background: #edf4ef; font-weight: 600; font-size: 12px; white-space: nowrap; }
 .status-content td { font-size: 13px; vertical-align: top; overflow-wrap: anywhere; }
 .status-content tbody tr:hover { background: #f7faf8; }
+.status-content .store-row { cursor: pointer; }
+.status-content .store-toggle {
+  display: inline-flex; align-items: baseline; gap: 6px; max-width: 100%;
+  padding: 0; border: 0; background: none; color: inherit; text-align: left; font-weight: 600;
+}
+.status-content .store-toggle::after {
+  content: ''; flex: 0 0 6px; height: 6px; border: solid currentColor;
+  border-width: 0 1px 1px 0; transform: rotate(45deg);
+}
+.status-content .store-toggle[aria-expanded="true"]::after { transform: rotate(225deg); }
+.status-content .store-detail-row > td { background: #f4f7f5; }
+.status-content .store-details { contain: inline-size; max-width: calc(100vw - 58px); }
+.status-content .store-details dl {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(115px, 1fr));
+  gap: 10px; margin: 0 0 12px;
+}
+.status-content .store-details dt { color: #4c6357; margin-bottom: 3px; }
+.status-content .store-details dd { margin: 0; font-weight: 600; }
+.status-content .store-progress progress { width: min(100%, 240px); height: 8px; accent-color: #255d40; }
 .status-content .badge { display: inline-block; padding: 4px 8px; background: #e6f1e8; color: #27613a; border-radius: 4px; font-size: 12px; white-space: nowrap; }
 .status-content .badge.missing { background: #f1f1ee; color: #6b716c; }
 .status-content .badge.short { background: #fff0d3; color: #8b5a11; }
 .status-content #busy { font-size: 12px; color: #5d7867; align-self: center; }
 @media (max-width: 720px) {
-  .status-content .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .status-content .stats div { padding: 16px; }
+  .vmd-upload .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; }
+  .vmd-upload .stats div { padding: 6px 9px; }
+  .vmd-upload .stats strong { font-size: 19px; }
   .status-content h1 { font-size: 25px; }
   .status-content .controls button { flex: 1; }
   .status-content :is(td, th) { padding: 11px 7px; }

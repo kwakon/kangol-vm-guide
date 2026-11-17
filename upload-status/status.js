@@ -2,6 +2,7 @@
   const element = id => document.getElementById(id);
   const periodPattern = /^\d{4}-(0[1-9]|1[0-2])-[1-9]\d?$/;
   const labels = {normal: '정상매장', complex: '복합매장'};
+  const minimum = 5;
   let editions = [];
   let rows = [];
   let endpoint;
@@ -78,23 +79,82 @@
       value => value.split('-')[2] + '차');
   }
 
+  function storeDetails(row) {
+    const details = document.createElement('div');
+    details.className = 'store-details';
+    const facts = document.createElement('dl');
+    const entries = [
+      ['매장명', row.name],
+      ['매장 유형', labels[row.store_type] || '—'],
+      ['업로드 사진 수', row.photo_count + '장'],
+      ['최소 제출 기준', minimum + '장'],
+      ['제출 상태', row.submission_status],
+    ];
+    for (const [label, value] of entries) {
+      const fact = document.createElement('div');
+      const term = document.createElement('dt');
+      const description = document.createElement('dd');
+      term.textContent = label;
+      description.textContent = value;
+      fact.append(term, description);
+      facts.append(fact);
+    }
+    const submitted = Math.min(row.photo_count, minimum);
+    const progress = document.createElement('progress');
+    progress.max = minimum;
+    progress.value = submitted;
+    const progressLabel = document.createElement('label');
+    progressLabel.className = 'store-progress';
+    progressLabel.append('최소 제출 기준 충족 ' + (submitted / minimum * 100) + '%', progress);
+    details.append(facts, progressLabel);
+    return details;
+  }
+
   function render() {
     const type = element('store-type').value;
     const search = element('store-search').value.trim().toLocaleLowerCase('ko');
     const missing = element('missing-only').checked;
     const body = element('store-list');
     body.replaceChildren();
+    let opened;
     for (const row of rows) {
       if ((type && row.store_type !== type) || (missing && row.photo_count !== 0)
           || !row.name.toLocaleLowerCase('ko').includes(search)) continue;
       const tr = body.insertRow();
-      tr.insertCell().textContent = row.name;
+      tr.className = 'store-row';
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'store-toggle';
+      button.textContent = row.name;
+      button.setAttribute('aria-expanded', 'false');
+      tr.insertCell().append(button);
       tr.insertCell().textContent = labels[row.store_type] || '—';
       tr.insertCell().textContent = row.photo_count + '장';
       const badge = document.createElement('span');
       badge.className = 'badge' + (row.photo_count === 0 ? ' missing' : row.photo_count < 5 ? ' short' : '');
       badge.textContent = row.submission_status;
       tr.insertCell().append(badge);
+
+      tr.addEventListener('click', () => {
+        const wasOpen = opened?.button === button;
+        if (opened) {
+          opened.button.setAttribute('aria-expanded', 'false');
+          opened.button.removeAttribute('aria-controls');
+          opened.detailRow.remove();
+          opened = null;
+        }
+        if (wasOpen) return;
+        const detailRow = document.createElement('tr');
+        detailRow.className = 'store-detail-row';
+        detailRow.id = 'store-detail-' + tr.sectionRowIndex;
+        const cell = detailRow.insertCell();
+        cell.colSpan = 4;
+        cell.append(storeDetails(row));
+        tr.after(detailRow);
+        button.setAttribute('aria-controls', detailRow.id);
+        button.setAttribute('aria-expanded', 'true');
+        opened = {button, detailRow};
+      });
     }
     if (!body.rows.length) {
       const cell = body.insertRow().insertCell();
