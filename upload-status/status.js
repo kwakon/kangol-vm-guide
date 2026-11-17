@@ -99,103 +99,87 @@
     return report;
   }
 
-  function submissionHistory(store) {
+  function detailMetric(title, maximum) {
     const section = document.createElement('div');
-    section.className = 'submission-history';
-    const heading = document.createElement('strong');
-    heading.textContent = '누적 제출률';
-    const switches = document.createElement('div');
-    switches.className = 'history-switches';
+    section.className = 'detail-metric';
+    const heading = document.createElement('span');
+    heading.className = 'detail-label';
+    heading.textContent = title;
     const result = document.createElement('span');
-    result.className = 'history-result';
-    result.setAttribute('aria-live', 'polite');
+    result.className = 'detail-result';
     const bar = document.createElement('progress');
-    bar.max = 100;
-    bar.setAttribute('aria-label', '누적 제출률');
-    const period = activePeriod;
-    const currentRows = rows;
-    const currentNames = new Set(currentRows.map(row => row.name));
-    const buttons = ['월간', '연간'].map(label => {
-      const button = document.createElement('button');
-      button.type = 'button';
-      button.textContent = label;
-      button.addEventListener('click', () => { void show(button); });
-      return button;
-    });
-    let requestNumber = 0;
+    bar.max = maximum;
+    bar.setAttribute('aria-label', title);
+    section.append(heading, result, bar);
+    return {section, result, bar};
+  }
 
-    async function show(selected) {
-      const request = ++requestNumber;
-      buttons.forEach(button => button.setAttribute('aria-pressed', String(button === selected)));
-      bar.hidden = true;
-      result.textContent = '조회 중…';
-      const prefix = period.slice(0, selected === buttons[0] ? 7 : 4) + '-';
-      let complete = 0;
-      let eligible = 0;
-      try {
-        for (const edition of editions.filter(id => id.startsWith(prefix))) {
-          const report = edition === period ? currentRows : await historyReport(edition);
-          if (!section.isConnected || request !== requestNumber) return;
-          const matches = report.filter(row => row.name === store.name);
-          // A changed name cannot be distinguished from a closed or new store.
-          if (matches.length > 1 || (!matches.length && report.some(row => !currentNames.has(row.name)))) {
-            result.textContent = '매장명 확인 필요';
-            return;
-          }
-          if (matches.length) {
-            eligible++;
-            if (matches[0].photo_count >= minimum) complete++;
-          }
-        }
-        if (!eligible) {
-          result.textContent = '기록 없음';
+  async function fillSubmissionHistory(metric, store, period, prefix, currentRows, currentNames) {
+    const {section, result, bar} = metric;
+    let complete = 0;
+    let eligible = 0;
+    try {
+      for (const edition of editions.filter(id => id.startsWith(prefix))) {
+        if (!section.isConnected) return;
+        const report = edition === period ? currentRows : await historyReport(edition);
+        if (!section.isConnected) return;
+        const matches = report.filter(row => row.name === store.name);
+        // A changed name cannot be distinguished from a closed or new store.
+        if (matches.length > 1 || (!matches.length && report.some(row => !currentNames.has(row.name)))) {
+          result.textContent = '매장명 확인 필요';
           return;
         }
-        const rate = Math.round(complete / eligible * 1000) / 10;
-        const count = document.createElement('small');
-        count.textContent = complete + '/' + eligible + '차 완료';
-        bar.value = rate;
-        bar.hidden = false;
-        result.replaceChildren(rate + '%', count);
-      } catch (_) {
-        if (request === requestNumber) result.textContent = '누적 조회 실패 · 다시 선택해주세요';
+        if (matches.length) {
+          eligible++;
+          if (matches[0].photo_count >= minimum) complete++;
+        }
       }
+      if (!eligible) {
+        result.textContent = '기록 없음';
+        return;
+      }
+      const rate = Math.round(complete / eligible * 1000) / 10;
+      const count = document.createElement('small');
+      count.textContent = complete + '/' + eligible + '차 완료';
+      bar.value = rate;
+      bar.hidden = false;
+      result.replaceChildren(rate + '%', count);
+    } catch (_) {
+      result.textContent = '조회 실패 · 다시 열어주세요';
     }
-
-    switches.append(...buttons);
-    section.append(heading, switches, result, bar);
-    queueMicrotask(() => { if (section.isConnected) void show(buttons[0]); });
-    return section;
   }
 
   function storeDetails(row) {
     const details = document.createElement('div');
     details.className = 'store-details';
-    const facts = document.createElement('dl');
-    const entries = [
-      ['매장명', row.name],
-      ['매장 유형', labels[row.store_type] || '—'],
-      ['업로드 사진 수', row.photo_count + '장'],
-      ['최소 제출 기준', minimum + '장'],
-      ['제출 상태', row.submission_status],
-    ];
-    for (const [label, value] of entries) {
-      const fact = document.createElement('div');
-      const term = document.createElement('dt');
-      const description = document.createElement('dd');
-      term.textContent = label;
-      description.textContent = value;
-      fact.append(term, description);
-      facts.append(fact);
-    }
+    const name = document.createElement('div');
+    name.className = 'detail-metric';
+    const nameLabel = document.createElement('span');
+    nameLabel.className = 'detail-label';
+    nameLabel.textContent = '매장명';
+    const nameValue = document.createElement('strong');
+    nameValue.textContent = row.name;
+    name.append(nameLabel, nameValue);
+
     const submitted = Math.min(row.photo_count, minimum);
-    const progress = document.createElement('progress');
-    progress.max = minimum;
-    progress.value = submitted;
-    const progressLabel = document.createElement('label');
-    progressLabel.className = 'store-progress';
-    progressLabel.append('최소 제출 기준 충족 ' + (submitted / minimum * 100) + '%', progress);
-    details.append(facts, progressLabel, submissionHistory(row));
+    const current = detailMetric('최소 제출 기준 충족', minimum);
+    current.result.textContent = row.photo_count + '장 / ' + minimum + '장 (' + (submitted / minimum * 100) + '%)';
+    current.bar.value = submitted;
+    const monthly = detailMetric('누적 제출률 — 월간', 100);
+    const annual = detailMetric('누적 제출률 — 연간', 100);
+    for (const {result, bar} of [monthly, annual]) {
+      result.setAttribute('aria-live', 'polite');
+      result.textContent = '조회 중…';
+      bar.hidden = true;
+    }
+    details.append(name, current.section, monthly.section, annual.section);
+    const period = activePeriod;
+    const currentRows = rows;
+    const names = new Set(currentRows.map(store => store.name));
+    queueMicrotask(async () => {
+      await fillSubmissionHistory(monthly, row, period, period.slice(0, 7) + '-', currentRows, names);
+      await fillSubmissionHistory(annual, row, period, period.slice(0, 4) + '-', currentRows, names);
+    });
     return details;
   }
 

@@ -43,24 +43,17 @@
 }
 .status-content .store-toggle[aria-expanded="true"]::after { transform: rotate(225deg); }
 .status-content .store-detail-row > td { background: #f4f7f5; }
-.status-content .store-details { contain: inline-size; max-width: calc(100vw - 58px); }
-.status-content .store-details dl {
-  display: grid; grid-template-columns: repeat(auto-fit, minmax(115px, 1fr));
-  gap: 10px; margin: 0 0 12px;
+.status-content .store-details {
+  contain: inline-size; max-width: calc(100vw - 58px);
+  display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px 16px;
 }
-.status-content .store-details dt { color: #4c6357; margin-bottom: 3px; }
-.status-content .store-details dd { margin: 0; font-weight: 600; }
-.status-content .store-progress progress { width: min(100%, 240px); height: 8px; accent-color: #255d40; }
-.status-content .submission-history {
-  display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px;
-  margin-top: 10px; padding-top: 9px; border-top: 1px solid #dce5df;
-}
-.status-content .history-switches { display: flex; gap: 3px; }
-.status-content .history-switches button { padding: 3px 6px; font-size: 12px; white-space: nowrap; }
-.status-content .history-switches button[aria-pressed="true"] { background: #255d40; color: #fff; border-color: #255d40; }
-.status-content .history-result { display: inline-flex; align-items: baseline; gap: 6px; font-weight: 650; }
-.status-content .history-result small { font-size: 11px; color: #4c6357; font-weight: 400; white-space: nowrap; }
-.status-content .submission-history progress { width: 86px; height: 8px; accent-color: #255d40; }
+.status-content .detail-metric { display: grid; align-content: start; justify-items: start; gap: 3px; min-width: 0; }
+.status-content .detail-label { color: #4c6357; }
+.status-content .detail-metric strong { font-weight: 600; }
+.status-content .detail-result { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 6px; font-weight: 650; }
+.status-content .detail-result small { font-size: 11px; color: #4c6357; font-weight: 400; white-space: nowrap; }
+.status-content .detail-metric progress { width: min(100%, 86px); height: 8px; accent-color: #255d40; }
+.status-content .detail-metric:nth-child(2) progress { width: min(100%, 240px); }
 .status-content .badge { display: inline-block; padding: 4px 8px; background: #e6f1e8; color: #27613a; border-radius: 4px; font-size: 12px; white-space: nowrap; }
 .status-content .badge.missing { background: #f1f1ee; color: #6b716c; }
 .status-content .badge.short { background: #fff0d3; color: #8b5a11; }
@@ -105,11 +98,7 @@
     display: flex; align-items: center; width: 100%; min-height: 21px; padding-right: 3px;
   }
   .status-content .store-name { min-width: 0; overflow: hidden; text-overflow: ellipsis; }
-  .status-content .store-details { max-width: 100%; }
-  .status-content .submission-history { gap: 3px; font-size: 12px; }
-  .status-content .history-switches button { padding-inline: 3px; font-size: 11px; }
-  .status-content .history-result { gap: 4px; }
-  .status-content .submission-history progress { flex: 1 1 24px; max-width: 86px; min-width: 24px; }
+  .status-content .store-details { max-width: 100%; grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 360px) {
   .status-content .status-heading { column-gap: 6px; }
