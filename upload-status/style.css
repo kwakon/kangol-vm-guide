@@ -37,4 +37,15 @@
   .status-content h1 { font-size: 25px; }
   .status-content .controls button { flex: 1; }
   .status-content :is(td, th) { padding: 11px 7px; }
+  .status-content .filters > label { min-width: 0; max-width: 100%; }
+  .status-content .filters > label:has(#store-search) { flex: 1 1 150px; }
+  .status-content .filters :is(select, #store-search) { max-width: 100%; }
+  .status-content #store-search { width: 100%; min-width: 0; }
+  .status-content .manager-table { max-width: 100%; }
+  .status-content .manager-table table { min-width: 350px; }
+  .status-content .manager-table :is(th, td):nth-child(2) {
+    min-width: 68px;
+    white-space: nowrap;
+    overflow-wrap: normal;
+  }
 }
