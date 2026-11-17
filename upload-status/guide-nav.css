@@ -1,0 +1,3 @@
+.vm-status-nav{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+.vm-status-nav a{color:#333;text-decoration:none;font-size:13px;font-weight:600;padding:6px 10px;border-radius:4px}
+.vm-status-nav a:hover,.vm-status-nav a[aria-current=page]{background:#efefed;color:#171717}
