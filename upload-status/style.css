@@ -44,9 +44,10 @@
 .status-content .store-toggle[aria-expanded="true"]::after { transform: rotate(225deg); }
 .status-content .store-detail-row > td { background: #f4f7f5; }
 .status-content .store-details {
+  --detail-meter-width: 216px;
   contain: inline-size; max-width: calc(100vw - 58px);
   display: grid;
-  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr) max-content repeat(2, minmax(0, 1fr));
+  grid-template-columns: minmax(0, var(--detail-meter-width)) max-content repeat(2, minmax(0, var(--detail-meter-width)));
   gap: 10px 24px;
 }
 .status-content .detail-history { display: contents; }
@@ -64,11 +65,10 @@
   display: grid; grid-template-rows: 21px minmax(16px, auto) 4px;
   align-content: start; justify-items: start; gap: 3px; min-width: 0;
 }
-.status-content .detail-metric strong { font-weight: 600; }
 .status-content .detail-result { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 6px; font-weight: 650; }
 .status-content .detail-result small { font-size: 11px; color: #4c6357; font-weight: 400; white-space: nowrap; }
 .status-content .detail-metric progress {
-  appearance: none; width: min(100%, 216px); height: 4px; margin: 0; border: 0;
+  appearance: none; width: min(100%, var(--detail-meter-width)); height: 4px; margin: 0; border: 0;
   background: #dce5df; border-radius: 2px; overflow: hidden;
 }
 .status-content .detail-metric progress::-webkit-progress-bar { background: #dce5df; border-radius: 2px; }
@@ -122,7 +122,7 @@
   .status-content .detail-history {
     display: grid; grid-column: 1 / -1; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px 16px;
   }
-  .status-content .history-heading { grid-column: 1 / -1; min-height: 0; }
+  .status-content .history-heading { display: none; }
 }
 @media (max-width: 360px) {
   .status-content .status-heading { column-gap: 6px; }

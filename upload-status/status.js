@@ -152,15 +152,6 @@
   function storeDetails(row) {
     const details = document.createElement('div');
     details.className = 'store-details';
-    const name = document.createElement('div');
-    name.className = 'detail-metric';
-    const nameLabel = document.createElement('span');
-    nameLabel.className = 'detail-label';
-    nameLabel.textContent = '매장명';
-    const nameValue = document.createElement('strong');
-    nameValue.textContent = row.name;
-    name.append(nameLabel, nameValue);
-
     const submitted = Math.min(row.photo_count, minimum);
     const current = detailMetric('최소 제출 기준 충족', minimum);
     current.result.textContent = row.photo_count + '장 / ' + minimum + '장 (' + (submitted / minimum * 100) + '%)';
@@ -181,7 +172,7 @@
       bar.hidden = true;
     }
     history.append(historyHeading, monthly.section, annual.section);
-    details.append(name, current.section, history);
+    details.append(current.section, history);
     const period = activePeriod;
     const currentRows = rows;
     const names = new Set(currentRows.map(store => store.name));
